@@ -1,8 +1,6 @@
 /*
   TODO:
 
-  HI - internationalization bug on manipulated item
-
   - disclaimer
   - remove countries blocks
   - countries
@@ -33,15 +31,14 @@ function __(id) {
 function node_lang_update(index)
 {
     var node_id = $(this).attr('data-gem-id');
-    var $cntx = $(this).contents();
-
-    $cntx[$cntx.length - 1].nodeValue = __(node_id);
+    $(this).children('span[name="descr"]').text(__(node_id));
 }
 
 function tree_lang_update(index)
 {
     var tit = $(this).find('p[name="title"]')[0];
     $(tit).text(__($(tit).attr('data-gem-nation')));
+    $(this).children('span[name="descr"]').text(__('material'));
     $(this).find('li[name="node"]').each(node_lang_update);
 }
 
@@ -83,7 +80,7 @@ function choices_create(item, model)
         checkbox.on('click', checkbox_click_cb);
 
         li.push($("<li>", {'name': 'node', 'data-gem-id': model.sub.el[i].name}).append(
-            checkbox, __(model.sub.el[i].name)));
+            checkbox, $("<span>", {'name': 'descr', 'text': __(model.sub.el[i].name)})));
     }
     $(item).append($grp.append($ul.append(li)));
 }
@@ -127,23 +124,22 @@ function country_add_cb() {
 
     var material = ['masonry', 'concrete', 'steel', 'composite', 'wood'];
     for (k in material) {
-        console.log("abbe");
-        console.log(gem_bcs_tree_descr[material[k]]["type"]);
         var checkbox = $('<input>', {'type': 'checkbox', name: material[k]});
         checkbox[0].data_gem_model = gem_bcs_tree_descr[material[k]];
 
         checkbox.on('click', checkbox_click_cb);
 
         li.push($("<li>", {'name': 'node', 'data-gem-id': material[k]}).append(
-            checkbox, __(material[k])));
+            checkbox, $("<span>", {'name': 'descr', 'class': 'gem_capitalize',
+                                   'text': __(material[k])})));
     }
 
     $("div#forest").append(
         $("<div>", {'name': 'tree', 'data-gem-nation': nation}).append(
             $('<p>', {'name': 'title', 'data-gem-nation': nation,
                       'class': 'country_title', 'text': __(nation)}),
-            $('<p>', {'name': 'type', 'data-gem-id': 'material',
-                      'text': __('material')}),
+            $('<span>', {'name': 'descr', 'class': 'gem_capitalize',
+                         'text': __('material')}),
             $("<ul>").append(li)
         )
     );

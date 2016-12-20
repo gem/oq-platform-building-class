@@ -13,3 +13,7 @@ select#nation-id {
 p.country_title {
     text-transform: capitalize;
 }
+
+.gem_capitalize {
+    text-transform: capitalize;
+}
