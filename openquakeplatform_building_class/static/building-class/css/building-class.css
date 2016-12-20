@@ -1,0 +1,15 @@
+button {
+    text-transform: capitalize;
+}
+
+select#nation-id option {
+    text-transform: capitalize;
+}
+
+select#nation-id {
+    text-transform: capitalize;
+}
+
+p.country_title {
+    text-transform: capitalize;
+}

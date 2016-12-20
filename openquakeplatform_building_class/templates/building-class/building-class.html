@@ -19,13 +19,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 {% load i18n %}
 {% load url from future %}
 
-{% block title %} Input Preparation Toolkit - {{ block.super }} {% endblock title %}
+{% block title %} Building Classification Survey {{ block.super }} {% endblock title %}
 
 {% block extra_head %}
     {{block.super}}
     <link href="{{ STATIC_URL }}css/oqplatform_index.css" rel="stylesheet"/>
     <link href="{{ STATIC_URL }}css/handsontable.full.min.css" rel="stylesheet"/>
-    <link href="{{ STATIC_URL }}ipt/css/ipt.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}building-class/css/building-class.css" rel="stylesheet"/>
     <link href="{{ STATIC_URL }}css/jQuery-UI-Bootstrap-0.2.5.css" rel="stylesheet"/>
     <link rel="stylesheet" href="{{ STATIC_URL }}css/absolute_center_spinner.css" />
     <link href="{{ STATIC_URL }}css/sol.css" rel="stylesheet"/>
@@ -48,9 +48,23 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
       <div id="oq-body-content">
 
         <!-- <div id="absoluteSpinner" class="loading">Loading&#8230;</div> -->
-
         <div>
-          BODONE
+          Language: <select id="language-id">
+            <option value="en">Enlish</option>
+            <option selected value="it">Italiano</option>
+          </select>
+        </div>
+        <div>
+          <select id="nation-id">
+            <option value="north">north</option>
+            <option value="middle">middle</option>
+            <option value="middle south">middle south</option>
+            <option value="south">south</option>
+          </select>
+          <button id="new-nation">new country</button>
+        </div>
+        <div id="forest">
+          
         </div>
       </div>
     </div>
@@ -61,27 +75,38 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 {% block extra_script %}
     {{block.super}}
     {% include 'search_scripts.html' %}
-    <script>
-        help = document.getElementById("help_url");
-        csrf_token = "{% csrf_token %}";
+  <script>
+    var gem_bcs_tree_descr = {};
+    csrf_token = "{% csrf_token %}";
+    
+
+
+
+
+
+    help = document.getElementById("help_url");
         /*
         if(help != null) { help.href+='/explore/'; }
         var tab_id_s = "{{ request.GET.tab_id }}", tab_id;
         tab_id = parseInt(tab_id_s) - 1;
         if (tab_id < 0 || tab_id > 5) {
-            tab_id = 0;
+        tab_id = 0;
         }
         $( "#tabs" ).tabs({active: tab_id });
         var VALIDATION_URL = 'valid';
         var SENDBACK_URL = 'sendback';
         var g_gmpe = {{ g_gmpe|safe }};
         var g_gmpe_options = [];
-
+        
         for (var i = 0 ; i < g_gmpe.length ; i++) {
-            g_gmpe_options[i] = { type: "option", value: g_gmpe[i], label: g_gmpe[i] };
+                             g_gmpe_options[i] = { type: "option", value: g_gmpe[i], label: g_gmpe[i] };
                              }
                              */
-    </script>
+                             </script>
+
+  <script src="{{ STATIC_URL }}/building-class/js/building-class.js"></script>
+  <script src="{{ STATIC_URL }}/building-class/js/transl_en.js"></script>
+  <script src="{{ STATIC_URL }}/building-class/js/transl_it.js"></script>
 {% comment %}
     {% if request.GET.example_id|add:"0" > 0 and request.GET.example_id|add:"0" < 100 and request.GET.tab_id|add:"0" > 0 and request.GET.tab_id|add:"0" < 6 %}
 <script src="{{ STATIC_URL }}ipt/js/examples/{{ request.GET.tab_id|add:"0" }}{{ request.GET.example_id|add:"0"|stringformat:"02d" }}.js"></script>
