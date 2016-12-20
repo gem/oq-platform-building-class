@@ -1,31 +1,37 @@
 /*
   TODO:
 
+  DONE - remove countries blocks
+  - insert new as first
   - disclaimer
-  - remove countries blocks
   - countries
   - styling
 
+  - produce tables with flat version and dropdown with frequencies for Urban and Rural
 
-    gem_bcs_tree_descr['masonry'] = 
-    {"type": "group", "name": "", "el": [
-      {"type": "choice", "name": "MASONRY", "sub":
+  - hide trees
+  - delete entire country block
+  - recursive unclick require confirm
+  - complete tree description import
+
+  NEXT ITERATION:
+  - digest mail with new entries
+  - admin view
 
 */
 
 var gem_bcs_transl = {};
 var gem_bcs_transl_id = "en";
 
+var gem_bcs_flatten = [];
+
 function __(id) {
-    try {
-        var tra = gem_bcs_transl[gem_bcs_transl_id][id];
-        if (tra == undefined)
-            return id;
-        else
-            return tra;
-    } catch(err) {
+    if (id in gem_bcs_transl[gem_bcs_transl_id])
+        return gem_bcs_transl[gem_bcs_transl_id][id];
+    else if (id in gem_bcs_transl["en"])
+        return gem_bcs_transl["en"][id];
+    else
         return id;
-    }
 }
 
 function node_lang_update(index)
@@ -63,12 +69,6 @@ function choices_create(item, model)
 
     if (model.sub == null)
         return;
-    console.log('choices_create: begin');
-    console.log('Name: ' + model.sub.name);
-    console.log(model.sub.el.length);
-    for (i in model.sub.el) {
-        console.log(model.sub.el[i].name);
-    }
     $grp = $('<div>', { 'name': 'sub' });
     $grp.append($('<p>', { 'text': model.sub.name }));
     $ul = $('<ul>');
@@ -85,11 +85,34 @@ function choices_create(item, model)
     $(item).append($grp.append($ul.append(li)));
 }
 
+function flatter_update(checkbox) {
+    var $tree, $leafs, $leaf, line, flatter = [];
+
+    $tree = $(checkbox).parents('div[name="tree"]');
+    $leafs = $tree.find('input[type="checkbox"]:checked:not(:has(~ div input[type="checkbox"]:checked))');
+
+    for (var i = 0 ; i < $leafs.length ; i++) {
+        $leaf =  $($leafs[i]);
+        flatter[i] = [];
+        do {
+            flatter[i].push($leaf.attr('name'));
+            if ($leaf.parent().attr('data-gem-base') != undefined) {
+                break;
+            }
+            $leaf = $leaf.parent().parent().parent().parent().children('input[type="checkbox"]');
+        } while (true);
+    }
+    console.log(flatter);
+
+    // remove from flatter row already present in gem_bcs_flatten
+    // remove from gem_bcs_flatten lines not present in flatten (table included)
+    // add new rows to gem_bcs_flatten
+}
+
 function checkbox_click_cb() {
     var item = $(this).parent();
     if (this.checked) {
         var model = this.data_gem_model;
-        console.log(model['type']);
         var choices;
 
         var sub = $(item).children('div[name="sub"]');
@@ -100,11 +123,9 @@ function checkbox_click_cb() {
         else {
             sub.show();
         }
-        console.log(model);
     }
     else { // try to hide subgroup (if no other sub checkbox are checked)
         var checked = $(item).find('input[type="checkbox"]:checked');
-        console.log(checked.length);
         if (checked.length == 0) {
             var sub = $(item).children('div[name="sub"]');
             sub.hide();
@@ -114,8 +135,15 @@ function checkbox_click_cb() {
             return false;
         }
     }
+    flatter_update(this);
 }
 
+function country_del_cb() {
+    var nation = $(this).parent().find("p[name='title']").text();
+    if (confirm(__("Do you really want to delete '" + nation + "' classification?"))) {
+        $(this).parent().remove();
+    }
+}
 
 function country_add_cb() {
     var nation, li = [];
@@ -129,18 +157,26 @@ function country_add_cb() {
 
         checkbox.on('click', checkbox_click_cb);
 
-        li.push($("<li>", {'name': 'node', 'data-gem-id': material[k]}).append(
+        li.push($("<li>", {'name': 'node', 'data-gem-id': material[k],
+                           'data-gem-base': 'true'}).append(
             checkbox, $("<span>", {'name': 'descr', 'class': 'gem_capitalize',
                                    'text': __(material[k])})));
     }
 
+    var del_btn = $('<button>', {'name': 'delete', 'class': 'country_del', 'text': __('delete') });
+    del_btn.on('click', country_del_cb);
     $("div#forest").append(
-        $("<div>", {'name': 'tree', 'data-gem-nation': nation}).append(
+        $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-nation': nation}).append(
             $('<p>', {'name': 'title', 'data-gem-nation': nation,
-                      'class': 'country_title', 'text': __(nation)}),
+                      'class': 'country_title', 'text': __(nation)}), del_btn,
+            $('<p>', {'class': 'country_notes', 'text': __('notes')}),
+            $('<p>', {'class': 'country_notes'}).append(
+                $('<textarea>', {'name': 'notes', 'maxlength': '1024',
+                              'class': 'country_notes'})),
             $('<span>', {'name': 'descr', 'class': 'gem_capitalize',
                          'text': __('material')}),
-            $("<ul>").append(li)
+            $("<ul>").append(li),
+            $("<table>", {"name": "flatted"})
         )
     );
 }

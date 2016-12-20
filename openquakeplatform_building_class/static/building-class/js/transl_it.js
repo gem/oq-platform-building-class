@@ -14,7 +14,11 @@ gem_bcs_transl['it'] = {
     'concrete': 'calcestruzzo',
     'steel': 'acciaio',
     'composite': 'composito',
-    'wood': 'legno'
+    'wood': 'legno',
+
+    /* nations */
+    "ITA": "Italia",
+    "FRA": "Francia",
 }
 
     

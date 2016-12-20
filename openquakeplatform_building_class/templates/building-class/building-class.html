@@ -50,16 +50,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
         <!-- <div id="absoluteSpinner" class="loading">Loading&#8230;</div> -->
         <div>
           Language: <select id="language-id">
-            <option value="en">Enlish</option>
-            <option selected value="it">Italiano</option>
+            <option selected value="en">English</option>
+            <option value="it">Italiano</option>
           </select>
         </div>
         <div>
           <select id="nation-id">
-            <option value="north">north</option>
-            <option value="middle">middle</option>
-            <option value="middle south">middle south</option>
-            <option value="south">south</option>
+            {{ nations|safe }}
           </select>
           <button id="new-nation">new country</button>
         </div>

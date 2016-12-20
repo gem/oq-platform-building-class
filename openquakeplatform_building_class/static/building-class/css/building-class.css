@@ -12,8 +12,28 @@ select#nation-id {
 
 p.country_title {
     text-transform: capitalize;
+    float: left;
 }
 
 .gem_capitalize {
     text-transform: capitalize;
+}
+
+div.tree {
+    padding: 8px;
+    border: 1px solid #d0d0d0;
+}
+
+button.country_del {
+    float: right;
+}
+
+p.country_notes {
+    text-transform: capitalize;
+    clear: both;
+}
+
+textarea.country_notes {
+    width: 96%;
+    height: 4em;
 }
