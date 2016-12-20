@@ -8,6 +8,8 @@ gem_bcs_transl['it'] = {
     'south': 'sud',
 
     /* classification */
+    'material': 'materiale',
+
     'masonry': 'muratura',
     'concrete': 'calcestruzzo',
     'steel': 'acciaio',
