@@ -28,6 +28,10 @@ button.country_del {
     float: right;
 }
 
+button.cascade_showhide {
+    float: right;
+}
+
 p.country_notes {
     text-transform: capitalize;
     clear: both;

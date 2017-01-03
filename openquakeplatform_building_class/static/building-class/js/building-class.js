@@ -2,6 +2,7 @@
   TODO:
 
   DONE - remove countries blocks
+  DONE - hide trees
   - insert new as first
   - disclaimer
   - countries
@@ -9,7 +10,6 @@
 
   - produce tables with flat version and dropdown with frequencies for Urban and Rural
 
-  - hide trees
   - delete entire country block
   - recursive unclick require confirm
   - complete tree description import
@@ -22,8 +22,6 @@
 
 var gem_bcs_transl = {};
 var gem_bcs_transl_id = "en";
-
-var gem_bcs_flatten = [];
 
 function __(id) {
     if (id in gem_bcs_transl[gem_bcs_transl_id])
@@ -145,6 +143,22 @@ function country_del_cb() {
     }
 }
 
+function cascade_showhide_cb() {
+    var is_show = $(this).attr('data-gem-show');
+
+    $tree = $(this).parents('div[name="tree"]');
+    if (is_show == 'true') {
+        $tree.children("div[name='cascade']").hide();
+        $(this).html(__('show'));
+        $(this).attr('data-gem-show', 'false');
+    }
+    else {
+        $tree.children("div[name='cascade']").show();
+        $(this).html(__('hide'));
+        $(this).attr('data-gem-show', 'true');
+    }
+}
+
 function country_add_cb() {
     var nation, li = [];
 
@@ -165,17 +179,21 @@ function country_add_cb() {
 
     var del_btn = $('<button>', {'name': 'delete', 'class': 'country_del', 'text': __('delete') });
     del_btn.on('click', country_del_cb);
+    var cascade_showhide_btn = $('<button>', {'name': 'cascade_showhide', 'class': 'cascade_showhide',
+                                      'data-gem-show': 'true', 'text': __('hide') });
+    cascade_showhide_btn.on('click', cascade_showhide_cb);
     $("div#forest").append(
         $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-nation': nation}).append(
             $('<p>', {'name': 'title', 'data-gem-nation': nation,
-                      'class': 'country_title', 'text': __(nation)}), del_btn,
+                      'class': 'country_title', 'text': __(nation)}), del_btn, cascade_showhide_btn,
             $('<p>', {'class': 'country_notes', 'text': __('notes')}),
             $('<p>', {'class': 'country_notes'}).append(
                 $('<textarea>', {'name': 'notes', 'maxlength': '1024',
-                              'class': 'country_notes'})),
-            $('<span>', {'name': 'descr', 'class': 'gem_capitalize',
-                         'text': __('material')}),
-            $("<ul>").append(li),
+                                 'class': 'country_notes'})),
+            $('<div>', {'name': 'cascade'}).append(
+                $('<span>', {'name': 'descr', 'class': 'gem_capitalize',
+                             'text': __('material')}),
+                $("<ul>").append(li)),
             $("<table>", {"name": "flatted"})
         )
     );
