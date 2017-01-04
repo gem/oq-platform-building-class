@@ -1,4 +1,4 @@
-    gem_bcs_tree_descr['masonry'] = 
+gem_bcs_tree_descr['masonry'] = 
       {"type": "choice", "name": "Masonry", "sub":
         {"type": "group", "name": "Type", "el": [
           {"type": "choice", "name": "Unreinforced", "sub":

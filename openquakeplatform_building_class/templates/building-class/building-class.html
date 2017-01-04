@@ -45,15 +45,18 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           <br />
         {% endblock oq_body_heading %}
       </div>
-      <div id="oq-body-content">
+      <div id="oq-body-content" style="width: 90%;">
 
         <!-- <div id="absoluteSpinner" class="loading">Loading&#8230;</div> -->
-        <div>
+        <div style="display: none;">
           Language: <select id="language-id">
             <option selected value="en">English</option>
             <option value="it">Italiano</option>
           </select>
         </div>
+        <div class="disclaimer" name="disclaimer">
+          The 'Building classification tool' aims to create a detailed inventory of the most frequent building typologies in the world. Your contribution is much appreciated and will be acknowledged in future publications. Personal information will not be revealed.
+          </div>
         <div>
           <select id="nation-id">
             {{ nations|safe }}
@@ -102,7 +105,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
                              </script>
 
   <script src="{{ STATIC_URL }}/building-class/js/building-class.js"></script>
+  <script src="{{ STATIC_URL }}/building-class/js/composite.js"></script>
+  <script src="{{ STATIC_URL }}/building-class/js/concrete.js"></script>
   <script src="{{ STATIC_URL }}/building-class/js/masonry.js"></script>
+  <script src="{{ STATIC_URL }}/building-class/js/steel.js"></script>
+  <script src="{{ STATIC_URL }}/building-class/js/wood.js"></script>
   <script src="{{ STATIC_URL }}/building-class/js/transl_en.js"></script>
   <script src="{{ STATIC_URL }}/building-class/js/transl_it.js"></script>
 {% comment %}
