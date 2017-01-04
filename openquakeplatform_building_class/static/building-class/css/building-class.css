@@ -1,5 +1,10 @@
+div.disclaimer {
+    margin-bottom: 16px;
+}
+
 button {
     text-transform: capitalize;
+    vertical-align: text-bottom;
 }
 
 select#nation-id option {
@@ -12,7 +17,8 @@ select#nation-id {
 
 p.country_title {
     text-transform: capitalize;
-    float: left;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .gem_capitalize {
@@ -22,6 +28,11 @@ p.country_title {
 div.tree {
     padding: 8px;
     border: 1px solid #d0d0d0;
+    margin-bottom: 8px;
+}
+
+div.tree input.checkbox {
+    vertical-align: top;
 }
 
 button.country_del {
@@ -34,10 +45,98 @@ button.cascade_showhide {
 
 p.country_notes {
     text-transform: capitalize;
+    font-weight: bold;
     clear: both;
 }
 
 textarea.country_notes {
     width: 96%;
     height: 4em;
+}
+
+table.paths {
+    width: 96%;
+}
+
+table.paths th {
+    font-size: 70%;
+    border: 1px solid #d0d0d0;
+    padding: 0 8px 0 8px;
+    text-transform: capitalize;
+}
+
+table.paths td {
+    font-size: 70%;
+    border: 1px solid #d0d0d0;
+}
+table.paths td.path {
+    width: 66%;
+    padding: 8px;
+    line-height: 120%;
+}
+
+table.paths td select {
+/*     font-size: 90%; */
+    width: 100%;
+    text-transform: capitalize;
+}
+
+table.paths td select option {
+    text-transform: capitalize;
+}
+
+div#forest {
+    font-size: 80%;
+}
+
+p.sub-title {
+    line-height: 100%;
+    font-weight: bold;
+    margin: 0px;
+}
+
+div#forest li div {
+    background-color: #fff3f3;
+    padding: 8px;
+}
+
+div#forest li div li div {
+    background-color: #fff9f3;
+}
+
+div#forest li div li div li div {
+    background-color: #fffff3;
+}
+
+div#forest li div li div li div li div {
+    background-color: #f3fff3;
+}
+
+div#forest li div li div li div li div li div {
+    background-color: #f3ffff;
+}
+
+div#forest li div li div li div li div li div li div {
+    background-color: #f3f3ff;
+}
+
+div#forest li div li div li div li div li div li div li div {
+    background-color: #fff3ff;
+}
+/* roundtrip */
+
+div#forest li div li div li div li div li div li div li div li div {
+    background-color: #fff3f3;
+}
+
+div#forest li div li div li div li div li div li div li div li div li div {
+    background-color: #fff9f3;
+}
+
+div#forest li div li div li div li div li div li div li div li div li div li div {
+    background-color: #fffff3;
+}
+
+div#forest li div li div li div li div li div li div li div li div li div li div li div {
+    background-color: #f3fff3;
 }

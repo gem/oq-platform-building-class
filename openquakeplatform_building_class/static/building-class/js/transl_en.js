@@ -10,11 +10,11 @@ gem_bcs_transl['en'] = {
     /* classification */
     'material': 'material',
 
-    'masonry': 'masonry',
-    'concrete': 'concrete',
-    'steel': 'steel',
-    'composite': 'composite',
-    'wood': 'wood',
+    'masonry': 'Masonry',
+    'concrete': 'Concrete',
+    'steel': 'Steel',
+    'composite': 'Composite',
+    'wood': 'Wood',
 
     /* nations */
     "ARM": "Armenia",
