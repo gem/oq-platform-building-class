@@ -46,16 +46,16 @@ function node_lang_update(index)
 function tree_lang_update(index)
 {
     var tit = $(this).find('p[name="title"]')[0];
-    $(tit).text(__($(tit).attr('data-gem-nation')));
+    $(tit).text(__($(tit).attr('data-gem-country')));
     $(this).children('span[name="descr"]').text(__('material'));
     $(this).find('li[name="node"]').each(node_lang_update);
 }
 
 
 function lang_update() {
-    // nation names
-    $('select#nation-id > option').each(function (idx) {$(this).text(__($(this).attr('value'))); });
-    $('button#new-nation').text(__('new country'))
+    // country names
+    $('select#country-id > option').each(function (idx) {$(this).text(__($(this).attr('value'))); });
+    $('button#new-country').text(__('new country'))
 
     $('div#forest > div[name="tree"]').each(tree_lang_update);
 }
@@ -124,20 +124,17 @@ function paths_update(checkbox) {
             $leaf = $leaf.parent().parent().parent().parent().children('input[type="checkbox"]');
         } while (true);
     }
-    console.log(paths_new);
 
     $table = $tree.children("table[name='paths']");
-    console.log('TAB len: ' + $table.length);
-    // TODO: set all rows as not checked
-    // $rows[e].checked
+
+    // set all rows as not checked
     $table.find("tr[name='path']").each(function () { this.checked = false });
     // check if rows are already present
     for (i = 0 ; i < paths_new.length ; i++) {
         $rows = $table.find("tr[name='path']");
-        console.log("$rows.length: " + $rows.length);
         for (e = 0 ; e < $rows.length ; e++) {
-            console.log("I:" + i + " E:" + e + " Len(i): " +
-                        $rows[e].data_gem_path.length + " Len(e): " +  paths_new[i].length);
+            // console.log("I:" + i + " E:" + e + " Len(i): " +
+            //            $rows[e].data_gem_path.length + " Len(e): " +  paths_new[i].length);
             if ($rows[e].data_gem_path.length != paths_new[i].length) {
                 // if paths has different length are not the same, continue
                 continue;
@@ -176,11 +173,6 @@ function paths_update(checkbox) {
         $table.show();
     else
         $table.hide();
-
-
-    // remove from paths row already present in gem_bcs_flatten
-    // remove from gem_bcs_flatten lines not present in flatten (table included)
-    // add new rows to gem_bcs_flatten
 }
 
 function checkbox_click_cb() {
@@ -213,9 +205,12 @@ function checkbox_click_cb() {
 }
 
 function country_del_cb() {
-    var nation = $(this).parent().find("p[name='title']").text();
-    if (confirm(__("Do you really want to delete '" + nation + "' classification?"))) {
+    var country = $(this).parent().find("p[name='title']").text();
+    if (confirm(__("Do you really want to delete '" + country + "' classification?"))) {
         $(this).parent().remove();
+        if ($('div#forest > div[name="tree"]').length == 0) {
+            $("button[name='save']").hide();
+        }
     }
 }
 
@@ -228,7 +223,6 @@ function cascade_showhide_cb() {
     if (is_show == 'true') {
         $tree.children("div[name='cascade']").hide();
         if ($tree.find("textarea[name='notes']").val().trim() == "") {
-            console.log("<<<" + $tree.find("textarea[name='notes']").val().trim() + ">>>");
             $notes.hide();
         }
 
@@ -244,21 +238,23 @@ function cascade_showhide_cb() {
 }
 
 function country_add_cb() {
-    var nation, li = [];
+    var country, li = [];
 
-    nation = $("select#nation-id").val();
+    country = $("select#country-id").val();
 
-    var material = ['masonry', 'concrete', 'steel', 'composite', 'wood'];
-    for (k in material) {
-        var checkbox = $('<input>', {'type': 'checkbox', name: material[k], 'class': 'checkbox'});
-        checkbox[0].data_gem_model = gem_bcs_tree_descr[material[k]];
+    var material, materials = ['Masonry', 'Concrete', 'Steel', 'Composite', 'Wood'];
+    for (k in materials) {
+        material = materials[k];
+
+        var checkbox = $('<input>', {'type': 'checkbox', name: material, 'class': 'checkbox'});
+        checkbox[0].data_gem_model = gem_bcs_tree_descr[material.toLowerCase()];
 
         checkbox.on('click', checkbox_click_cb);
 
-        li.push($("<li>", {'name': 'node', 'data-gem-id': material[k],
+        li.push($("<li>", {'name': 'node', 'data-gem-id': material,
                            'data-gem-base': 'true'}).append(
             checkbox, $("<span>", {'name': 'descr', 'class': 'gem_capitalize',
-                                   'text': __(material[k])})));
+                                   'text': __(material)})));
     }
 
     var del_btn = $('<button>', {'name': 'delete', 'class': 'country_del', 'text': __('delete') });
@@ -276,9 +272,9 @@ function country_add_cb() {
     $table.hide();
 
     $("div#forest").prepend(
-        $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-nation': nation}).append(
-            $('<p>', {'name': 'title', 'data-gem-nation': nation,
-                      'class': 'country_title', 'text': __(nation)}), del_btn, cascade_showhide_btn,
+        $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-country': country}).append(
+            $('<p>', {'name': 'title', 'data-gem-country': country,
+                      'class': 'country_title', 'text': __(country)}), del_btn, cascade_showhide_btn,
             $('<div>', { 'name': 'notes', 'class': 'notes'}).append(
                 $('<p>', {'class': 'country_notes', 'text': __('notes')}),
                 $('<p>', {'class': 'country_notes'}).append(
@@ -292,11 +288,56 @@ function country_add_cb() {
             $table
         )
     );
+    $("button[name='save']").show();
+}
+function build_class2obj(bc_row)
+{
+    var obj = { path: "", urban: "", rural: "" };
+    var path = bc_row.data_gem_path;
+
+    for (var i = 0 ; i < path.length ; i++) {
+        obj.path += (i == 0 ? "" : "|") + path[i];
+    }
+    obj.urban = $(bc_row).find("select[name='urban']").val();
+    obj.rural = $(bc_row).find("select[name='rural']").val();
+
+    return obj;
+}
+
+function tree2obj(idx, tree)
+{
+    var obj = { country: "", notes: "", build_class: [] };
+    var $bc_rows = $(tree).find("table[name='paths'] tr[name='path']");
+    var bc_idx, bc_row;
+
+    obj.country = $(tree).find("p[name='title']").attr("data-gem-country");
+    obj.notes = $(tree).find("textarea[name='notes']").val();
+
+    for (bc_idx = 0 ; bc_idx < $bc_rows.length ; bc_idx++) {
+        bc_row = $bc_rows[bc_idx];
+        obj.build_class.push(build_class2obj(bc_row));
+    }
+
+    return obj;
+}
+
+function save_cb()
+{
+    var tree, $trees = $("div#forest div[name='tree']");
+    var obj = {};
+    obj.countries = [];
+
+    for (idx = 0 ; idx < $trees.length ; idx++) {
+        tree = $trees[idx];
+        obj.countries.push(tree2obj(idx, tree));
+    }
+    console.log(obj);
 }
 
 $(document).ready(function building_class_main() {
     gem_bcs_transl_id = $('select#language-id').val();
-    $('button#new-nation').on('click', country_add_cb);
+    $('button#new-country').on('click', country_add_cb);
     $('select#language-id').on('change', language_change_cb);
+    $("button[name='save']").on('click', save_cb);
     lang_update();
 })

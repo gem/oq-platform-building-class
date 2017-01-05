@@ -7,11 +7,11 @@ button {
     vertical-align: text-bottom;
 }
 
-select#nation-id option {
+select#country-id option {
     text-transform: capitalize;
 }
 
-select#nation-id {
+select#country-id {
     text-transform: capitalize;
 }
 
@@ -97,46 +97,57 @@ p.sub-title {
 
 div#forest li div {
     background-color: #fff3f3;
+    border: 1px solid #ffe6e6;
     padding: 8px;
 }
 
 div#forest li div li div {
     background-color: #fff9f3;
+    border: 1px solid #fff2e6;
 }
 
 div#forest li div li div li div {
     background-color: #fffff3;
+    border: 1px solid #ffffe6;
 }
 
 div#forest li div li div li div li div {
     background-color: #f3fff3;
+    border: 1px solid #e6ffe6;
 }
 
 div#forest li div li div li div li div li div {
     background-color: #f3ffff;
+    border: 1px solid #e6ffff;
 }
 
 div#forest li div li div li div li div li div li div {
     background-color: #f3f3ff;
+    border: 1px solid #e6e6ff;
 }
 
 div#forest li div li div li div li div li div li div li div {
     background-color: #fff3ff;
+    border: 1px solid #ffe6ff;
 }
 /* roundtrip */
 
 div#forest li div li div li div li div li div li div li div li div {
     background-color: #fff3f3;
+    border: 1px solid #ffe6e6;
 }
 
 div#forest li div li div li div li div li div li div li div li div li div {
     background-color: #fff9f3;
+    border: 1px solid #fff2e6;
 }
 
 div#forest li div li div li div li div li div li div li div li div li div li div {
     background-color: #fffff3;
+    border: 1px solid #ffffe6;
 }
 
 div#forest li div li div li div li div li div li div li div li div li div li div li div {
     background-color: #f3fff3;
+    border: 1px solid #e6ffe6;
 }

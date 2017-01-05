@@ -20,15 +20,15 @@ from django.template import RequestContext
 from openquakeplatform.vulnerability.models import Country
 
 def view(request, **kwargs):
-    nations = ""
+    countries = ""
     for country in Country.objects.all():
         if not country.is_visible:
             continue
-        nations += '<option value="%s">%s</option>\n' % (country.iso3, country.name)
+        countries += '<option value="%s">%s</option>\n' % (country.iso3, country.name)
 
     return render_to_response(
         "building-class/building-class.html",
         dict(none=None,
-             nations=nations
+             countries=countries
              ),
         context_instance=RequestContext(request))

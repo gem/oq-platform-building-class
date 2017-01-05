@@ -2,21 +2,10 @@ gem_bcs_transl['en'] = {
     /* buttons */
     'new country': 'new country',
 
-    /* nations */
-    'north': 'north',
-    'middle': 'middle',
-    'south': 'south',
-
     /* classification */
     'material': 'material',
 
-    'masonry': 'Masonry',
-    'concrete': 'Concrete',
-    'steel': 'Steel',
-    'composite': 'Composite',
-    'wood': 'Wood',
-
-    /* nations */
+    /* countries */
     "ARM": "Armenia",
     "ASM": "American Samoa",
     "ATA": "Antarctica",

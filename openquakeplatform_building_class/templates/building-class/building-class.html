@@ -58,13 +58,16 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           The 'Building classification tool' aims to create a detailed inventory of the most frequent building typologies in the world. Your contribution is much appreciated and will be acknowledged in future publications. Personal information will not be revealed.
           </div>
         <div>
-          <select id="nation-id">
-            {{ nations|safe }}
+          <select id="country-id">
+            {{ countries|safe }}
           </select>
-          <button id="new-nation">new country</button>
+          <button id="new-country">new country</button>
         </div>
         <div id="forest">
           
+        </div>
+        <div name="actions">
+          <button name="save" style="display:none;">save</button>
         </div>
       </div>
     </div>
@@ -78,11 +81,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
   <script>
     var gem_bcs_tree_descr = {};
     csrf_token = "{% csrf_token %}";
-    
-
-
-
-
 
     help = document.getElementById("help_url");
         /*
