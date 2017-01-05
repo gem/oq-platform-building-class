@@ -28,4 +28,5 @@ admin.autodiscover()
 urlpatterns = patterns(
     '',
     url(r'^$', views.view, name='home'),
+    url(r'^data$', views.data, name='data'),
 )

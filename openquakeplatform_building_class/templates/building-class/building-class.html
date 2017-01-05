@@ -59,7 +59,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           </div>
         <div>
           <select id="country-id">
-            {{ countries|safe }}
+            {{ countries_opts|safe }}
           </select>
           <button id="new-country">new country</button>
         </div>
@@ -67,6 +67,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           
         </div>
         <div name="actions">
+          <div name="save_resp" style="margin-bottom: 4px; padding-left: 4px;"><br></div>
           <button name="save" style="display:none;">save</button>
         </div>
       </div>
@@ -82,6 +83,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
     var gem_bcs_tree_descr = {};
     csrf_token = "{% csrf_token %}";
 
+    gem_bcs_countries = {{countries|safe }};
     help = document.getElementById("help_url");
         /*
         if(help != null) { help.href+='/explore/'; }

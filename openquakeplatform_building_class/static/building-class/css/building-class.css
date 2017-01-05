@@ -54,34 +54,34 @@ textarea.country_notes {
     height: 4em;
 }
 
-table.paths {
+table.build_classes {
     width: 96%;
 }
 
-table.paths th {
+table.build_classes th {
     font-size: 70%;
     border: 1px solid #d0d0d0;
     padding: 0 8px 0 8px;
     text-transform: capitalize;
 }
 
-table.paths td {
+table.build_classes td {
     font-size: 70%;
     border: 1px solid #d0d0d0;
 }
-table.paths td.path {
+table.build_classes td.path {
     width: 66%;
     padding: 8px;
     line-height: 120%;
 }
 
-table.paths td select {
+table.build_classes td select {
 /*     font-size: 90%; */
     width: 100%;
     text-transform: capitalize;
 }
 
-table.paths td select option {
+table.build_classes td select option {
     text-transform: capitalize;
 }
 
@@ -150,4 +150,12 @@ div#forest li div li div li div li div li div li div li div li div li div li div
 div#forest li div li div li div li div li div li div li div li div li div li div li div {
     background-color: #f3fff3;
     border: 1px solid #e6ffe6;
+}
+
+div.save_resp_ok {
+    background-color: #ddffdd;
+}
+
+div.save_resp_err {
+    background-color: #ffdddd;
 }
