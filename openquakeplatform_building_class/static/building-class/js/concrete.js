@@ -1,1293 +1,9308 @@
-gem_bcs_tree_descr['concrete'] = 
-      {"type": "choice", "name": "Concrete", "sub":
-        {"type": "group", "name": "Type", "el": [
-          {"type": "choice", "name": "Unreinforced", "sub":
-            {"type": "group", "name": "Type of concrete", "el": [
-              {"type": "choice", "name": "Cast-in-place", "sub":
-                {"type": "group", "name": "Lateral load resisting  system", "el": [
-                  {"type": "choice", "name": "Wall", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Pre-cast", "sub":
-                {"type": "group", "name": "Lateral load resisting  system", "el": [
-                  {"type": "choice", "name": "Wall", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-            ]}
-          }
-         ,{"type": "choice", "name": "Reinforced", "sub":
-            {"type": "group", "name": "Type of concrete", "el": [
-              {"type": "choice", "name": "Cast-in-place", "sub":
-                {"type": "group", "name": "Lateral load resisting  system", "el": [
-                  {"type": "choice", "name": "Wall", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "Moment frame", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "Dual system", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "Braced frame", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "Infilled frame", "sub":
-                    {"type": "group", "name": "Type of block", "el": [
-                      {"type": "choice", "name": "Concrete block", "sub":
-                        {"type": "group", "name": "Height", "el": [
-                          {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Ceramic brick", "sub":
-                        {"type": "group", "name": "Height", "el": [
-                          {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Pre-cast", "sub":
-                {"type": "group", "name": "Lateral load resisting  system", "el": [
-                  {"type": "choice", "name": "Wall", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "Moment frame", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "Dual system", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "Braced frame", "sub":
-                    {"type": "group", "name": "Height", "el": [
-                      {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                        {"type": "group", "name": "Irregularities", "el": [
-                          {"type": "choice", "name": "Regular", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                             ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                             ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                            {"type": "group", "name": "Ductility", "el": [
-                              {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "Infilled frame", "sub":
-                    {"type": "group", "name": "Type of block", "el": [
-                      {"type": "choice", "name": "Concrete block", "sub":
-                        {"type": "group", "name": "Height", "el": [
-                          {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Ceramic brick", "sub":
-                        {"type": "group", "name": "Height", "el": [
-                          {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                         ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                            {"type": "group", "name": "Irregularities", "el": [
-                              {"type": "choice", "name": "Regular", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                 ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                                 ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                                ]}
-                              }
-                             ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                                {"type": "group", "name": "Ductility", "el": [
-                                  {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                                ]}
-                              }
-                            ]}
-                          }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-            ]}
-          }
-        ]}
-      };
+gem_bcs_tree_descr['concrete'] = { "sub": {
+  "el": [
+   { "sub": {
+     "el": [
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Wall" }
+     ],  "type": "group", "name": "Lateral load resisting  system" }, 
+    "type": "choice", "name": "Unreinforced" }, 
+   { "sub": {
+     "el": [
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Moment frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Infilled frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Wall" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Dual system" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Braced frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Unknown" }
+     ],  "type": "group", "name": "Lateral load resisting  system" }, 
+    "type": "choice", "name": "Reinforced" }, 
+   { "sub": {
+     "el": [
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Moment frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Concrete block" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Ceramic brick" }, 
+                  { "sub": {
+                    "el": [
+                     { "type": "choice", "name": "Cast in place" }, 
+                     { "type": "choice", "name": "Pre-cast" }, 
+                     { "type": "choice", "name": "Unknown" }
+                    ],  "type": "group", "name": "Type of concrete" }, 
+                   "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Infilled frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Wall" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Dual system" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Braced frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "sub": {
+                 "el": [
+                  { "type": "choice", "name": "Cast in place" }, 
+                  { "type": "choice", "name": "Pre-cast" }, 
+                  { "type": "choice", "name": "Unknown" }
+                 ],  "type": "group", "name": "Type of block" }, 
+                "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Unknown" }
+     ],  "type": "group", "name": "Lateral load resisting  system" }, 
+    "type": "choice", "name": "Unknown" }
+  ],  "type": "group", "name": "Type" }, 
+ "type": "choice", "name": "Concrete" };

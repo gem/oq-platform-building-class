@@ -1,1241 +1,4249 @@
-gem_bcs_tree_descr['wood'] = 
-      {"type": "choice", "name": "wood", "sub":
-        {"type": "group", "name": "Type of wood", "el": [
-          {"type": "choice", "name": "Light wood", "sub":
-            {"type": "group", "name": "Lateral load resisting  system", "el": [
-              {"type": "choice", "name": "Frame (Traditional joinery e.g. dovetails)", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Frame (Joins with plates and bolts)", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Braced frame", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Dual System", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-            ]}
-          }
-         ,{"type": "choice", "name": "Heavy wood", "sub":
-            {"type": "group", "name": "Lateral load resisting  system", "el": [
-              {"type": "choice", "name": "Frame (Traditional joinery e.g. dovetails)", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Frame (Joins with plates and bolts)", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Braced frame", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Dual System", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-            ]}
-          }
-         ,{"type": "choice", "name": "Solid wood", "sub":
-            {"type": "group", "name": "Lateral load resisting  system", "el": [
-              {"type": "choice", "name": "Frame (Traditional joinery e.g. dovetails)", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Frame (Joins with plates and bolts)", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Braced frame", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-             ,{"type": "choice", "name": "Dual System", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                         ,{"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - soft storey", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Non-Ductile (PGA<0.05g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-            ]}
-          }
-         ,{"type": "choice", "name": "Stud wall", "sub":
-            {"type": "group", "name": "Lateral load resisting  system", "el": [
-              {"type": "choice", "name": "Wall", "sub":
-                {"type": "group", "name": "Height", "el": [
-                  {"type": "choice", "name": "low-rise (<3 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "mid-rise (4-6 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "high-rise (7-12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                 ,{"type": "choice", "name": "tall (>12 Floors)", "sub":
-                    {"type": "group", "name": "Irregularities", "el": [
-                      {"type": "choice", "name": "Regular", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                     ,{"type": "choice", "name": "Irregular - Torsion", "sub":
-                        {"type": "group", "name": "Ductility", "el": [
-                          {"type": "choice", "name": "Moderate Ductile (0.1<PGA<0.3g)", "sub": null }
-                         ,{"type": "choice", "name": "High Ductile (PGA>0.3g)", "sub": null }
-                        ]}
-                      }
-                    ]}
-                  }
-                ]}
-              }
-            ]}
-          }
-        ]}
-      };
+gem_bcs_tree_descr['wood'] = { "sub": {
+  "el": [
+   { "sub": {
+     "el": [
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Frame (Traditional joinery - e.g. dovetails)" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Frame (Joins with plates and bolts)" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Wall" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Dual system" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Braced frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Unknown" }
+     ],  "type": "group", "name": "Lateral load resisting  system" }, 
+    "type": "choice", "name": "Light wood" }, 
+   { "sub": {
+     "el": [
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Frame (Traditional joinery - e.g. dovetails)" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Frame (Joins with plates and bolts)" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Wall" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Dual system" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Braced frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Unknown" }
+     ],  "type": "group", "name": "Lateral load resisting  system" }, 
+    "type": "choice", "name": "Heavy wood" }, 
+   { "sub": {
+     "el": [
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Frame (Traditional joinery - e.g. dovetails)" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Frame (Joins with plates and bolts)" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Wall" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Dual system" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Braced frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Unknown" }
+     ],  "type": "group", "name": "Lateral load resisting  system" }, 
+    "type": "choice", "name": "Solid wood" }, 
+   { "sub": {
+     "el": [
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Wall" }
+     ],  "type": "group", "name": "Lateral load resisting  system" }, 
+    "type": "choice", "name": "Stud wall" }, 
+   { "sub": {
+     "el": [
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Frame (Traditional joinery - e.g. dovetails)" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Frame (Joins with plates and bolts)" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Wall" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Dual system" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Braced frame" }, 
+      { "sub": {
+        "el": [
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Low rise (<3 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Mid rise (4-6 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "High-rise (7-12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Tall (>12 floors)" }, 
+         { "sub": {
+           "el": [
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Regular" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-soft storey" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Irregular-torsion" }, 
+            { "sub": {
+              "el": [
+               { "type": "choice", "name": "Non ductile (PGA<0.1g)" }, 
+               { "type": "choice", "name": "Moderate ductility (0.1g<PGA<0.3g)" }, 
+               { "type": "choice", "name": "High ductility (PGA>0.3g)" }, 
+               { "type": "choice", "name": "Unknown" }
+              ],  "type": "group", "name": "Ductility" }, 
+             "type": "choice", "name": "Unknown" }
+           ],  "type": "group", "name": "Irregularities" }, 
+          "type": "choice", "name": "Unknown" }
+        ],  "type": "group", "name": "Height" }, 
+       "type": "choice", "name": "Unknown" }
+     ],  "type": "group", "name": "Lateral load resisting  system" }, 
+    "type": "choice", "name": "Unknown" }
+  ],  "type": "group", "name": "Type of wood" }, 
+ "type": "choice", "name": "Wood" };
