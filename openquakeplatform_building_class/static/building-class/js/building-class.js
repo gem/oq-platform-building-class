@@ -157,8 +157,10 @@ function build_classes_update(checkbox) {
             // build_classes_new[i] not already exists in the table, create it
             descr = "";
             for (o = (build_classes_new[i].length - 1) ; o >= 0 ; o--) {
+                // console.log(build_classes_new[i][o]);
                 if (build_classes_new[i][o] != "Unknown") {
-                    descr += __(build_classes_new[i][o]) + (o == 0 ? "" : sep);
+                    descr += (o == (build_classes_new[i].length - 1) ? "" : sep) +
+                        __(build_classes_new[i][o]);
                 }
             }
             $td = $("<td>", { "text": descr, "class": "path" });
@@ -168,11 +170,11 @@ function build_classes_update(checkbox) {
             $tr.append($td,
                        $('<td>').append(frequency_ddown_create('urban')),
                        $('<td>').append(frequency_ddown_create('rural')));
-            $table.append($tr);
+            $table.find("tr[name='titles']").after($tr);
         }
     }
     $table.find("tr[name='path']").each(function () { if(!this.checked) $(this).remove() });
-    if ($table.find("tr[name='path']").length > 0)
+    if ($table.find("tr[name='path'], tr[name='path-ro']").length > 0)
         $table.show();
     else
         $table.hide();
@@ -207,9 +209,58 @@ function checkbox_click_cb() {
     build_classes_update(this);
 }
 
-function country_del_cb() {
+function gem_modal_confirm(obj, title, content, success_cb, error_cb) {
+    var $dial;
+
+    $dial = $('<div>', { 'title': title, 'text': content });
+    $('body').append($dial);
+    var buttons = {}
+
+    buttons[__("yes")] = function() {
+        success_cb(obj);
+        $(this).dialog("close");
+        $dial.remove();
+    };
+    buttons[__("no")] = function() {
+        error_cb(obj);
+        $(this).dialog("close");
+        $dial.remove();
+    };
+
+    $dial.dialog({
+        resizable: false,
+        height: "auto",
+        width: 400,
+        modal: true,
+        buttons: buttons
+    });
+}
+
+
+
+
+function classification_del_cb() {
     var country = $(this).parent().find("p[name='title']").text();
-    if (confirm(__("Do you really want to delete '" + country + __("' classification?")))) {
+
+    var success_cb = function(obj) {
+        $(obj).parent().remove();
+        if ($('div#forest > div[name="tree"]').length == 0) {
+            $("button[name='save']").hide();
+        }
+    };
+
+    var error_cb = function(obj) {
+    };
+
+    gem_modal_confirm(this, "Delete Classification",
+                      __("Do you really want to delete '") + country + __("' classification?"),
+                      success_cb, error_cb);
+}
+
+
+function classification_del_cb_old() {
+    var country = $(this).parent().find("p[name='title']").text();
+    if (confirm(__("Do you really want to delete '") + country + __("' classification?"))) {
         $(this).parent().remove();
         if ($('div#forest > div[name="tree"]').length == 0) {
             $("button[name='save']").hide();
@@ -283,9 +334,9 @@ function classification_add(country) {
     cascade_showhide_btn.on('click', cascade_showhide_cb);
 
     var $table = $("<table>", {"name": "build_classes", "class": "build_classes"}).append(
-        $("<tr>").append($("<th>", {"text": __("building type")}),
-                         $("<th>", {"text": __("urban") }),
-                         $("<th>", {"text": __("rural") }))
+        $("<tr>", {"name": "titles"}).append($("<th>", {"text": __("building type")}),
+                                             $("<th>", {"text": __("urban") }),
+                                             $("<th>", {"text": __("rural") }))
     );
 
     if (build_classes.length == 0)
@@ -322,23 +373,69 @@ function classification_add(country) {
         var atoms = build_class.path.split('|');
         var atom, $ul, $li, $cbox;
 
-        console.log(atoms);
+        console.log(build_class);
+
         $ul = $cascade.children("ul");
+        var not_found = false;
+        var tr_created = false;
+        var click_revert = [];
+
         for (var e = atoms.length - 1 ; e >= 0 ; e--) {
             atom = atoms[e];
-            console.log(atom);
             $li = $ul.children("li[name='node'][data-gem-id='" + atom + "']");
+            if ($li.length == 0) {
+                not_found = true;
+                if (tr_created) {
+                    $table.find("tr[name='path']").first().remove();
+                }
+                break;
+            }
             $cbox = $li.children("input[type='checkbox'][name='" + atom + "']");
-            // checkbox_click_cb($cbox[0]);
-            $cbox.prop('checked', true).triggerHandler('click');
+            if (! $cbox.is(':checked')) {
+                click_revert.push($cbox);
+                $cbox.prop('checked', true).triggerHandler('click');
+                tr_created = true;
+            }
             $ul = $li.children("div[name='sub']").children("ul");
         }
-        $tr = $table.find("tr[name='path']").last();
+        if (not_found) {
+            var sep = ' | ';
+            for (var e = (click_revert.length - 1) ; e >= 0 ; e--) {
+                click_revert[e].prop('checked', false).triggerHandler('click');
+            }
+            // build_classes_new[i] not already exists in the table, create it
+            var descr_txt = "";
+            var legacy = $("<span>", {"class": 'legacy', 'text': __('LEGACY (Vers.') +
+                                      build_class['vers'] + __(')')});
+            for (o = (atoms.length - 1) ; o >= 0 ; o--) {
+                atom = atoms[o];
+
+                // console.log(build_classes_new[i][o]);
+                if (atom != "Unknown") {
+                    descr_txt += (o == (atoms.length - 1) ? "" : sep) +
+                        __(atom);
+                }
+            }
+            $td = $("<td>", { "class": "path" });
+            $td.append($('<span>', { 'text': descr_txt }), legacy);
+            $tr = $("<tr>", { "name": "path-ro" });
+            $tr[0].data_gem_path = atoms.slice(0);
+            $tr[0].checked = true;
+            $tr.append($td,
+                       $('<td>').append(frequency_ddown_create('urban')),
+                       $('<td>').append(frequency_ddown_create('rural')));
+            $table.append($tr);
+        }
+        else {
+            $tr = $table.find("tr[name='path']").first();
+        }
         $tr.find("select[name='urban']").val(build_class.urban);
         $tr.find("select[name='rural']").val(build_class.rural);
-
+        is_table_visible = true;
     }
 
+    if (is_table_visible)
+        $table.show();
 
     $("button[name='save']").show();
 }
@@ -369,15 +466,21 @@ function build_class2obj(bc_row)
 function tree2obj(idx, tree)
 {
     var obj = { country: "", notes: "", build_classes: [] };
-    var $bc_rows = $(tree).find("table[name='build_classes'] tr[name='path']");
+    var $bc_rows = $(tree).find("table[name='build_classes']").find("tr[name='path']");
+    var $bc_rows_ro = $(tree).find("table[name='build_classes']").find("tr[name='path-ro']");
     var bc_idx, bc_row;
 
     obj.country = $(tree).find("p[name='title']").attr("data-gem-country");
     obj.notes = $(tree).find("textarea[name='notes']").val();
 
-    for (bc_idx = 0 ; bc_idx < $bc_rows.length ; bc_idx++) {
+    for (bc_idx = ($bc_rows.length - 1) ; bc_idx >= 0 ; bc_idx--) {
         bc_row = $bc_rows[bc_idx];
         obj.build_classes.push(build_class2obj(bc_row));
+    }
+
+    for (bc_idx = 0 ; bc_idx < $bc_rows_ro.length ; bc_idx++) {
+        bc_row_ro = $bc_rows_ro[bc_idx];
+        obj.build_classes.push(build_class2obj(bc_row_ro));
     }
 
     return obj;

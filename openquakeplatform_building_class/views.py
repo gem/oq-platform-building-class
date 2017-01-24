@@ -27,6 +27,7 @@ from django.db import transaction
 from models import ClassificationHead, ClassificationRow, FREQ_TYPE, FREQUENCY_TYPE
 from django.utils import timezone
 
+dataset_version = "0.9"
 
 def view(request, **kwargs):
     if not request.user.is_authenticated():
@@ -44,12 +45,14 @@ def view(request, **kwargs):
     classifications = []
     heads = ClassificationHead.objects.filter(owner_id=request.user.pk).order_by("id")
     for head in heads:
-        classification = { "country": head.country, "notes": head.notes, "build_classes": [] }
+        classification = { "country": head.country, "notes": head.notes, "build_classes": [],
+                           "vers": head.vers}
         rows = ClassificationRow.objects.filter(owner_id=request.user.pk, head_id=head.pk)
         for row in rows:
             build_class = { "path": row.path,
                             "rural": dict(FREQUENCY_TYPE)[row.rural],
-                            "urban": dict(FREQUENCY_TYPE)[row.urban] }
+                            "urban": dict(FREQUENCY_TYPE)[row.urban],
+                            "vers": row.vers}
             classification["build_classes"].append(build_class)
         classifications.append(classification)
     classifications_ser = json.dumps(classifications)
@@ -79,11 +82,13 @@ def data(request, **kwargs):
         ClassificationHead.objects.filter(owner_id=request.user.pk).delete()
         for classification in dt['classifications']:
             head = ClassificationHead(owner_id=request.user.pk, country=classification['country'],
-                                      notes=classification['notes'], last_mod=timezone.now())
+                                      notes=classification['notes'], last_mod=timezone.now(),
+                                      vers=dataset_version)
             head.save()
             for bc in classification['build_classes']:
                 row = ClassificationRow(owner_id=request.user.pk, head_id=head.pk, path=bc['path'],
-                                        rural=ft2int(bc['rural']), urban=ft2int(bc['urban']))
+                                        rural=ft2int(bc['rural']), urban=ft2int(bc['urban']),
+                                        vers=dataset_version)
                 row.save()
 
         transaction.commit()

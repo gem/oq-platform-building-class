@@ -37,6 +37,7 @@ class ClassificationHead(SingleOwnerMixin, models.Model):
     country = models.CharField(max_length=3)
     notes = models.CharField(max_length=CHMAX)
     last_mod = models.DateTimeField()
+    vers = models.CharField(max_length=16)
 
     def __unicode__(self):
         return self.country
@@ -46,3 +47,4 @@ class ClassificationRow(SingleOwnerMixin, models.Model):
     path = models.CharField(max_length=CHMAX)
     urban = models.IntegerField(choices=FREQUENCY_TYPE)
     rural = models.IntegerField(choices=FREQUENCY_TYPE)
+    vers = models.CharField(max_length=16)

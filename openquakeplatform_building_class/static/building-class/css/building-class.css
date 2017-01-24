@@ -161,3 +161,9 @@ div.save_resp_ok {
 div.save_resp_err {
     background-color: #ffdddd;
 }
+
+span.legacy {
+    float: right;
+    color: red;
+    text-decoration: underline;
+}
