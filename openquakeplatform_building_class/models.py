@@ -33,7 +33,7 @@ FREQUENCY_TYPE = (
     (FREQ_TYPE._VERY, 'very')
     )
     
-class CountryHead(SingleOwnerMixin, models.Model):
+class ClassificationHead(SingleOwnerMixin, models.Model):
     country = models.CharField(max_length=3)
     notes = models.CharField(max_length=CHMAX)
     last_mod = models.DateTimeField()
@@ -41,8 +41,8 @@ class CountryHead(SingleOwnerMixin, models.Model):
     def __unicode__(self):
         return self.country
 
-class CountryRow(SingleOwnerMixin, models.Model):
-    head = models.ForeignKey('CountryHead', on_delete=models.CASCADE)
+class ClassificationRow(SingleOwnerMixin, models.Model):
+    head = models.ForeignKey('ClassificationHead', on_delete=models.CASCADE)
     path = models.CharField(max_length=CHMAX)
     urban = models.IntegerField(choices=FREQUENCY_TYPE)
     rural = models.IntegerField(choices=FREQUENCY_TYPE)

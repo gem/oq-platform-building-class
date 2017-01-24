@@ -1,6 +1,8 @@
 gem_bcs_transl['it'] = {
     /* buttons */
     'new country': 'nuova nazione',
+    'yes': 'si',
+    'no': 'no',
 
     /* classification */
     'material': 'materiale',

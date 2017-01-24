@@ -61,7 +61,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           <select id="country-id">
             {{ countries_opts|safe }}
           </select>
-          <button id="new-country">new country</button>
+          <button id="new-classification">new classification</button>
         </div>
         <div id="forest">
           
@@ -83,7 +83,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
     var gem_bcs_tree_descr = {};
     csrf_token = "{% csrf_token %}";
 
-    gem_bcs_countries = {{countries|safe }};
+    gem_bcs_classifications = {{classifications|safe }};
     help = document.getElementById("help_url");
         /*
         if(help != null) { help.href+='/explore/'; }

@@ -15,7 +15,7 @@ select#country-id {
     text-transform: capitalize;
 }
 
-p.country_title {
+p.classification_title {
     text-transform: capitalize;
     font-weight: bold;
     display: inline-block;
@@ -35,7 +35,7 @@ div.tree input.checkbox {
     vertical-align: top;
 }
 
-button.country_del {
+button.classification_del {
     float: right;
 }
 
@@ -43,19 +43,20 @@ button.cascade_showhide {
     float: right;
 }
 
-p.country_notes {
+p.classification_notes {
     text-transform: capitalize;
     font-weight: bold;
     clear: both;
 }
 
-textarea.country_notes {
+textarea.classification_notes {
     width: 96%;
     height: 4em;
 }
 
 table.build_classes {
-    width: 96%;
+    margin: 0px;
+    width: 100%;
 }
 
 table.build_classes th {
@@ -68,6 +69,7 @@ table.build_classes th {
 table.build_classes td {
     font-size: 70%;
     border: 1px solid #d0d0d0;
+    padding: 0 4px 0 4px;
 }
 table.build_classes td.path {
     width: 66%;
@@ -92,7 +94,7 @@ div#forest {
 p.sub-title {
     line-height: 100%;
     font-weight: bold;
-    margin: 0px;
+    margin: 0 0 8px 0;
 }
 
 div#forest li div {

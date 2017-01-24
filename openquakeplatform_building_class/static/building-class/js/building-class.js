@@ -57,7 +57,7 @@ function tree_lang_update(index)
 function lang_update() {
     // country names
     $('select#country-id > option').each(function (idx) {$(this).text(__($(this).attr('value'))); });
-    $('button#new-country').text(__('new country'))
+    $('button#new-classification').text(__('new classification'))
 
     $('div#forest > div[name="tree"]').each(tree_lang_update);
 }
@@ -181,7 +181,6 @@ function build_classes_update(checkbox) {
 function checkbox_click_cb() {
     var item = $(this).parent();
     if (this.checked) {
-        console.log("HERE");
         var model = this.data_gem_model;
         var choices;
 
@@ -195,7 +194,6 @@ function checkbox_click_cb() {
         }
     }
     else { // try to hide subgroup (if no other sub checkbox are checked)
-        console.log("NOT HERE");
         var checked = $(item).find('input[type="checkbox"]:checked');
         if (checked.length == 0) {
             var sub = $(item).children('div[name="sub"]');
@@ -220,7 +218,6 @@ function country_del_cb() {
 }
 
 function cascade_showhide(to_show, $notes, $cascade, $button) {
-    console.log(to_show);
     if (to_show == false) {
         $cascade.hide();
         if ($notes.find("textarea[name='notes']").val().trim() == "") {
@@ -251,35 +248,12 @@ function cascade_showhide_cb() {
     cascade_showhide(to_show, $notes, $cascade, $(this));
 }
 
-
-function cascade_showhide_cb_old() {
-    var is_show = $(this).attr('data-gem-show');
-    var $tree, $notes;
-
-    $tree = $(this).parents("div[name='tree']");
-    $notes = $tree.children("div[name='notes']");
-    if (is_show == 'true') {
-        $tree.children("div[name='cascade']").hide();
-        if ($tree.find("textarea[name='notes']").val().trim() == "") {
-            $notes.hide();
-        }
-
-        $(this).html(__('show'));
-        $(this).attr('data-gem-show', 'false');
-    }
-    else {
-        $tree.children("div[name='cascade']").show();
-        $notes.show();
-        $(this).html(__('hide'));
-        $(this).attr('data-gem-show', 'true');
-    }
-}
-
-function country_add(country) {
+function classification_add(country) {
     var li = [];
     var notes = "";
     var build_classes = [];
     var show = true;
+    var is_table_visible = false;
 
     if (arguments.length == 4) {
         notes = arguments[1];
@@ -302,8 +276,8 @@ function country_add(country) {
                                    'text': __(material)})));
     }
 
-    var del_btn = $('<button>', {'name': 'delete', 'class': 'country_del', 'text': __('delete') });
-    del_btn.on('click', country_del_cb);
+    var del_btn = $('<button>', {'name': 'delete', 'class': 'classification_del', 'text': __('delete') });
+    del_btn.on('click', classification_del_cb);
     var cascade_showhide_btn = $('<button>', {'name': 'cascade_showhide', 'class': 'cascade_showhide',
                                               'data-gem-show': 'true', 'text': __('hide') });
     cascade_showhide_btn.on('click', cascade_showhide_cb);
@@ -319,12 +293,12 @@ function country_add(country) {
 
     $tree = $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-country': country}).append(
         $('<p>', {'name': 'title', 'data-gem-country': country,
-                  'class': 'country_title', 'text': __(country)}), del_btn, cascade_showhide_btn,
+                  'class': 'classification_title', 'text': __(country)}), del_btn, cascade_showhide_btn,
         $('<div>', { 'name': 'notes', 'class': 'notes'}).append(
-            $('<p>', {'class': 'country_notes', 'text': __('notes')}),
-            $('<p>', {'class': 'country_notes'}).append(
+            $('<p>', {'class': 'classification_notes', 'text': __('notes')}),
+            $('<p>', {'class': 'classification_notes'}).append(
                 $('<textarea>', {'name': 'notes', 'maxlength': '1024',
-                                 'class': 'country_notes', 'value': notes}))
+                                 'class': 'classification_notes', 'value': notes}))
         ),
         $('<div>', {'name': 'cascade'}).append(
             $('<p>', {'name': 'descr', 'class': 'sub-title',
@@ -358,7 +332,6 @@ function country_add(country) {
             // checkbox_click_cb($cbox[0]);
             $cbox.prop('checked', true).triggerHandler('click');
             $ul = $li.children("div[name='sub']").children("ul");
-            console.log($ul[0]);
         }
         $tr = $table.find("tr[name='path']").last();
         $tr.find("select[name='urban']").val(build_class.urban);
@@ -370,10 +343,10 @@ function country_add(country) {
     $("button[name='save']").show();
 }
 
-function country_add_cb() {
+function classification_add_cb() {
     var country = $("select#country-id").val();
 
-    country_add(country);
+    classification_add(country);
 }
 
 
@@ -420,11 +393,11 @@ function save_cb()
 {
     var tree, $trees = $("div#forest div[name='tree']");
     var obj = {};
-    obj.countries = [];
+    obj.classifications = [];
 
     for (idx = 0 ; idx < $trees.length ; idx++) {
         tree = $trees[idx];
-        obj.countries.push(tree2obj(idx, tree));
+        obj.classifications.push(tree2obj(idx, tree));
     }
 
     $.ajax({
@@ -454,13 +427,13 @@ function save_cb()
 }
 
 $(document).ready(function building_class_main() {
-    gem_bcs_transl_id = $('select#language-id').val();
-    $('button#new-country').on('click', country_add_cb);
+    // gem_bcs_transl_id = $('select#language-id').val();
+    $('button#new-classification').on('click', classification_add_cb);
     $('select#language-id').on('change', language_change_cb);
     $("button[name='save']").on('click', save_cb);
     lang_update();
-    for (var i = 0 ; i < gem_bcs_countries.length ; i++) {
-        country = gem_bcs_countries[i];
-        country_add(country.country, country.notes, country.build_classes, false);
+    for (var i = 0 ; i < gem_bcs_classifications.length ; i++) {
+        var classification = gem_bcs_classifications[i];
+        classification_add(classification.country, classification.notes, classification.build_classes, false);
     }
 })
