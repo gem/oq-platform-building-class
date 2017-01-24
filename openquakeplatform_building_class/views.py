@@ -37,7 +37,7 @@ def view(request, **kwargs):
             context_instance=RequestContext(request))
 
     countries_opts = ""
-    for country in Country.objects.all():
+    for country in Country.objects.all().order_by('name'):
         if not country.is_visible:
             continue
         countries_opts += '<option value="%s">%s</option>\n' % (country.iso3, country.name)
