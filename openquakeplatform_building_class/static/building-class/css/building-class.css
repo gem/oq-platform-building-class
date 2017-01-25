@@ -168,3 +168,11 @@ span.legacy {
     color: red;
     text-decoration: underline;
 }
+
+input.radio_btn {
+    vertical-align: text-bottom;
+}
+
+span.rbtn_label {
+    font-weight: bold;
+}

@@ -32,7 +32,10 @@ FREQUENCY_TYPE = (
     (FREQ_TYPE._FREQ, 'freq'),
     (FREQ_TYPE._VERY, 'very')
     )
-    
+
+class UserSettings(SingleOwnerMixin, models.Model):
+    publish_info = models.BooleanField()
+
 class ClassificationHead(SingleOwnerMixin, models.Model):
     country = models.CharField(max_length=3)
     notes = models.CharField(max_length=CHMAX)

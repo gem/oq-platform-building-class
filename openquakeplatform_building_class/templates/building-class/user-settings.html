@@ -1,0 +1,85 @@
+<!--
+Copyright (c) 2015-2016 GEM Foundation
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
+-->
+
+{% extends "site_base.html" %}
+{% load i18n %}
+{% load url from future %}
+
+{% block title %} Building Classification Survey {{ block.super }} {% endblock title %}
+
+{% block extra_head %}
+    {{block.super}}
+    <link href="{{ STATIC_URL }}css/oqplatform_index.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}css/handsontable.full.min.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}building-class/css/building-class.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}css/jQuery-UI-Bootstrap-0.2.5.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/absolute_center_spinner.css" />
+    <link href="{{ STATIC_URL }}css/sol.css" rel="stylesheet"/>
+{% endblock extra_head %}
+
+
+{% block body %}
+  <div class="span12">
+    <div class="hero-unit">
+      <div id="oq-context-ribbon">
+        {% block oq_context_ribbon %}
+        {% endblock oq_context_ribbon %}
+      </div>
+      <div id="oq-body-heading">
+        {% block oq_body_heading %}
+          <h1>{% trans "Building Classification Survey" %}</h1>
+          <h2>{% trans "User settings" %}</h2>
+          <br />
+        {% endblock oq_body_heading %}
+      </div>
+      <div id="oq-body-content" style="width: 100%;">
+
+        <!-- <div id="absoluteSpinner" class="loading">Loading&#8230;</div> -->
+        <div style="display: none;">
+          Language: <select id="language-id">
+            <option selected value="en">English</option>
+            <option value="it">Italiano</option>
+          </select>
+        </div>
+        <div class="disclaimer" name="disclaimer">
+          <form method="POST" action="./">
+            <input type="hidden" name="user_settings" value="true">
+          The 'Building classification tool' aims to create a global inventory of
+building classes in the world.<br><br>
+	
+
+          Would you like for your contribution to be acknowledged in future
+              documentation?: 
+            
+          <input class ="radio_btn" type="radio" name="pub_info" value="yes" {{ publish_info }}>
+          <span name="rbtn_yes" class="rbtn_label">yes</span>
+          <input class ="radio_btn" type="radio" name="pub_info" value="no" {{ not_publish_info }}>
+          <span name="rbtn_no" class="rbtn_label">no</span>
+          <br><br>
+          <input type="submit" value="submit">
+          </form>
+        </div>
+    </div>
+  </div>
+  <div id="dialog-message" title="Error" style="display: none; width: 600px;"></div>
+{% endblock body %}
+
+{% block extra_script %}
+    {{block.super}}
+    {% include 'search_scripts.html' %}
+
+{% endblock extra_script %}

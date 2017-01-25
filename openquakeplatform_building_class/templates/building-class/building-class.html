@@ -61,7 +61,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           <select id="country-id">
             {{ countries_opts|safe }}
           </select>
-          <button id="new-classification">new classification</button>
+          <button id="new-classification">new classification</button><button id="user-settings" style="float: right;">User Settings</button>
+
         </div>
         <div id="forest">
           
@@ -84,6 +85,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
     csrf_token = "{% csrf_token %}";
 
     gem_bcs_classifications = {{classifications|safe }};
+    gem_bcs_success_msg = '{{ success_msg|safe }}';
+    gem_bcs_error_msg = '{{ error_msg|safe }}';
+
     help = document.getElementById("help_url");
         /*
         if(help != null) { help.href+='/explore/'; }
@@ -99,10 +103,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
         var g_gmpe_options = [];
         
         for (var i = 0 ; i < g_gmpe.length ; i++) {
-                             g_gmpe_options[i] = { type: "option", value: g_gmpe[i], label: g_gmpe[i] };
-                             }
-                             */
-                             </script>
+            g_gmpe_options[i] = { type: "option", value: g_gmpe[i], label: g_gmpe[i] };
+        }
+        */
+  </script>
 
   <script src="{{ STATIC_URL }}/building-class/js/building-class.js"></script>
   <script src="{{ STATIC_URL }}/building-class/js/composite.js"></script>
@@ -112,6 +116,20 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
   <script src="{{ STATIC_URL }}/building-class/js/wood.js"></script>
   <script src="{{ STATIC_URL }}/building-class/js/transl_en.js"></script>
   <script src="{{ STATIC_URL }}/building-class/js/transl_it.js"></script>
+  <script>
+        if (gem_bcs_success_msg != '') {
+        $("div[name='save_resp']").text(gem_bcs_success_msg);
+        $("div[name='save_resp']").attr("class", "save_resp_ok");
+    }
+    else if (gem_bcs_error_msg != '') {
+        $("div[name='save_resp']").text(gem_bcs_error_msg);
+        $("div[name='save_resp']").attr("class", "save_resp_err");
+    }
+    if (gem_bcs_success_msg != '' || gem_bcs_error_msg != '') {
+        setTimeout(save_resp_clean, 5000);
+    }
+
+</script>
 {% comment %}
     {% if request.GET.example_id|add:"0" > 0 and request.GET.example_id|add:"0" < 100 and request.GET.tab_id|add:"0" > 0 and request.GET.tab_id|add:"0" < 6 %}
 <script src="{{ STATIC_URL }}ipt/js/examples/{{ request.GET.tab_id|add:"0" }}{{ request.GET.example_id|add:"0"|stringformat:"02d" }}.js"></script>

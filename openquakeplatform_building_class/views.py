@@ -21,20 +21,71 @@ from openquakeplatform.vulnerability.models import Country
 from django.utils.cache import add_never_cache_headers
 from django.core.serializers.json import DjangoJSONEncoder
 import json
-from django.http import HttpResponse
+from django.http import (HttpResponse, Http404)
 from django.db import transaction
 
-from models import ClassificationHead, ClassificationRow, FREQ_TYPE, FREQUENCY_TYPE
+from models import (UserSettings, ClassificationHead, ClassificationRow,
+                    FREQ_TYPE, FREQUENCY_TYPE)
 from django.utils import timezone
 
 dataset_version = "0.9"
 
+
+def __user_settings_manager(request, user_settings, **kwargs):
+    if not user_settings:
+        publish_info = 'checked = "checked"'
+        not_publish_info = ''
+    else:
+        if user_settings.publish_info:
+            publish_info = 'checked = "checked"'
+            not_publish_info = ''
+        else:
+            publish_info = ''
+            not_publish_info = 'checked = "checked"'
+
+    return render_to_response(
+        "building-class/user-settings.html",
+        dict(none=None,
+             publish_info=publish_info,
+             not_publish_info=not_publish_info),
+        context_instance=RequestContext(request))
+
+def user_settings_view(request, **kwargs):
+    user_settings = UserSettings.objects.get(owner_id=request.user.pk)
+
+    return __user_settings_manager(request, user_settings, **kwargs)
+
+
 def view(request, **kwargs):
+    success_msg = ''
+    error_msg = ''
     if not request.user.is_authenticated():
         return render_to_response(
             "building-class/building-class-not-auth.html",
             dict(none=None),
             context_instance=RequestContext(request))
+
+    try:
+        user_settings = UserSettings.objects.get(owner_id=request.user.pk)
+    except:
+        user_settings = None
+
+    if request.method == 'POST' and request.POST.get('user_settings', '')  == 'true':
+        try:
+            if not user_settings:
+                user_settings = UserSettings(owner_id=request.user.pk,
+                                             publish_info=(request.POST.get('pub_info', 'no') == 'yes'))
+                user_settings.save()
+            else:
+                user_settings.publish_info = (request.POST.get('pub_info', 'no') == 'yes')
+                user_settings.save()
+            success_msg = 'User settings saved correctly.'
+        except Exception as e:
+            error_msg = 'User settings save failed (%s)'  % e
+
+    if not user_settings:
+        return __user_settings_manager(request, None, **kwargs)
+
 
     countries_opts = ""
     for country in Country.objects.all().order_by('name'):
@@ -59,7 +110,9 @@ def view(request, **kwargs):
 
     return render_to_response(
         "building-class/building-class.html",
-        dict(countries_opts=countries_opts,
+        dict(success_msg=success_msg,
+             error_msg=error_msg,
+             countries_opts=countries_opts,
              classifications=classifications_ser
              ),
         context_instance=RequestContext(request))

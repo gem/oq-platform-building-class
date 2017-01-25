@@ -529,9 +529,15 @@ function save_cb()
 
 }
 
+function user_settings_cb()
+{
+    window.location.href = 'user-settings';
+}
+
 $(document).ready(function building_class_main() {
     // gem_bcs_transl_id = $('select#language-id').val();
     $('button#new-classification').on('click', classification_add_cb);
+    $('button#user-settings').on('click', user_settings_cb);
     $('select#language-id').on('change', language_change_cb);
     $("button[name='save']").on('click', save_cb);
     lang_update();
