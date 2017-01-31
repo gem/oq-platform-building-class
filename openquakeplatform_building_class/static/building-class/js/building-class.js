@@ -566,7 +566,7 @@ function classification_add(country) {
     $tree = $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-country': country}).append(
         $('<p>', {'name': 'title', 'data-gem-country': country,
                   'class': 'classification_title', 'text': __(country)}),
-        del_btn, cascade_showhide_btn, occupancies_showhide_btn,
+        del_btn, occupancies_showhide_btn, cascade_showhide_btn,
         occupancies_div, operational_div
     );
 
