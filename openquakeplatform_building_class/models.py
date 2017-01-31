@@ -46,6 +46,7 @@ OCCUPACY_TYPE = (
     (OCCUP_TYPE._COMMERCIAL,   'commercial'),
     (OCCUP_TYPE._INDUSTRIAL,   'industrial'),
     (OCCUP_TYPE._EDUCATIONAL,  'educational'),
+    (OCCUP_TYPE._HEALTHCARE,   'healthcare'),
     (OCCUP_TYPE._GOVERNMENTAL, 'governmental')
     )
 
