@@ -83,6 +83,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
   <script>
     var gem_bcs_tree_descr = {};
     csrf_token = "{% csrf_token %}";
+    gem_static_url = "{{ STATIC_URL }}";
 
     gem_bcs_classifications = {{classifications|safe }};
     gem_bcs_success_msg = '{{ success_msg|safe }}';

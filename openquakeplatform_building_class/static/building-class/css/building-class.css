@@ -30,6 +30,7 @@ div.tree {
     padding: 8px;
     border: 1px solid #d0d0d0;
     margin-bottom: 8px;
+    overflow: auto;
 }
 
 div.tree input.checkbox {
@@ -40,8 +41,18 @@ button.classification_del {
     float: right;
 }
 
+button.occup_next_btn {
+    float: right;
+}
+
 button.cascade_showhide {
     float: right;
+    margin-right: 4px;
+}
+
+button.occupancies_showhide {
+    float: right;
+    margin-right: 4px;
 }
 
 p.classification_notes {
@@ -175,4 +186,25 @@ input.radio_btn {
 
 span.rbtn_label {
     font-weight: bold;
+}
+
+table.occupancies_mod {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 48px 4px;
+}
+
+table.occupancies_mod td {
+    text-align: center;
+    padding: 4px;
+    border-collapse: separate;
+}
+
+table.occupancies_mod td.sel {
+    background-color: #aaffaa;
+}
+
+table.occupancies_mod td img {
+    margin: 2px 2px 2px 8px;
+    cursor: pointer;
 }

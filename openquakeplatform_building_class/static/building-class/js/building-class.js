@@ -1,6 +1,14 @@
 /*
   TODO:
 
+  - occupancies
+    DONE . show tab when create
+    . move to next step
+    . re-edit again
+    . send to server
+    . server management
+    . reload from server
+
   DONE - countries
   DONE - remove countries blocks
   DONE - hide trees
@@ -17,7 +25,7 @@
   DONE - populate the page
   DONE - security issues
   DONE - disclaimer when not logged
-  HALF - styling
+  DONE - styling
 
   - recursive unclick require confirm
 
@@ -299,17 +307,28 @@ function cascade_showhide_cb() {
     cascade_showhide(to_show, $notes, $cascade, $(this));
 }
 
+function occupancies_showhide_cb() {
+    console.log("FIXME: occupancies_showhide_cb");
+}
+
 function classification_add(country) {
     var li = [];
     var notes = "";
+    var occupancies = [];
+    var occupancies_view = true;
     var build_classes = [];
     var show = true;
     var is_table_visible = false;
 
-    if (arguments.length == 4) {
-        notes = arguments[1];
-        build_classes = arguments[2];
-        show = arguments[3];
+    if (arguments.length == 5) {
+        occupancies = arguments[1];
+        notes = arguments[2];
+        build_classes = arguments[3];
+        show = arguments[4];
+    }
+
+    if (occupancies.length > 0) {
+        occupancies_view = true;
     }
 
     var material, materials = ['Masonry', 'Concrete', 'Steel', 'Composite', 'Wood'];
@@ -332,6 +351,14 @@ function classification_add(country) {
     var cascade_showhide_btn = $('<button>', {'name': 'cascade_showhide', 'class': 'cascade_showhide',
                                               'data-gem-show': 'true', 'text': __('hide') });
     cascade_showhide_btn.on('click', cascade_showhide_cb);
+    if (occupancies_view)
+        cascade_showhide_btn.hide();
+
+    var occupancies_showhide_btn =  $('<button>', {'name': 'occupancies_showhide', 'class': 'occupancies_showhide',
+                                          'data-gem-show': 'true', 'text': __('occupancies') });
+    occupancies_showhide_btn.on('click', occupancies_showhide_cb);
+    if (occupancies_view)
+        occupancies_showhide_btn.hide();
 
     var $table = $("<table>", {"name": "build_classes", "class": "build_classes"}).append(
         $("<tr>", {"name": "titles"}).append($("<th>", {"text": __("building type")}),
@@ -342,9 +369,103 @@ function classification_add(country) {
     if (build_classes.length == 0)
         $table.hide();
 
-    $tree = $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-country': country}).append(
-        $('<p>', {'name': 'title', 'data-gem-country': country,
-                  'class': 'classification_title', 'text': __(country)}), del_btn, cascade_showhide_btn,
+    function occupancy_img_cb()
+    {
+        var par = $(this).parent();
+        var cbox = par.children('checkbox');
+        var img = par.children('img');
+
+        if (cbox.is(":checked")) {
+            cbox.prop('checked', false);
+            img.removeClass('sel');
+        }
+        else {
+            cbox.prop('checked', true);
+            img.addClass('sel');
+        }
+
+        console.log(this);
+    };
+
+    function occupancy_cb()
+    {
+        var par = $(this).parent();
+        var cbox = par.children("input[type='checkbox']");
+        var img = par.children('img');
+        var is_checked = cbox.is(":checked");
+
+        if (this.tagName != 'IMG') {
+            is_checked = !is_checked;
+        }
+
+        if (is_checked) {
+            cbox.prop('checked', false);
+            par.removeClass('sel');
+        }
+        else {
+            cbox.prop('checked', true);
+            par.addClass('sel');
+        }
+
+        console.log(this);
+    };
+
+    function occupancies_item_add(occ_name)
+    {
+        var td = $('<td>');
+        var cbox = $('<input>', {'type':'checkbox', 'name': occ_name});
+        var img = $('<img>', {'src': gem_static_url + '/building-class/img/120/' + occ_name + '.png'});
+
+        cbox.on('click', occupancy_cb);
+        img.on('click', occupancy_cb);
+        td.append(cbox, img);
+
+        return td;
+    };
+
+
+    var occupancies_tab = $('<table>', {'class': 'occupancies_mod'});
+    var occupancies_name = ['residential', 'commercial', 'industrial', 'educational', 'healthcare', 'governmental'];
+    var tr = null;
+    for (var i = 0 ; i < 6 ; i++) {
+        if (i == 0 || i == 3) {
+            tr = $('<tr>');
+        }
+        tr.append(occupancies_item_add(occupancies_name[i]));
+        if (i == 2 || i == 5) {
+            console.log('middle');
+            console.log(tr);
+            occupancies_tab.append(tr);
+        }
+    }
+
+    function occup_next_btn_cb()
+    {
+        var tree = $(this).parents("div[name='tree']");
+        occupancies_ret = [];
+
+        for (var i = 0 ; i < occupancies_name.length ; i++) {
+            if (tree.find("div[name='occupancies'] input[type='checkbox'][name='" + occupancies_name[i] + "']"
+                         ).is(':checked')) {
+                occupancies_ret.push(occupancies_name[i]);
+            }
+        }
+        console.log(occupancies_ret);
+    }
+
+    occupancies_div = $('<div>', {'name': 'occupancies'});
+    occup_next_btn = $('<button>', {'name': 'next', 'class': 'occup_next_btn', 'text': __('next') });
+    occup_next_btn.on('click', occup_next_btn_cb);
+
+    occupancies_div.append($('<p>', {'name': 'occupancies_descr',
+                                     'text': __('What type of building occupancy will you characterise (at least one) ?')}),
+                           occupancies_tab,
+                           $('<div>').append(occup_next_btn));
+
+    if (! occupancies_view)
+        occupancies_div.hide();
+
+    var operational_div = $('<div>', {'name': 'operational'}).append(
         $('<div>', { 'name': 'notes', 'class': 'notes'}).append(
             $('<p>', {'class': 'classification_notes', 'text': __('notes')}),
             $('<p>', {'class': 'classification_notes'}).append(
@@ -355,11 +476,21 @@ function classification_add(country) {
             $('<p>', {'name': 'descr', 'class': 'sub-title',
                       'text': __('Material')}),
             $("<ul>").append(li)),
-        $table
+        $table);
+    if (occupancies_view)
+        operational_div.hide();
+
+    console.log(occupancies_div);
+
+    $tree = $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-country': country}).append(
+        $('<p>', {'name': 'title', 'data-gem-country': country,
+                  'class': 'classification_title', 'text': __(country)}),
+        del_btn, cascade_showhide_btn, occupancies_showhide_btn,
+        occupancies_div, operational_div
     );
 
-    $notes = $tree.children("div[name='notes']");
-    $cascade = $tree.children("div[name='cascade']");
+    $notes = $tree.find("div[name='notes']");
+    $cascade = $tree.find("div[name='cascade']");
 
     cascade_showhide(show, $notes, $cascade, cascade_showhide_btn);
 
@@ -543,6 +674,7 @@ $(document).ready(function building_class_main() {
     lang_update();
     for (var i = 0 ; i < gem_bcs_classifications.length ; i++) {
         var classification = gem_bcs_classifications[i];
-        classification_add(classification.country, classification.notes, classification.build_classes, false);
+        classification.occupancies = [ 'residential' ];
+        classification_add(classification.country, classification.occupancies, classification.notes, classification.build_classes, false);
     }
 })
