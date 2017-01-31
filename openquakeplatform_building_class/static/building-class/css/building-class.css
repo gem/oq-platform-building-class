@@ -61,6 +61,13 @@ p.classification_notes {
     clear: both;
 }
 
+p.classification_occupancies {
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+    clear: left;
+}
+
 textarea.classification_notes {
     width: 96%;
     height: 4em;
@@ -207,4 +214,13 @@ table.occupancies_mod td.sel {
 table.occupancies_mod td img {
     margin: 2px 2px 2px 8px;
     cursor: pointer;
+}
+
+div.occupancies_ro_ctx {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+div.occupancies_ro_ctx img {
+    margin: 0 0 8px 16px;
 }

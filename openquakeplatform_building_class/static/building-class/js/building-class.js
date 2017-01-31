@@ -6,10 +6,11 @@
     DONE . title for images
     DONE . move to next step
     DONE . re-edit again
-    . readonly: occupancies
+    DONE . readonly: occupancies (with update)
     . send to server
     . server management
     . reload from server
+    . to_save flag & prevent page adbandon
 
   DONE - countries
   DONE - remove countries blocks
@@ -409,24 +410,45 @@ function occupancies_item_add(occ_name)
     return td;
 };
 
-function occup_next_btn_cb()
+function occupancies_get($tree)
 {
-    var tree = $(this).parents("div[name='tree']");
-    occupancies_ret = [];
+    var occupancies = [];
 
     for (var i = 0 ; i < gem_occupancy_names.length ; i++) {
-        if (tree.find("div[name='occupancies'] input[type='checkbox'][name='" + gem_occupancy_names[i] + "']"
+        if ($tree.find("div[name='occupancies'] input[type='checkbox'][name='" + gem_occupancy_names[i] + "']"
                      ).is(':checked')) {
-            occupancies_ret.push(gem_occupancy_names[i]);
+            occupancies.push(gem_occupancy_names[i]);
         }
     }
 
-    if (occupancies_ret.length == 0) {
+    return occupancies;
+}
+
+function occupancies_ro_set(occupancies_ro_ctx, occupancies)
+{
+    occupancies_ro_ctx.empty();
+    for (var i = 0 ; i < occupancies.length ; i++) {
+        occ_name = occupancies[i];
+
+        occupancies_ro_ctx.append($('<img>', {'src': gem_static_url + '/building-class/img/60/' + occ_name + '.png',
+                                              'title': __(occ_name)}));
+    }
+}
+
+function occup_next_btn_cb()
+{
+    var $tree = $(this).parents("div[name='tree']");
+    var occupancies;
+
+    occupancies = occupancies_get($tree);
+
+    if (occupancies.length == 0) {
         gem_modal_alert(__('occupancies'), __('At least one occupancy type must be selected.'));
         return;
     }
+    occupancies_ro_set($tree.find("div[name='occupancies_ro_ctx']"), occupancies);
 
-    classification_tab_show(tree, 'operational');
+    classification_tab_show($tree, 'operational');
 }
 
 function classification_add(country) {
@@ -447,8 +469,7 @@ function classification_add(country) {
     }
 
     if (occupancies.length > 0) {
-        // FIXME
-        occupancies_view = true;
+        occupancies_view = false;
     }
 
     var material, materials = ['Masonry', 'Concrete', 'Steel', 'Composite', 'Wood'];
@@ -513,7 +534,15 @@ function classification_add(country) {
     if (! occupancies_view)
         occupancies_div.hide();
 
+    var occupancies_ro_ctx = $('<div>', {'name': 'occupancies_ro_ctx', 'class': 'occupancies_ro_ctx'});
+
+    occupancies_ro_set(occupancies_ro_ctx, occupancies);
+
     var operational_div = $('<div>', {'name': 'operational'}).append(
+        $('<div>', { 'name': 'occupancies_ro', 'class': 'occupancies_ro'}).append(
+            $('<p>', {'class': 'classification_occupancies', 'text': __('occupancies')}),
+            occupancies_ro_ctx
+        ),
         $('<div>', { 'name': 'notes', 'class': 'notes'}).append(
             $('<p>', {'class': 'classification_notes', 'text': __('notes')}),
             $('<p>', {'class': 'classification_notes'}).append(
@@ -611,6 +640,11 @@ function classification_add(country) {
         $tr.find("select[name='urban']").val(build_class.urban);
         $tr.find("select[name='rural']").val(build_class.rural);
         is_table_visible = true;
+    }
+
+    for (var i = 0 ; i < occupancies.length ; i++) {
+        occupancies_div.find("input[type='checkbox'][name='" + occupancies[i] + "']"
+                            ).prop('checked', true).triggerHandler('click');
     }
 
     if (is_table_visible)
@@ -722,7 +756,7 @@ $(document).ready(function building_class_main() {
     lang_update();
     for (var i = 0 ; i < gem_bcs_classifications.length ; i++) {
         var classification = gem_bcs_classifications[i];
-        classification.occupancies = [ 'residential' ];
+        classification.occupancies = ['residential', 'industrial', 'educational', 'healthcare'];
         classification_add(classification.country, classification.occupancies, classification.notes, classification.build_classes, false);
     }
 })
