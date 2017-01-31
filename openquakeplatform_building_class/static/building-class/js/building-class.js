@@ -3,8 +3,10 @@
 
   - occupancies
     DONE . show tab when create
-    . move to next step
-    . re-edit again
+    DONE . title for images
+    DONE . move to next step
+    DONE . re-edit again
+    . readonly: occupancies
     . send to server
     . server management
     . reload from server
@@ -37,6 +39,7 @@
 
 var gem_bcs_transl = {};
 var gem_bcs_transl_id = "en";
+var gem_occupancy_names = ['residential', 'commercial', 'industrial', 'educational', 'healthcare', 'governmental'];
 
 function __(id) {
     if (id in gem_bcs_transl[gem_bcs_transl_id])
@@ -136,7 +139,7 @@ function build_classes_update(checkbox) {
         } while (true);
     }
 
-    $table = $tree.children("table[name='build_classes']");
+    $table = $tree.find("table[name='build_classes']");
 
     // set all rows as not checked
     $table.find("tr[name='path']").each(function () { this.checked = false });
@@ -244,6 +247,27 @@ function gem_modal_confirm(obj, title, content, success_cb, error_cb) {
     });
 }
 
+function gem_modal_alert(title, content) {
+    var $dial;
+
+    $dial = $('<div>', { 'title': title, 'text': content });
+    $('body').append($dial);
+    var buttons = {}
+
+    buttons[__("ok")] = function() {
+        $(this).dialog("close");
+        $dial.remove();
+    };
+
+    $dial.dialog({
+        resizable: false,
+        height: "auto",
+        width: 400,
+        modal: true,
+        buttons: buttons
+    });
+}
+
 
 
 
@@ -301,14 +325,108 @@ function cascade_showhide_cb() {
 
     $button = $(this);
     $tree = $button.parents("div[name='tree']");
-    $notes = $tree.children("div[name='notes']");
-    $cascade = $tree.children("div[name='cascade']");
+    $notes = $tree.find("div[name='notes']");
+    $cascade = $tree.find("div[name='cascade']");
 
     cascade_showhide(to_show, $notes, $cascade, $(this));
 }
 
 function occupancies_showhide_cb() {
-    console.log("FIXME: occupancies_showhide_cb");
+    var $tree = $(this).parents("div[name='tree']");
+    classification_tab_show($tree, 'occupancies');
+}
+
+function classification_tab_show($tree, tab_name)
+{
+    // 'occupancies', 'operational'
+    var $occ = $tree.find("div[name='occupancies']");
+    var $ope = $tree.find("div[name='operational']");
+    var $casc_btn = $tree.find("button[name='cascade_showhide']");
+    var $occ_btn = $tree.find("button[name='occupancies_showhide']");
+
+    if (tab_name == 'occupancies') {
+        $occ.show();
+        $ope.hide();
+        $casc_btn.hide();
+        $occ_btn.hide();
+    }
+    else if (tab_name == 'operational') {
+        $occ.hide();
+        $ope.show();
+        $casc_btn.show();
+        $occ_btn.show();
+    }
+}
+
+function occupancy_img_cb()
+{
+    var par = $(this).parent();
+    var cbox = par.children('checkbox');
+    var img = par.children('img');
+
+    if (cbox.is(":checked")) {
+        cbox.prop('checked', false);
+        img.removeClass('sel');
+    }
+    else {
+        cbox.prop('checked', true);
+        img.addClass('sel');
+    }
+};
+
+function occupancy_cb()
+{
+    var par = $(this).parent();
+    var cbox = par.children("input[type='checkbox']");
+    var img = par.children('img');
+    var is_checked = cbox.is(":checked");
+
+    if (this.tagName != 'IMG') {
+        is_checked = !is_checked;
+    }
+
+    if (is_checked) {
+        cbox.prop('checked', false);
+        par.removeClass('sel');
+    }
+    else {
+        cbox.prop('checked', true);
+        par.addClass('sel');
+    }
+};
+
+function occupancies_item_add(occ_name)
+{
+    var td = $('<td>');
+    var cbox = $('<input>', {'type':'checkbox', 'name': occ_name});
+    var img = $('<img>', {'src': gem_static_url + '/building-class/img/120/' + occ_name + '.png',
+                          'title': __(occ_name)});
+
+    cbox.on('click', occupancy_cb);
+    img.on('click', occupancy_cb);
+    td.append(cbox, img);
+
+    return td;
+};
+
+function occup_next_btn_cb()
+{
+    var tree = $(this).parents("div[name='tree']");
+    occupancies_ret = [];
+
+    for (var i = 0 ; i < gem_occupancy_names.length ; i++) {
+        if (tree.find("div[name='occupancies'] input[type='checkbox'][name='" + gem_occupancy_names[i] + "']"
+                     ).is(':checked')) {
+            occupancies_ret.push(gem_occupancy_names[i]);
+        }
+    }
+
+    if (occupancies_ret.length == 0) {
+        gem_modal_alert(__('occupancies'), __('At least one occupancy type must be selected.'));
+        return;
+    }
+
+    classification_tab_show(tree, 'operational');
 }
 
 function classification_add(country) {
@@ -320,6 +438,7 @@ function classification_add(country) {
     var show = true;
     var is_table_visible = false;
 
+    // console.log("CLASSIFICATION ADD");
     if (arguments.length == 5) {
         occupancies = arguments[1];
         notes = arguments[2];
@@ -328,6 +447,7 @@ function classification_add(country) {
     }
 
     if (occupancies.length > 0) {
+        // FIXME
         occupancies_view = true;
     }
 
@@ -369,88 +489,16 @@ function classification_add(country) {
     if (build_classes.length == 0)
         $table.hide();
 
-    function occupancy_img_cb()
-    {
-        var par = $(this).parent();
-        var cbox = par.children('checkbox');
-        var img = par.children('img');
-
-        if (cbox.is(":checked")) {
-            cbox.prop('checked', false);
-            img.removeClass('sel');
-        }
-        else {
-            cbox.prop('checked', true);
-            img.addClass('sel');
-        }
-
-        console.log(this);
-    };
-
-    function occupancy_cb()
-    {
-        var par = $(this).parent();
-        var cbox = par.children("input[type='checkbox']");
-        var img = par.children('img');
-        var is_checked = cbox.is(":checked");
-
-        if (this.tagName != 'IMG') {
-            is_checked = !is_checked;
-        }
-
-        if (is_checked) {
-            cbox.prop('checked', false);
-            par.removeClass('sel');
-        }
-        else {
-            cbox.prop('checked', true);
-            par.addClass('sel');
-        }
-
-        console.log(this);
-    };
-
-    function occupancies_item_add(occ_name)
-    {
-        var td = $('<td>');
-        var cbox = $('<input>', {'type':'checkbox', 'name': occ_name});
-        var img = $('<img>', {'src': gem_static_url + '/building-class/img/120/' + occ_name + '.png'});
-
-        cbox.on('click', occupancy_cb);
-        img.on('click', occupancy_cb);
-        td.append(cbox, img);
-
-        return td;
-    };
-
-
     var occupancies_tab = $('<table>', {'class': 'occupancies_mod'});
-    var occupancies_name = ['residential', 'commercial', 'industrial', 'educational', 'healthcare', 'governmental'];
     var tr = null;
     for (var i = 0 ; i < 6 ; i++) {
         if (i == 0 || i == 3) {
             tr = $('<tr>');
         }
-        tr.append(occupancies_item_add(occupancies_name[i]));
+        tr.append(occupancies_item_add(gem_occupancy_names[i]));
         if (i == 2 || i == 5) {
-            console.log('middle');
-            console.log(tr);
             occupancies_tab.append(tr);
         }
-    }
-
-    function occup_next_btn_cb()
-    {
-        var tree = $(this).parents("div[name='tree']");
-        occupancies_ret = [];
-
-        for (var i = 0 ; i < occupancies_name.length ; i++) {
-            if (tree.find("div[name='occupancies'] input[type='checkbox'][name='" + occupancies_name[i] + "']"
-                         ).is(':checked')) {
-                occupancies_ret.push(occupancies_name[i]);
-            }
-        }
-        console.log(occupancies_ret);
     }
 
     occupancies_div = $('<div>', {'name': 'occupancies'});
@@ -458,7 +506,7 @@ function classification_add(country) {
     occup_next_btn.on('click', occup_next_btn_cb);
 
     occupancies_div.append($('<p>', {'name': 'occupancies_descr',
-                                     'text': __('What type of building occupancy will you characterise (at least one) ?')}),
+                                     'text': __('What type of building occupancy will you characterise ?')}),
                            occupancies_tab,
                            $('<div>').append(occup_next_btn));
 
