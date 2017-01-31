@@ -126,18 +126,21 @@ function build_classes_update(checkbox) {
     var i, e, o, $table, $rows, $tr, sep = " | ", descr;
 
     $tree = $(checkbox).parents('div[name="tree"]');
-    $leafs = $tree.find('input[type="checkbox"]:checked:not(:has(~ div input[type="checkbox"]:checked))');
+    $leafs = $tree.find('div[name="cascade"] input[type="checkbox"]:checked:not(:has(~ div input[type="checkbox"]:checked))');
 
     for (i = 0 ; i < $leafs.length ; i++) {
         $leaf =  $($leafs[i]);
         build_classes_new[i] = [];
-        do {
+        for (e = 0 ; e < 1000 ; e++) {
             build_classes_new[i].push($leaf.attr('name'));
             if ($leaf.parent().attr('data-gem-base') != undefined) {
                 break;
             }
             $leaf = $leaf.parent().parent().parent().parent().children('input[type="checkbox"]');
-        } while (true);
+        }
+        if (e == 1000) {
+            console.log("WARNING: Max iteration number reached 1000");
+        }
     }
 
     $table = $tree.find("table[name='build_classes']");
@@ -194,6 +197,7 @@ function build_classes_update(checkbox) {
 
 function checkbox_click_cb() {
     var item = $(this).parent();
+
     if (this.checked) {
         var model = this.data_gem_model;
         var choices;
