@@ -33,11 +33,28 @@ FREQUENCY_TYPE = (
     (FREQ_TYPE._VERY, 'very')
     )
 
+class OCCUP_TYPE(object):
+    _RESIDENTIAL  =  1
+    _COMMERCIAL   =  2
+    _INDUSTRIAL   =  4
+    _EDUCATIONAL  =  8
+    _HEALTHCARE   = 16
+    _GOVERNMENTAL = 32
+
+OCCUPACY_TYPE = (
+    (OCCUP_TYPE._RESIDENTIAL,  'residential'),
+    (OCCUP_TYPE._COMMERCIAL,   'commercial'),
+    (OCCUP_TYPE._INDUSTRIAL,   'industrial'),
+    (OCCUP_TYPE._EDUCATIONAL,  'educational'),
+    (OCCUP_TYPE._GOVERNMENTAL, 'governmental')
+    )
+
 class UserSettings(SingleOwnerMixin, models.Model):
     publish_info = models.BooleanField()
 
 class ClassificationHead(SingleOwnerMixin, models.Model):
     country = models.CharField(max_length=3)
+    occupancy = models.IntegerField()
     notes = models.CharField(max_length=CHMAX)
     last_mod = models.DateTimeField()
     vers = models.CharField(max_length=16)

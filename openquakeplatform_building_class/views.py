@@ -25,7 +25,7 @@ from django.http import (HttpResponse, Http404)
 from django.db import transaction
 
 from models import (UserSettings, ClassificationHead, ClassificationRow,
-                    FREQ_TYPE, FREQUENCY_TYPE)
+                    FREQ_TYPE, FREQUENCY_TYPE, OCCUP_TYPE, OCCUPACY_TYPE)
 from django.utils import timezone
 
 dataset_version = "0.9"
@@ -49,6 +49,25 @@ def __user_settings_manager(request, user_settings, **kwargs):
              publish_info=publish_info,
              not_publish_info=not_publish_info),
         context_instance=RequestContext(request))
+
+_occupancies_dict = dict(OCCUPACY_TYPE)
+
+def _occupancies_decode(occupancy):
+    print _occupancies_dict
+    occupancies = []
+    for i in range(0, len(OCCUPACY_TYPE)):
+        if occupancy & (2**i):
+            occupancies.append(_occupancies_dict[2**i])
+
+    return occupancies
+
+def _occupancies_encode(occupancies):
+    occupancy = 0
+    for k in _occupancies_dict.keys():
+        if _occupancies_dict[k] in occupancies:
+            occupancy += k
+
+    return occupancy
 
 def user_settings_view(request, **kwargs):
     user_settings = UserSettings.objects.get(owner_id=request.user.pk)
@@ -96,7 +115,9 @@ def view(request, **kwargs):
     classifications = []
     heads = ClassificationHead.objects.filter(owner_id=request.user.pk).order_by("id")
     for head in heads:
-        classification = { "country": head.country, "notes": head.notes, "build_classes": [],
+        occupancies = _occupancies_decode(head.occupancy)
+        classification = { "country": head.country, "occupancies": occupancies,
+                           "notes": head.notes, "build_classes": [],
                            "vers": head.vers}
         rows = ClassificationRow.objects.filter(owner_id=request.user.pk, head_id=head.pk)
         for row in rows:
@@ -135,6 +156,7 @@ def data(request, **kwargs):
         ClassificationHead.objects.filter(owner_id=request.user.pk).delete()
         for classification in dt['classifications']:
             head = ClassificationHead(owner_id=request.user.pk, country=classification['country'],
+                                      occupancy=_occupancies_encode(classification['occupancies']),
                                       notes=classification['notes'], last_mod=timezone.now(),
                                       vers=dataset_version)
             head.save()

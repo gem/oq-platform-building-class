@@ -7,9 +7,9 @@
     DONE . move to next step
     DONE . re-edit again
     DONE . readonly: occupancies (with update)
-    . send to server
-    . server management
-    . reload from server
+    DONE . send to server
+    DONE . reload from server
+    DONE . server management
     . to_save flag & prevent page adbandon
 
   DONE - countries
@@ -688,6 +688,7 @@ function tree2obj(idx, tree)
     var bc_idx, bc_row;
 
     obj.country = $(tree).find("p[name='title']").attr("data-gem-country");
+    obj.occupancies = occupancies_get($(tree));
     obj.notes = $(tree).find("textarea[name='notes']").val();
 
     for (bc_idx = ($bc_rows.length - 1) ; bc_idx >= 0 ; bc_idx--) {
@@ -760,7 +761,6 @@ $(document).ready(function building_class_main() {
     lang_update();
     for (var i = 0 ; i < gem_bcs_classifications.length ; i++) {
         var classification = gem_bcs_classifications[i];
-        classification.occupancies = ['residential', 'industrial', 'educational', 'healthcare'];
         classification_add(classification.country, classification.occupancies, classification.notes, classification.build_classes, false);
     }
 })
