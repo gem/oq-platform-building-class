@@ -33,8 +33,8 @@ dataset_version = "0.9"
 
 def __user_settings_manager(request, user_settings, **kwargs):
     if not user_settings:
-        publish_info = 'checked = "checked"'
-        not_publish_info = ''
+        publish_info = ''
+        not_publish_info = 'checked = "checked"'
     else:
         if user_settings.publish_info:
             publish_info = 'checked = "checked"'
