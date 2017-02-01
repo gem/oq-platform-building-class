@@ -21,11 +21,11 @@ from openquakeplatform.vulnerability.models import Country
 from django.utils.cache import add_never_cache_headers
 from django.core.serializers.json import DjangoJSONEncoder
 import json
-from django.http import (HttpResponse, Http404)
+from django.http import (HttpResponse)
 from django.db import transaction
 
 from models import (UserSettings, ClassificationHead, ClassificationRow,
-                    FREQ_TYPE, FREQUENCY_TYPE, OCCUP_TYPE, OCCUPACY_TYPE)
+                    FREQ_TYPE, FREQUENCY_TYPE, OCCUPACY_TYPE)
 from django.utils import timezone
 
 dataset_version = "0.9"
