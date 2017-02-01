@@ -1,0 +1,40 @@
+/*
+  TODO:
+
+  - "to_save" flag & prevent page adbandon
+
+  DONE - occupancies
+    DONE . show tab when create
+    DONE . title for images
+    DONE . move to next step
+    DONE . re-edit again
+    DONE . readonly: occupancies (with update)
+    DONE . send to server
+    DONE . reload from server
+    DONE . server management
+
+  DONE - countries
+  DONE - remove countries blocks
+  DONE - hide trees
+  DONE - insert new as first (.prepend)
+  DONE = import other trees descr.
+  DONE - produce tables with flat version and dropdown with frequencies for Urban and Rural
+  DONE - disclaimer
+  DONE - data json creation
+  DONE - django model
+  DONE - send data as json object
+  DONE - save/modify/delete rows
+  DONE - populate the page with already inserted data
+  DONE - json to js => done
+  DONE - populate the page
+  DONE - security issues
+  DONE - disclaimer when not logged
+  DONE - styling
+
+  - recursive unclick require confirm
+
+
+  NEXT ITERATION:
+  - digest mail with new entries
+  - admin view
+*/

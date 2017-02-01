@@ -1,41 +1,18 @@
 /*
-  TODO:
+   Copyright (c) 2017, GEM Foundation.
 
-  - occupancies
-    DONE . show tab when create
-    DONE . title for images
-    DONE . move to next step
-    DONE . re-edit again
-    DONE . readonly: occupancies (with update)
-    DONE . send to server
-    DONE . reload from server
-    DONE . server management
-    . to_save flag & prevent page adbandon
+      This program is free software: you can redistribute it and/or modify
+      it under the terms of the GNU Affero General Public License as
+      published by the Free Software Foundation, either version 3 of the
+      License, or (at your option) any later version.
 
-  DONE - countries
-  DONE - remove countries blocks
-  DONE - hide trees
-  DONE - insert new as first (.prepend)
-  DONE = import other trees descr.
-  DONE - produce tables with flat version and dropdown with frequencies for Urban and Rural
-  DONE - disclaimer
-  DONE - data json creation
-  DONE - django model
-  DONE - send data as json object
-  DONE - save/modify/delete rows
-  DONE - populate the page with already inserted data
-  DONE - json to js => done
-  DONE - populate the page
-  DONE - security issues
-  DONE - disclaimer when not logged
-  DONE - styling
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU Affero General Public License for more details.
 
-  - recursive unclick require confirm
-
-
-  NEXT ITERATION:
-  - digest mail with new entries
-  - admin view
+      You should have received a copy of the GNU Affero General Public License
+      along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 */
 
 var gem_bcs_transl = {};
