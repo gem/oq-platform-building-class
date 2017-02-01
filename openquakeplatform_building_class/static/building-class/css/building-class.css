@@ -207,6 +207,10 @@ table.occupancies_mod td {
     border-collapse: separate;
 }
 
+table.occupancies_mod td:hover {
+    background-color: #eeffee;
+}
+
 table.occupancies_mod td.sel {
     background-color: #aaffaa;
 }

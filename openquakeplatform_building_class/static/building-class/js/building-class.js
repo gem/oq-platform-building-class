@@ -400,12 +400,17 @@ function occupancy_cb()
     }
 };
 
-function occupancies_item_add(occ_name)
+function occupancies_item_add(occ_name, is_checked)
 {
     var td = $('<td>');
     var cbox = $('<input>', {'type':'checkbox', 'name': occ_name});
     var img = $('<img>', {'src': gem_static_url + '/building-class/img/120/' + occ_name + '.png',
                           'title': __(occ_name)});
+
+    if (is_checked) {
+        cbox.prop('checked', true);
+        td.addClass('sel');
+    }
 
     cbox.on('click', occupancy_cb);
     img.on('click', occupancy_cb);
@@ -520,7 +525,8 @@ function classification_add(country) {
         if (i == 0 || i == 3) {
             tr = $('<tr>');
         }
-        tr.append(occupancies_item_add(gem_occupancy_names[i]));
+        tr.append(occupancies_item_add(gem_occupancy_names[i],
+                                       (occupancies.indexOf(gem_occupancy_names[i]) != -1)));
         if (i == 2 || i == 5) {
             occupancies_tab.append(tr);
         }
@@ -560,8 +566,6 @@ function classification_add(country) {
         $table);
     if (occupancies_view)
         operational_div.hide();
-
-    console.log(occupancies_div);
 
     $tree = $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-country': country}).append(
         $('<p>', {'name': 'title', 'data-gem-country': country,
@@ -644,11 +648,6 @@ function classification_add(country) {
         $tr.find("select[name='urban']").val(build_class.urban);
         $tr.find("select[name='rural']").val(build_class.rural);
         is_table_visible = true;
-    }
-
-    for (var i = 0 ; i < occupancies.length ; i++) {
-        occupancies_div.find("input[type='checkbox'][name='" + occupancies[i] + "']"
-                            ).prop('checked', true).triggerHandler('click');
     }
 
     if (is_table_visible)
