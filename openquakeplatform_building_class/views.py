@@ -58,6 +58,8 @@ def _occupancies_decode(occupancy):
     for i in range(0, len(OCCUPACY_TYPE)):
         if occupancy & (2**i):
             occupancies.append(_occupancies_dict[2**i])
+            # add a break to manage single value (from checkbox to radio)
+            break
 
     return occupancies
 
@@ -66,6 +68,8 @@ def _occupancies_encode(occupancies):
     for k in _occupancies_dict.keys():
         if _occupancies_dict[k] in occupancies:
             occupancy += k
+            # add a break to manage single value (from checkbox to radio)
+            break
 
     return occupancy
 

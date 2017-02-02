@@ -113,6 +113,7 @@ function build_classes_update(checkbox) {
             if ($leaf.parent().attr('data-gem-base') != undefined) {
                 break;
             }
+            //      cbox-> li->      ul->     div ->   li->                 ->checkbox
             $leaf = $leaf.parent().parent().parent().parent().children('input[type="checkbox"]');
         }
         if (e == 1000) {
@@ -257,7 +258,8 @@ function classification_del_cb() {
     var country = $(this).parent().find("p[name='title']").text();
 
     var success_cb = function(obj) {
-        $(obj).parent().remove();
+        // button-> div-> form
+        $(obj).parent().parent().remove();
         if ($('div#forest > div[name="tree"]').length == 0) {
             $("button[name='save']").hide();
         }
@@ -340,47 +342,33 @@ function classification_tab_show($tree, tab_name)
     }
 }
 
-function occupancy_img_cb()
-{
-    var par = $(this).parent();
-    var cbox = par.children('checkbox');
-    var img = par.children('img');
-
-    if (cbox.is(":checked")) {
-        cbox.prop('checked', false);
-        img.removeClass('sel');
-    }
-    else {
-        cbox.prop('checked', true);
-        img.addClass('sel');
-    }
-};
-
 function occupancy_cb()
 {
-    var par = $(this).parent();
-    var cbox = par.children("input[type='checkbox']");
-    var img = par.children('img');
-    var is_checked = cbox.is(":checked");
+    // get the parent td of current occupancy icon/radio button clicked
+    var td = $(this).parent();
 
-    if (this.tagName != 'IMG') {
-        is_checked = !is_checked;
-    }
+    // get the radio item related to the current click (in the icon click case)
+    if (this.tagName == 'IMG')
+        var radio = td.children("input[name='occupancy'][type='radio']");
+    else
+        var radio = $(this);
 
-    if (is_checked) {
-        cbox.prop('checked', false);
-        par.removeClass('sel');
-    }
-    else {
-        cbox.prop('checked', true);
-        par.addClass('sel');
-    }
+    // get all the radio buttons of the same group
+    var radios = $(this).parents("table[name='occupancies_mod']").find("input[name='occupancy'][type='radio']");
+
+    // de-highlight all tds
+    radios.each(function deselect_radios() { console.log("LOOP"); var td = $(this).parent() ; td.removeClass('sel'); });
+
+    // set the current checkbox and hilight relative td
+    if (this.tagName == 'IMG')
+        radio.prop('checked', true);
+    td.addClass('sel');
 };
 
 function occupancies_item_add(occ_name, is_checked)
 {
     var td = $('<td>');
-    var cbox = $('<input>', {'type':'checkbox', 'name': occ_name});
+    var cbox = $('<input>', {'type':'radio', 'name': 'occupancy', 'value': occ_name});
     var img = $('<img>', {'src': gem_static_url + '/building-class/img/120/' + occ_name + '.png',
                           'title': __(occ_name)});
 
@@ -401,7 +389,7 @@ function occupancies_get($tree)
     var occupancies = [];
 
     for (var i = 0 ; i < gem_occupancy_names.length ; i++) {
-        if ($tree.find("div[name='occupancies'] input[type='checkbox'][name='" + gem_occupancy_names[i] + "']"
+        if ($tree.find("div[name='occupancies'] input[type='radio'][value='" + gem_occupancy_names[i] + "']"
                      ).is(':checked')) {
             occupancies.push(gem_occupancy_names[i]);
         }
@@ -424,15 +412,14 @@ function occupancies_ro_set(occupancies_ro_ctx, occupancies)
 function occup_next_btn_cb()
 {
     var $tree = $(this).parents("div[name='tree']");
-    var occupancies;
+    var $table = $tree.find("table[name='occupancies_mod']");
+    var $occupancy = $table.find("input[type='radio'][name='occupancy']:checked");
 
-    occupancies = occupancies_get($tree);
-
-    if (occupancies.length == 0) {
+    if ($occupancy.length == 0) {
         gem_modal_alert(__('occupancies'), __('At least one occupancy type must be selected.'));
         return;
     }
-    occupancies_ro_set($tree.find("div[name='occupancies_ro_ctx']"), occupancies);
+    occupancies_ro_set($tree.find("div[name='occupancies_ro_ctx']"), [$occupancy.val()]);
 
     classification_tab_show($tree, 'operational');
 }
@@ -473,16 +460,19 @@ function classification_add(country) {
                                    'text': __(material)})));
     }
 
-    var del_btn = $('<button>', {'name': 'delete', 'class': 'classification_del', 'text': __('delete') });
+    var del_btn = $('<button>', {'type': 'button', 'name': 'delete',
+                                 'class': 'classification_del', 'text': __('delete') });
     del_btn.on('click', classification_del_cb);
-    var cascade_showhide_btn = $('<button>', {'name': 'cascade_showhide', 'class': 'cascade_showhide',
+    var cascade_showhide_btn = $('<button>', {'type': 'button', 'name': 'cascade_showhide',
+                                              'class': 'cascade_showhide',
                                               'data-gem-show': 'true', 'text': __('hide') });
     cascade_showhide_btn.on('click', cascade_showhide_cb);
     if (occupancies_view)
         cascade_showhide_btn.hide();
 
-    var occupancies_showhide_btn =  $('<button>', {'name': 'occupancies_showhide', 'class': 'occupancies_showhide',
-                                          'data-gem-show': 'true', 'text': __('occupancies') });
+    var occupancies_showhide_btn =  $('<button>', {'type': 'button', 'name': 'occupancies_showhide',
+                                                   'class': 'occupancies_showhide',
+                                                   'data-gem-show': 'true', 'text': __('occupancies') });
     occupancies_showhide_btn.on('click', occupancies_showhide_cb);
     if (occupancies_view)
         occupancies_showhide_btn.hide();
@@ -496,7 +486,7 @@ function classification_add(country) {
     if (build_classes.length == 0)
         $table.hide();
 
-    var occupancies_tab = $('<table>', {'class': 'occupancies_mod'});
+    var occupancies_tab = $('<table>', {'name': 'occupancies_mod', 'class': 'occupancies_mod'});
     var tr = null;
     for (var i = 0 ; i < 6 ; i++) {
         if (i == 0 || i == 3) {
@@ -510,7 +500,7 @@ function classification_add(country) {
     }
 
     occupancies_div = $('<div>', {'name': 'occupancies'});
-    occup_next_btn = $('<button>', {'name': 'next', 'class': 'occup_next_btn', 'text': __('next') });
+    occup_next_btn = $('<button>', {'type': 'button', 'name': 'next', 'class': 'occup_next_btn', 'text': __('next') });
     occup_next_btn.on('click', occup_next_btn_cb);
 
     occupancies_div.append($('<p>', {'name': 'occupancies_descr',
@@ -527,7 +517,7 @@ function classification_add(country) {
 
     var operational_div = $('<div>', {'name': 'operational'}).append(
         $('<div>', { 'name': 'occupancies_ro', 'class': 'occupancies_ro'}).append(
-            $('<p>', {'class': 'classification_occupancies', 'text': __('occupancies')}),
+            $('<p>', {'class': 'classification_occupancy', 'text': __('occupancy')}),
             occupancies_ro_ctx
         ),
         $('<div>', { 'name': 'notes', 'class': 'notes'}).append(
@@ -547,7 +537,7 @@ function classification_add(country) {
     $tree = $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-country': country}).append(
         $('<p>', {'name': 'title', 'data-gem-country': country,
                   'class': 'classification_title', 'text': __(country)}),
-        del_btn, occupancies_showhide_btn, cascade_showhide_btn,
+        del_btn, occupancies_showhide_btn, cascade_showhide_btn, freq_type_btn,
         occupancies_div, operational_div
     );
 
@@ -556,10 +546,11 @@ function classification_add(country) {
 
     cascade_showhide(show, $notes, $cascade, cascade_showhide_btn);
 
+    var $form = $('<form>').append($tree);
     if (arguments.length == 1)
-        $("div#forest").prepend($tree);
+        $("div#forest").prepend($form);
     else
-        $("div#forest").append($tree);
+        $("div#forest").append($form);
 
     for (var i = 0 ; i < build_classes.length ; i++) {
         var build_class = build_classes[i];

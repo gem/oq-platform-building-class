@@ -61,7 +61,7 @@ p.classification_notes {
     clear: both;
 }
 
-p.classification_occupancies {
+p.classification_occupancy {
     text-transform: capitalize;
     font-weight: bold;
     display: inline-block;
