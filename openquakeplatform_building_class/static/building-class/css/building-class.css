@@ -95,6 +95,7 @@ table.build_classes td.path {
     width: 66%;
     padding: 8px;
     line-height: 120%;
+    text-align: left;
 }
 
 table.build_classes td select {
