@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2016, GEM Foundation.
+# Copyright (c) 2017, GEM Foundation.
 #
 # This program is free software: you can redistribute it and/or modify
 # under the terms of the GNU Affero General Public License as published
@@ -25,7 +25,8 @@ from django.http import (HttpResponse)
 from django.db import transaction
 
 from models import (UserSettings, ClassificationHead, ClassificationRow,
-                    FREQ_TYPE, FREQUENCY_TYPE, OCCUPACY_TYPE)
+                    FREQ_TYPE, FREQUENCY_TYPE,
+                    FREQ_QUAL_TYPE, FREQUENCY_QUAL_TYPE, OCCUPACY_TYPE)
 from django.utils import timezone
 
 dataset_version = "0.9"
@@ -120,14 +121,17 @@ def view(request, **kwargs):
     heads = ClassificationHead.objects.filter(owner_id=request.user.pk).order_by("id")
     for head in heads:
         occupancies = _occupancies_decode(head.occupancy)
-        classification = { "country": head.country, "occupancies": occupancies,
+        classification = { "country": head.country, "freq_type": dict(FREQUENCY_TYPE)[head.freq_type],
+                           "occupancies": occupancies,
                            "notes": head.notes, "build_classes": [],
                            "vers": head.vers}
         rows = ClassificationRow.objects.filter(owner_id=request.user.pk, head_id=head.pk)
         for row in rows:
             build_class = { "path": row.path,
-                            "rural": dict(FREQUENCY_TYPE)[row.rural],
-                            "urban": dict(FREQUENCY_TYPE)[row.urban],
+                            "urban": dict(FREQUENCY_QUAL_TYPE)[row.urban],
+                            "urban_quan": row.urban_quan,
+                            "rural": dict(FREQUENCY_QUAL_TYPE)[row.rural],
+                            "rural_quan": row.rural_quan,
                             "vers": row.vers}
             classification["build_classes"].append(build_class)
         classifications.append(classification)
@@ -142,10 +146,21 @@ def view(request, **kwargs):
              ),
         context_instance=RequestContext(request))
 
-
-def ft2int(id):
+def _freq_type2int(id):
     return getattr(FREQ_TYPE, "_" + id.upper())
 
+def _freq_qual_type2int(id):
+    return getattr(FREQ_QUAL_TYPE, "_" + id.upper())
+
+def _errlog_shortheader(iso3, occup):
+    return "<b>Country</b>: %s - <b>Occupancy</b>: %s\n" % (
+        Country.objects.get(iso3=iso3).name,
+        ', '.join(map(str, occup)))
+
+def _errlog_longheader(iso3, occup, cls):
+    return "%s<b>Type</b>: %s\n" % (
+        _errlog_shortheader(iso3, occup),
+        ' | '.join(map(lambda x: str(x).strip(), reversed(cls.split('|')))))
 
 @transaction.commit_manually
 def data(request, **kwargs):
@@ -155,20 +170,55 @@ def data(request, **kwargs):
         return
 
     dt = json.loads(request.body)
-
     try:
         ClassificationHead.objects.filter(owner_id=request.user.pk).delete()
         for classification in dt['classifications']:
+            urban_quan_tot = 0
+            rural_quan_tot = 0
+
+            freq_type = _freq_type2int(classification['freq_type'])
             head = ClassificationHead(owner_id=request.user.pk, country=classification['country'],
+                                      freq_type=freq_type,
                                       occupancy=_occupancies_encode(classification['occupancies']),
                                       notes=classification['notes'], last_mod=timezone.now(),
                                       vers=dataset_version)
             head.save()
             for bc in classification['build_classes']:
+                try:
+                    urban_quan = float(bc['urban_quan'])
+                except ValueError:
+                    urban_quan = 0
+
+                try:
+                    rural_quan = float(bc['rural_quan'])
+                except ValueError:
+                    rural_quan = 0
+
+                if urban_quan < 0.0 or urban_quan > 1.0:
+                    raise ValueError("%s<b>Error:</b>'urban' frequency out of range" % (
+                            _errlog_longheader(classification['country'], classification['occupancies'],
+                            bc['path'])))
+                if rural_quan < 0.0 or rural_quan > 1.0:
+                    raise ValueError("%s<b>Error:</b>'rural' frequency out of range" % (
+                            _errlog_longheader(classification['country'], classification['occupancies'],
+                            bc['path'])))
+
+                urban_quan_tot += urban_quan
+                rural_quan_tot += rural_quan
+
                 row = ClassificationRow(owner_id=request.user.pk, head_id=head.pk, path=bc['path'],
-                                        rural=ft2int(bc['rural']), urban=ft2int(bc['urban']),
+                                        urban=_freq_qual_type2int(bc['urban']),
+                                        urban_quan=urban_quan,
+                                        rural=_freq_qual_type2int(bc['rural']),
+                                        rural_quan=rural_quan,
                                         vers=dataset_version)
                 row.save()
+
+            if classification['freq_type'] == 'quantitative' and (urban_quan_tot != 1 or rural_quan_tot != 1):
+                raise ValueError("%s<b>Error:</b> '%s' frequencies sum is %3.3f instead of 1.0" % (
+                    _errlog_shortheader(classification['country'], classification['occupancies']),
+                    ('urban' if urban_quan_tot != 1 else 'rural'),
+                    (urban_quan_tot if urban_quan_tot != 1 else rural_quan_tot)))
 
         transaction.commit()
         resp = { 'ret': 0,
@@ -177,7 +227,7 @@ def data(request, **kwargs):
     except Exception as e:
         transaction.rollback()
         resp = { 'ret': 1,
-            'ret_s': e }
+            'ret_s': str(e) }
 
     response = HttpResponse(
         json.dumps(resp, cls=DjangoJSONEncoder),

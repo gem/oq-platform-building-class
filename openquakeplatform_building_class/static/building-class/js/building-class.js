@@ -79,7 +79,7 @@ function choices_create(item, model)
     $(item).append($grp.append($ul.append(li)));
 }
 
-function frequency_ddown_create(name)
+function frequency_ddown_create(name, is_qualitative)
 {
     var freq = [ 'inexistent', 'rare', 'moderately freq.', 'frequent', 'very frequent'];
     var freq_id = [ 'inex', 'rare', 'modr', 'freq', 'very'];
@@ -95,15 +95,19 @@ function frequency_ddown_create(name)
         }
         $sel.append($opt);
     }
+    if (! is_qualitative)
+        $sel.hide();
+
     return $sel;
 }
 
 function build_classes_update(checkbox) {
-    var $tree, $leafs, $leaf, line, build_classes_new = [];
+    var $tree, $leafs, $leaf, line, is_freq_qualitative, build_classes_new = [];
     var i, e, o, $table, $rows, $tr, sep = " | ", descr;
 
     $tree = $(checkbox).parents('div[name="tree"]');
-    $leafs = $tree.find('div[name="cascade"] input[type="checkbox"]:checked:not(:has(~ div input[type="checkbox"]:checked))');
+    freq_type = $tree.find("button[name='freq_type']").attr('data-gem-value');
+    $leafs = $tree.find("div[name='cascade'] input[type='checkbox']:checked:not(:has(~ div input[type='checkbox']:checked))");
 
     for (i = 0 ; i < $leafs.length ; i++) {
         $leaf =  $($leafs[i]);
@@ -160,9 +164,23 @@ function build_classes_update(checkbox) {
             $tr = $("<tr>", { "name": "path" });
             $tr[0].data_gem_path = build_classes_new[i].slice(0);
             $tr[0].checked = true;
+            $urban_quan = $('<input>', { 'name': 'urban_quan', 'class': 'freq_quan', 'type': 'text', 'value': '0' });
+            $rural_quan = $('<input>', { 'name': 'rural_quan', 'class': 'freq_quan', 'type': 'text', 'value': '0' });
+            if (freq_type == 'qualitative') {
+                $urban_quan.hide();
+                $rural_quan.hide();
+            }
+
             $tr.append($td,
-                       $('<td>').append(frequency_ddown_create('urban')),
-                       $('<td>').append(frequency_ddown_create('rural')));
+                       $('<td>').append(
+                           frequency_ddown_create('urban', (freq_type == 'qualitative')),
+                           $urban_quan
+                       ),
+
+                       $('<td>').append(
+                           frequency_ddown_create('rural', (freq_type == 'qualitative')),
+                           $rural_quan
+                       ));
             $table.find("tr[name='titles']").after($tr);
         }
     }
@@ -320,6 +338,27 @@ function occupancies_showhide_cb() {
     classification_tab_show($tree, 'occupancies');
 }
 
+function freq_type_cb() {
+    var cur_value = $(this).attr('data-gem-value');
+    var $tree;
+
+    $button = $(this);
+    $tree = $button.parents("div[name='tree']");
+    if (cur_value == 'quantitative') {
+        $button.text(__('qualitative frequencies'));
+        $button.attr('data-gem-value', 'qualitative');
+        $tree.find("table[name='build_classes']").find("select[name='urban'] , select[name='rural']").show();
+        $tree.find("table[name='build_classes']").find("input[name='urban_quan'], input[name='rural_quan']").hide();
+    }
+    else {
+        $button.text(__('quantitative frequencies'));
+        $button.attr('data-gem-value', 'quantitative');
+        $tree.find("table[name='build_classes']").find("select[name='urban'] , select[name='rural']").hide();
+        $tree.find("table[name='build_classes']").find("input[name='urban_quan'], input[name='rural_quan']").show();
+    }
+    $tree = $button.parents("div[name='tree']");
+}
+
 function classification_tab_show($tree, tab_name)
 {
     // 'occupancies', 'operational'
@@ -327,18 +366,20 @@ function classification_tab_show($tree, tab_name)
     var $ope = $tree.find("div[name='operational']");
     var $casc_btn = $tree.find("button[name='cascade_showhide']");
     var $occ_btn = $tree.find("button[name='occupancies_showhide']");
-
+    var $frty_btn = $tree.find("button[name='freq_type']");
     if (tab_name == 'occupancies') {
         $occ.show();
         $ope.hide();
         $casc_btn.hide();
         $occ_btn.hide();
+        $frty_btn.hide();
     }
     else if (tab_name == 'operational') {
         $occ.hide();
         $ope.show();
         $casc_btn.show();
         $occ_btn.show();
+        $frty_btn.show();
     }
 }
 
@@ -429,16 +470,19 @@ function classification_add(country) {
     var notes = "";
     var occupancies = [];
     var occupancies_view = true;
+    var freq_type = 'qualitative';
     var build_classes = [];
     var show = true;
     var is_table_visible = false;
+    var $urban, $rural;
 
     // console.log("CLASSIFICATION ADD");
-    if (arguments.length == 5) {
+    if (arguments.length == 6) {
         occupancies = arguments[1];
         notes = arguments[2];
-        build_classes = arguments[3];
-        show = arguments[4];
+        freq_type = arguments[3];
+        build_classes = arguments[4];
+        show = arguments[5];
     }
 
     if (occupancies.length > 0) {
@@ -476,6 +520,12 @@ function classification_add(country) {
     occupancies_showhide_btn.on('click', occupancies_showhide_cb);
     if (occupancies_view)
         occupancies_showhide_btn.hide();
+
+    var freq_type_btn =  $('<button>', {'type': 'button', 'name': 'freq_type', 'class': 'freq_type',
+                                        'data-gem-value': freq_type, 'text': __(
+                                            (freq_type == 'qualitative' ? 'qualitative frequencies' :
+                                             'quantitative frequencies') ) });
+    freq_type_btn.on('click', freq_type_cb);
 
     var $table = $("<table>", {"name": "build_classes", "class": "build_classes"}).append(
         $("<tr>", {"name": "titles"}).append($("<th>", {"text": __("building type")}),
@@ -605,16 +655,28 @@ function classification_add(country) {
             $tr = $("<tr>", { "name": "path-ro" });
             $tr[0].data_gem_path = atoms.slice(0);
             $tr[0].checked = true;
+            $urban = frequency_ddown_create('urban', (freq_type == 'qualitative'));
+            $rural = frequency_ddown_create('rural', (freq_type == 'qualitative'));
+            $urban_quan = $('<input>', { 'name': 'urban_quan', 'type': 'text', 'class': 'freq_quan', 'value': '0' });
+            $rural_quan = $('<input>', { 'name': 'rural_quan', 'type': 'text', 'class': 'freq_quan', 'value': '0' });
+            if (freq_type == 'qualitative') {
+                $urban_quan.hide();
+                $rural_quan.hide();
+            }
             $tr.append($td,
-                       $('<td>').append(frequency_ddown_create('urban')),
-                       $('<td>').append(frequency_ddown_create('rural')));
+                       $('<td>').append($urban, $urban_quan),
+                       $('<td>').append($rural, $rural_quan));
             $table.append($tr);
         }
         else {
             $tr = $table.find("tr[name='path']").first();
+            $urban = $tr.find("select[name='urban']");
+            $rural = $tr.find("select[name='rural']");
         }
         $tr.find("select[name='urban']").val(build_class.urban);
         $tr.find("select[name='rural']").val(build_class.rural);
+        $tr.find("input[name='urban_quan'][type='text']").val(build_class.urban_quan);
+        $tr.find("input[name='rural_quan'][type='text']").val(build_class.rural_quan);
         is_table_visible = true;
     }
 
@@ -642,21 +704,25 @@ function build_class2obj(bc_row)
         obj.path += (i == 0 ? "" : "|") + path[i];
     }
     obj.urban = $(bc_row).find("select[name='urban']").val();
+    obj.urban_quan = $(bc_row).find("input[name='urban_quan'][type='text']").val();
     obj.rural = $(bc_row).find("select[name='rural']").val();
+    obj.rural_quan = $(bc_row).find("input[name='rural_quan'][type='text']").val();
 
     return obj;
 }
 
 function tree2obj(idx, tree)
 {
+    var $tree = $(tree);
     var obj = { country: "", notes: "", build_classes: [] };
-    var $bc_rows = $(tree).find("table[name='build_classes']").find("tr[name='path']");
-    var $bc_rows_ro = $(tree).find("table[name='build_classes']").find("tr[name='path-ro']");
+    var $bc_rows = $tree.find("table[name='build_classes']").find("tr[name='path']");
+    var $bc_rows_ro = $tree.find("table[name='build_classes']").find("tr[name='path-ro']");
     var bc_idx, bc_row;
 
-    obj.country = $(tree).find("p[name='title']").attr("data-gem-country");
-    obj.occupancies = occupancies_get($(tree));
-    obj.notes = $(tree).find("textarea[name='notes']").val();
+    obj.country = $tree.find("p[name='title']").attr("data-gem-country");
+    obj.freq_type = $tree.find("button[name='freq_type']").attr('data-gem-value');
+    obj.occupancies = occupancies_get($tree);
+    obj.notes = $tree.find("textarea[name='notes']").val();
 
     for (bc_idx = ($bc_rows.length - 1) ; bc_idx >= 0 ; bc_idx--) {
         bc_row = $bc_rows[bc_idx];
@@ -695,7 +761,7 @@ function save_cb()
         url: 'data',
         data: JSON.stringify(obj),
         success: function (resp) {
-            $("div[name='save_resp']").text(resp.ret_s);
+            $("div[name='save_resp']").html(resp.ret_s.replace(/\n/g, "<br>"));
             if (resp.ret == 0)
                 $("div[name='save_resp']").attr("class", "save_resp_ok");
             else
@@ -703,12 +769,12 @@ function save_cb()
             setTimeout(save_resp_clean, 3000);
         },
         error: function (response) {
-            $("div[name='save_resp']").text(resp.ret_s);
+            $("div[name='save_resp']").html(resp.ret_s.replace(/\n/g, "<br>"));
             if (resp.ret == 0)
                 $("div[name='save_resp']").attr("class", "save_resp_ok");
             else
                 $("div[name='save_resp']").attr("class", "save_resp_err");
-            setTimeout(save_resp_clean, 3000);
+            setTimeout(save_resp_clean, 10000);
         },
     });
 
@@ -726,8 +792,10 @@ $(document).ready(function building_class_main() {
     $('select#language-id').on('change', language_change_cb);
     $("button[name='save']").on('click', save_cb);
     lang_update();
+
     for (var i = 0 ; i < gem_bcs_classifications.length ; i++) {
         var classification = gem_bcs_classifications[i];
-        classification_add(classification.country, classification.occupancies, classification.notes, classification.build_classes, false);
+        classification_add(classification.country, classification.occupancies, classification.notes,
+                           classification.freq_type, classification.build_classes, false);
     }
 })

@@ -89,6 +89,7 @@ table.build_classes td {
     font-size: 70%;
     border: 1px solid #d0d0d0;
     padding: 0 4px 0 4px;
+    text-align: center;
 }
 table.build_classes td.path {
     width: 66%;
@@ -100,6 +101,14 @@ table.build_classes td select {
 /*     font-size: 90%; */
     width: 100%;
     text-transform: capitalize;
+    margin: 2px auto 2px auto;
+}
+
+table.build_classes td input.freq_quan {
+    width: 50px;
+    margin: 2px auto 2px auto;
+    padding: 4px;
+    text-align: right;
 }
 
 table.build_classes td select option {
@@ -227,4 +236,10 @@ div.occupancies_ro_ctx {
 
 div.occupancies_ro_ctx img {
     margin: 0 0 8px 16px;
+}
+
+button.freq_type {
+    float: right;
+    clear: right;
+    margin-top: 4px;
 }

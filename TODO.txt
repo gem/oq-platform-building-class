@@ -1,6 +1,16 @@
 /*
   TODO:
 
+  - freq_types
+    DONE . add text fields
+    DONE . flip-flop cb and items
+      DONE . rename and hide <select>s
+    DONE . send data to server
+    DONE . update model
+    DONE . store information about freq_type
+    DONE . server side consistency check
+    . weak check (change bg color of text fields)
+    . hard check during save_cb
   - "to_save" flag & prevent page adbandon
 
   DONE - occupancies
