@@ -278,9 +278,6 @@ function classification_del_cb() {
     var success_cb = function(obj) {
         // button-> div-> form
         $(obj).parent().parent().remove();
-        if ($('div#forest > div[name="tree"]').length == 0) {
-            $("button[name='save']").hide();
-        }
     };
 
     var error_cb = function(obj) {
