@@ -19,6 +19,56 @@ var gem_bcs_transl = {};
 var gem_bcs_transl_id = "en";
 var gem_occupancy_names = ['residential', 'commercial', 'industrial', 'educational', 'healthcare', 'governmental'];
 
+var gem_bcs_to_init_phase = false;
+var gem_bcs_to_be_saved = false;
+
+
+
+var confirmOnPageExit = function (e)
+{
+    // If we haven't been passed the event get the window.event
+    e = e || window.event;
+
+    var message = __('Your data seems to be changed before last "save", are you sure that you want to leave the page?');
+
+    // For IE6-8 and Firefox prior to version 4
+    if (e)
+    {
+        e.returnValue = message;
+    }
+
+    // For Chrome, Safari, IE8+ and Opera 12+
+    return message;
+};
+
+function to_be_saved(is_it)
+{
+    if (gem_bcs_to_init_phase)
+        return;
+
+    if (is_it) {
+        gem_bcs_to_be_saved = true;
+
+        $(window).on('beforeunload', confirmOnPageExit);
+        var $save_risp = $("div[name='save_resp']");
+
+        $("div#forest div[name='tree']").addClass('to_be_saved');
+        $("div#forest p[name='to-be-saved']").show();
+
+        $save_risp.html(__('(modified)'));
+        $save_risp.addClass("save_resp_warn");
+    }
+    else {
+        gem_bcs_to_be_saved = false;
+
+        $(window).off('beforeunload', confirmOnPageExit);
+
+        $("div#forest div[name='tree']").removeClass('to_be_saved');
+        $("div#forest p[name='to-be-saved']").hide();
+        save_resp_clean();
+    }
+}
+
 function __(id) {
     if (id in gem_bcs_transl[gem_bcs_transl_id])
         return gem_bcs_transl[gem_bcs_transl_id][id];
@@ -79,6 +129,11 @@ function choices_create(item, model)
     $(item).append($grp.append($ul.append(li)));
 }
 
+function freq_qual_cb(event)
+{
+    to_be_saved(true);
+}
+
 function frequency_ddown_create(name, is_qualitative)
 {
     var freq = [ 'inexistent', 'rare', 'moderately freq.', 'frequent', 'very frequent'];
@@ -98,7 +153,38 @@ function frequency_ddown_create(name, is_qualitative)
     if (! is_qualitative)
         $sel.hide();
 
+    $sel.on('change', freq_qual_cb);
     return $sel;
+}
+
+
+
+
+
+
+function freq_quants_cb(event)
+{
+    var item = event.target;
+    var $par = $($(item).parents("table[name='build_classes']")[0]);
+    var sum = 0.0;
+
+    var name = $(item).attr('name');
+
+    if (event.type == 'input') {
+        $(item).off('keyup', freq_quants_cb);
+    }
+
+    if (event.type == 'change' || event.type == 'input')
+        to_be_saved(true);
+
+    $par.find("input[type='text'][name=" + name + "]").each(function(){sum += parseFloat(this.value)});
+
+    if (sum != 1.0) {
+        $par.find("input[type='text'][name=" + name + "]").parent().addClass('warning');
+    }
+    else {
+        $par.find("input[type='text'][name=" + name + "]").parent().removeClass('warning');
+    }
 }
 
 function freq_quants_create(are_hided)
@@ -107,6 +193,10 @@ function freq_quants_create(are_hided)
 
     $urban_quan = $('<input>', { 'name': 'urban_quan', 'type': 'text', 'class': 'freq_quan', 'value': '0' });
     $rural_quan = $('<input>', { 'name': 'rural_quan', 'type': 'text', 'class': 'freq_quan', 'value': '0' });
+
+    $urban_quan.on('focus blur input keyup change', freq_quants_cb);
+    $rural_quan.on('focus blur input keyup change', freq_quants_cb);
+
     if (are_hided) {
         $urban_quan.hide();
         $rural_quan.hide();
@@ -205,6 +295,8 @@ function build_classes_update(checkbox) {
 function checkbox_click_cb() {
     var item = $(this).parent();
 
+    to_be_saved(true);
+
     if (this.checked) {
         var model = this.data_gem_model;
         var choices;
@@ -289,6 +381,9 @@ function classification_del_cb() {
     var success_cb = function(obj) {
         // button-> div-> form
         $(obj).parent().parent().remove();
+
+        to_be_saved(true);
+
     };
 
     var error_cb = function(obj) {
@@ -348,7 +443,7 @@ function occupancies_showhide_cb() {
 
 function freq_type_cb() {
     var cur_value = $(this).attr('data-gem-value');
-    var $tree;
+    var sum, $tree;
 
     $button = $(this);
     $tree = $button.parents("div[name='tree']");
@@ -356,6 +451,8 @@ function freq_type_cb() {
         $button.text(__('qualitative frequencies'));
         $button.attr('data-gem-value', 'qualitative');
         $tree.find("table[name='build_classes']").find("select[name='urban'] , select[name='rural']").show();
+        $tree.find("table[name='build_classes']").find("select[name='urban'] , select[name='rural']"
+                                                      ).parent().removeClass('warning');
         $tree.find("table[name='build_classes']").find("input[name='urban_quan'], input[name='rural_quan']").hide();
     }
     else {
@@ -363,8 +460,22 @@ function freq_type_cb() {
         $button.attr('data-gem-value', 'quantitative');
         $tree.find("table[name='build_classes']").find("select[name='urban'] , select[name='rural']").hide();
         $tree.find("table[name='build_classes']").find("input[name='urban_quan'], input[name='rural_quan']").show();
+
+        var $par = $tree.find("table[name='build_classes']");
+
+        for (var i = 0 ; i < 2 ; i++) {
+            var name = (i == 0 ? 'urban' : 'rural');
+            sum = 0.0;
+            $par.find("input[type='text'][name='" + name + "_quan']").each(
+                function(){sum += parseFloat(this.value)});
+            if (sum != 1.0) {
+                $par.find("input[type='text'][name='" + name + "_quan']").parent().addClass('warning');
+            }
+            console.log('Ziguliz: ' + sum);
+        }
     }
-    $tree = $button.parents("div[name='tree']");
+
+    to_be_saved(true);
 }
 
 function classification_tab_show($tree, tab_name)
@@ -406,12 +517,14 @@ function occupancy_cb()
     var radios = $(this).parents("table[name='occupancies_mod']").find("input[name='occupancy'][type='radio']");
 
     // de-highlight all tds
-    radios.each(function deselect_radios() { console.log("LOOP"); var td = $(this).parent() ; td.removeClass('sel'); });
+    radios.each(function deselect_radios() { var td = $(this).parent() ; td.removeClass('sel'); });
 
     // set the current checkbox and hilight relative td
     if (this.tagName == 'IMG')
         radio.prop('checked', true);
     td.addClass('sel');
+
+    to_be_saved(true);
 };
 
 function occupancies_item_add(occ_name, is_checked)
@@ -471,6 +584,11 @@ function occup_next_btn_cb()
     occupancies_ro_set($tree.find("div[name='occupancies_ro_ctx']"), [$occupancy.val()]);
 
     classification_tab_show($tree, 'operational');
+}
+
+function notes_textarea_cb(event) {
+    if (event.type == 'change' || event.type == 'input')
+        to_be_saved(true);
 }
 
 function classification_add(country) {
@@ -573,6 +691,9 @@ function classification_add(country) {
     var occupancies_ro_ctx = $('<div>', {'name': 'occupancies_ro_ctx', 'class': 'occupancies_ro_ctx'});
 
     occupancies_ro_set(occupancies_ro_ctx, occupancies);
+    var $notes_textarea = $('<textarea>', {'name': 'notes', 'maxlength': '1024',
+                                          'class': 'classification_notes', 'value': notes});
+    $notes_textarea.on('focus blur input keyup change', notes_textarea_cb);
 
     var operational_div = $('<div>', {'name': 'operational'}).append(
         $('<div>', { 'name': 'occupancies_ro', 'class': 'occupancies_ro'}).append(
@@ -582,8 +703,7 @@ function classification_add(country) {
         $('<div>', { 'name': 'notes', 'class': 'notes'}).append(
             $('<p>', {'class': 'classification_notes', 'text': __('notes')}),
             $('<p>', {'class': 'classification_notes'}).append(
-                $('<textarea>', {'name': 'notes', 'maxlength': '1024',
-                                 'class': 'classification_notes', 'value': notes}))
+            $notes_textarea)
         ),
         $('<div>', {'name': 'cascade'}).append(
             $('<p>', {'name': 'descr', 'class': 'sub-title',
@@ -596,6 +716,7 @@ function classification_add(country) {
     $tree = $("<div>", {'name': 'tree', 'class': 'tree', 'data-gem-country': country}).append(
         $('<p>', {'name': 'title', 'data-gem-country': country,
                   'class': 'classification_title', 'text': __(country)}),
+        $('<p>', {'name': 'to-be-saved', 'class': 'to_be_saved', 'style': 'display: none;', 'text': __('(modified)')}),
         del_btn, occupancies_showhide_btn, cascade_showhide_btn, freq_type_btn,
         occupancies_div, operational_div
     );
@@ -615,8 +736,6 @@ function classification_add(country) {
         var build_class = build_classes[i];
         var atoms = build_class.path.split('|');
         var atom, $ul, $li, $cbox;
-
-        console.log(build_class);
 
         $ul = $cascade.children("ul");
         var not_found = false;
@@ -693,10 +812,11 @@ function classification_add(country) {
     $("button[name='save']").show();
 }
 
-function classification_add_cb() {
+function classification_add_cb(event) {
     var country = $("select#country-id").val();
 
     classification_add(country);
+    to_be_saved(true);
 }
 
 
@@ -746,11 +866,12 @@ function tree2obj(idx, tree)
 
 function save_resp_clean()
 {
-    $("div[name='save_resp']").html("<br>");
-    $("div[name='save_resp']").attr("class", "");
+    var $save_risp = $("div[name='save_resp']");
+    $save_risp.html("<br>");
+    $save_risp.removeClass();
 }
 
-function save_cb()
+function save_cb(event)
 {
     var tree, $trees = $("div#forest div[name='tree']");
     var obj = {};
@@ -768,19 +889,23 @@ function save_cb()
         url: 'data',
         data: JSON.stringify(obj),
         success: function (resp) {
-            $("div[name='save_resp']").html(resp.ret_s.replace(/\n/g, "<br>"));
+            to_be_saved(false);
+            var $save_risp = $("div[name='save_resp']");
+            $save_risp.html(resp.ret_s.replace(/\n/g, "<br>"));
             if (resp.ret == 0)
-                $("div[name='save_resp']").attr("class", "save_resp_ok");
+                $save_risp.addClass("save_resp_ok");
             else
-                $("div[name='save_resp']").attr("class", "save_resp_err");
+                $save_risp.addClass("save_resp_err");
             setTimeout(save_resp_clean, 3000);
         },
         error: function (response) {
-            $("div[name='save_resp']").html(resp.ret_s.replace(/\n/g, "<br>"));
+            var $save_risp = $("div[name='save_resp']");
+
+            $save_risp.html(resp.ret_s.replace(/\n/g, "<br>"));
             if (resp.ret == 0)
-                $("div[name='save_resp']").attr("class", "save_resp_ok");
+                $save_risp.addClass("save_resp_ok");
             else
-                $("div[name='save_resp']").attr("class", "save_resp_err");
+                $save_risp.addClass("save_resp_err");
             setTimeout(save_resp_clean, 10000);
         },
     });
@@ -793,6 +918,7 @@ function user_settings_cb()
 }
 
 $(document).ready(function building_class_main() {
+    gem_bcs_to_init_phase = true;
     // gem_bcs_transl_id = $('select#language-id').val();
     $('button#new-classification').on('click', classification_add_cb);
     $('button#user-settings').on('click', user_settings_cb);
@@ -805,4 +931,5 @@ $(document).ready(function building_class_main() {
         classification_add(classification.country, classification.occupancies, classification.notes,
                            classification.freq_type, classification.build_classes, false);
     }
+    gem_bcs_to_init_phase = false;
 })

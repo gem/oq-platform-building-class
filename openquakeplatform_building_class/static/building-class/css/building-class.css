@@ -21,15 +21,27 @@ p.classification_title {
     display: inline-block;
 }
 
+p.to_be_saved {
+    font-size: 85%;
+    font-weight: bold;
+    display: inline-block;
+    color: orange;
+    margin-left: 8px;
+}
+
 .gem_capitalize {
     text-transform: capitalize;
 }
 
 div.tree {
-    padding: 8px;
+    padding: 8px 8px 8px 12px;
     border: 1px solid #d0d0d0;
     margin-bottom: 8px;
     overflow: auto;
+}
+
+div.to_be_saved {
+    background: url('../img/to-be-saved.png') left top repeat-y;
 }
 
 div.tree input.checkbox {
@@ -95,6 +107,7 @@ table.build_classes td.path {
     padding: 8px;
     line-height: 120%;
     text-align: left;
+    color: black;
 }
 
 table.build_classes td select {
@@ -186,6 +199,10 @@ div.save_resp_ok {
     background-color: #ddffdd;
 }
 
+div.save_resp_warn {
+    color: orange;
+}
+
 div.save_resp_err {
     background-color: #ffdddd;
 }
@@ -243,3 +260,8 @@ button.freq_type {
     clear: right;
     margin-top: 4px;
 }
+
+td.warning {
+    background-color: #ffdddd;
+}
+
