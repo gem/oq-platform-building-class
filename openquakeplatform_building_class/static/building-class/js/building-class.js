@@ -101,9 +101,23 @@ function frequency_ddown_create(name, is_qualitative)
     return $sel;
 }
 
+function freq_quants_create(are_hided)
+{
+    var $urban_quan, $rural_quan;
+
+    $urban_quan = $('<input>', { 'name': 'urban_quan', 'type': 'text', 'class': 'freq_quan', 'value': '0' });
+    $rural_quan = $('<input>', { 'name': 'rural_quan', 'type': 'text', 'class': 'freq_quan', 'value': '0' });
+    if (are_hided) {
+        $urban_quan.hide();
+        $rural_quan.hide();
+    }
+    return ({'urban': $urban_quan, 'rural': $rural_quan});
+}
+
 function build_classes_update(checkbox) {
     var $tree, $leafs, $leaf, line, is_freq_qualitative, build_classes_new = [];
     var i, e, o, $table, $rows, $tr, sep = " | ", descr;
+    var $urban_quan, $rural_quan;
 
     $tree = $(checkbox).parents('div[name="tree"]');
     freq_type = $tree.find("button[name='freq_type']").attr('data-gem-value');
@@ -164,12 +178,9 @@ function build_classes_update(checkbox) {
             $tr = $("<tr>", { "name": "path" });
             $tr[0].data_gem_path = build_classes_new[i].slice(0);
             $tr[0].checked = true;
-            $urban_quan = $('<input>', { 'name': 'urban_quan', 'class': 'freq_quan', 'type': 'text', 'value': '0' });
-            $rural_quan = $('<input>', { 'name': 'rural_quan', 'class': 'freq_quan', 'type': 'text', 'value': '0' });
-            if (freq_type == 'qualitative') {
-                $urban_quan.hide();
-                $rural_quan.hide();
-            }
+
+            var $quants = freq_quants_create(freq_type == 'qualitative');
+            $urban_quan = $quants['urban'];  $rural_quan = $quants['rural'];
 
             $tr.append($td,
                        $('<td>').append(
@@ -472,6 +483,7 @@ function classification_add(country) {
     var show = true;
     var is_table_visible = false;
     var $urban, $rural;
+    var $urban_quan, $rural_quan;
 
     // console.log("CLASSIFICATION ADD");
     if (arguments.length == 6) {
@@ -654,12 +666,10 @@ function classification_add(country) {
             $tr[0].checked = true;
             $urban = frequency_ddown_create('urban', (freq_type == 'qualitative'));
             $rural = frequency_ddown_create('rural', (freq_type == 'qualitative'));
-            $urban_quan = $('<input>', { 'name': 'urban_quan', 'type': 'text', 'class': 'freq_quan', 'value': '0' });
-            $rural_quan = $('<input>', { 'name': 'rural_quan', 'type': 'text', 'class': 'freq_quan', 'value': '0' });
-            if (freq_type == 'qualitative') {
-                $urban_quan.hide();
-                $rural_quan.hide();
-            }
+
+            var $quants = freq_quants_create(freq_type == 'qualitative');
+            $urban_quan = $quants['urban'];  $rural_quan = $quants['rural'];
+
             $tr.append($td,
                        $('<td>').append($urban, $urban_quan),
                        $('<td>').append($rural, $rural_quan));
