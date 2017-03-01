@@ -32,12 +32,12 @@ from django.utils import timezone
 dataset_version = "0.9"
 
 
-def __user_settings_manager(request, user_settings, **kwargs):
-    if not user_settings:
+def __user_settings_manager(request, user_settings_ctx, **kwargs):
+    if not user_settings_ctx:
         publish_info = ''
         not_publish_info = 'checked = "checked"'
     else:
-        if user_settings.publish_info:
+        if user_settings_ctx.publish_info:
             publish_info = 'checked = "checked"'
             not_publish_info = ''
         else:
@@ -74,10 +74,53 @@ def _occupancies_encode(occupancies):
 
     return occupancy
 
-def user_settings_view(request, **kwargs):
-    user_settings = UserSettings.objects.get(owner_id=request.user.pk)
+def user_settings(request, **kwargs):
+    user_settings_ctx = UserSettings.objects.get(owner_id=request.user.pk)
 
-    return __user_settings_manager(request, user_settings, **kwargs)
+    return __user_settings_manager(request, user_settings_ctx, **kwargs)
+
+# English version:    https://youtu.be/bXrvc9Qzie4
+# Portuguese version: https://youtu.be/JFLw3cdy5oY
+# Turkish version:    https://www.youtube.com/watch?v=EPG7pU6Z--0
+#                     https://www.youtube.com/embed/EPG7pU6Z--0
+# Spanish version:    https://youtu.be/HiFFZ46fZAs
+
+def _preferred_tut_lang(langs_in):
+    print langs_in
+    valid_langs = ['en', 'pt', 'tr', 'es' ]
+    langs = []
+
+    for lang in langs_in.split(','):
+        weight=1.0
+        lname=""
+        for atom in lang.split(';'):
+            if atom.strip()[0:2] == 'q=':
+                weight = float(atom.strip()[2:])
+            else:
+                lname=atom.strip().split('-')[0]
+
+        # print "LANG: %s  WEIGHT: %g" % (lname, weight)
+        langs.append((lname, weight))
+
+    langs = sorted(langs, key=lambda lang: lang[1], reverse=True)
+
+    for lang in langs:
+        lname = lang[0]
+        print lname
+        if lname in valid_langs:
+            print "RETURN: %s" % lname
+            return lname
+    else:
+        print "DEF RETURN: en"
+        return 'en'
+
+def tutorial(request, **kwargs):
+    lang = _preferred_tut_lang(request.META.get('HTTP_ACCEPT_LANGUAGE', 'en'))
+
+    return render_to_response(
+        "building-class/building-class-tutorial.html",
+        dict(next=request.get_full_path(), lang=lang),
+        context_instance=RequestContext(request))
 
 
 def view(request, **kwargs):

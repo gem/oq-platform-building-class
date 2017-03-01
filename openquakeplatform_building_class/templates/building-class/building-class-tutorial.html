@@ -1,0 +1,110 @@
+<!--
+Copyright (c) 2015-2016 GEM Foundation
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
+-->
+
+{% extends "site_base.html" %}
+{% load i18n %}
+{% load url from future %}
+
+{% block title %} Building Classification Survey Tutorial - {{ block.super }} {% endblock title %}
+
+{% block extra_head %}
+    {{block.super}}
+    <link href="{{ STATIC_URL }}css/oqplatform_index.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}css/handsontable.full.min.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}building-class/css/building-class.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}css/jQuery-UI-Bootstrap-0.2.5.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/absolute_center_spinner.css" />
+    <link href="{{ STATIC_URL }}css/sol.css" rel="stylesheet"/>
+{% endblock extra_head %}
+
+
+{% block body %}
+  <div class="span12">
+    <div class="hero-unit">
+      <div id="oq-context-ribbon">
+        {% block oq_context_ribbon %}
+        {% endblock oq_context_ribbon %}
+      </div>
+      <div id="oq-body-heading">
+        {% block oq_body_heading %}
+          <a href="/building-class"><h1>{% trans "Building Classification Survey" %}</h1></a>
+          <br />
+        {% endblock oq_body_heading %}
+      </div>
+      <div id="oq-body-content" style="width: 100%;">
+        <!-- <div id="absoluteSpinner" class="loading">Loading&#8230;</div> -->
+        <div style="display: none;">
+          Language: <select id="language-id">
+            <option selected value="en">English</option>
+            <option value="it">Italiano</option>
+          </select>
+        </div>
+        <div class="disclaimer" name="disclaimer">
+          <h2>Tutorial</h2>
+          <p>To use this tool please follow the instructions on this video.</p>
+        </div>
+        <iframe id="gem-video" width="854" height="480" src="https://www.youtube.com/embed/bXrvc9Qzie4" frameborder="0" allowfullscreen></iframe>
+        <div style="text-align: center; width: 854px;">
+          <button name="lang" class="btn" data-gem-lang="en" title="English">English</button>
+          <button name="lang" class="btn" data-gem-lang="pt" title="Portuguese">Português</button>
+          <button name="lang" class="btn" data-gem-lang="tr" title="Turkish">Türkçe</button>
+          <button name="lang" class="btn" data-gem-lang="es" title="Spanish">Español</button>
+          <button name="lang" class="btn disabled" data-gem-lang="ru" title="Russian">Русский</button>
+          <button name="lang" class="btn disabled" data-gem-lang="ch" title="Mandarin">中文</button>
+          <button name="lang" class="btn disabled" data-gem-lang="jp" title="Japanese">日本語</button>
+          </div>
+    </div>
+  </div>
+  <div id="dialog-message" title="Error" style="display: none; width: 600px;"></div>
+{% endblock body %}
+
+{% block extra_script %}
+    {{block.super}}
+    {% include 'search_scripts.html' %}
+
+  <script>
+    var gem_lang = '{{ lang }}';
+
+    function gem_video_change(lang)
+    {
+        console.log(lang);
+        var $vid = $("iframe#gem-video");
+        if (lang == 'tr') {
+            $vid.attr("src", "https://www.youtube.com/embed/EPG7pU6Z--0");
+        }
+        else if (lang == 'es') {
+            $vid.attr("src", "https://www.youtube.com/embed/HiFFZ46fZAs");
+        }
+        else if (lang == 'pt') {
+            $vid.attr("src", "https://www.youtube.com/embed/JFLw3cdy5oY");
+        }
+        else {
+            $vid.attr("src", "https://www.youtube.com/embed/bXrvc9Qzie4");
+        }
+        $("button[name='lang']").removeClass('active');
+        $("button[name='lang'][data-gem-lang='" + lang + "']").addClass('active');
+    }
+    
+    $("button[name='lang']:not(.disabled)").on('click', function () { gem_video_change($(this).attr('data-gem-lang')); });
+    
+    gem_video_change(gem_lang);
+
+    var userLang = navigator.language || navigator.userLanguage;
+    console.log(userLang);
+  </script>
+  
+{% endblock extra_script %}
