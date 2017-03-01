@@ -86,7 +86,7 @@ def view(request, **kwargs):
     if not request.user.is_authenticated():
         return render_to_response(
             "building-class/building-class-not-auth.html",
-            dict(none=None),
+            dict(next=request.get_full_path(),),
             context_instance=RequestContext(request))
 
     try:
