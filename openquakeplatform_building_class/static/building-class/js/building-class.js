@@ -280,7 +280,17 @@ function build_classes_update(checkbox) {
             $table.find("tr[name='titles']").after($tr);
         }
     }
+
     $table.find("tr[name='path']").each(function () { if(!this.checked) $(this).remove() });
+
+    $urban_quan = $table.find("input[name='urban_quan'][type='text']");
+    if (freq_type == 'quantitative' && $urban_quan.length > 0) {
+        freq_quants_cb({'target': $urban_quan[0], 'type': 'change'});
+
+        $rural_quan = $table.find("input[name='rural_quan'][type='text']");
+        freq_quants_cb({'target': $rural_quan[0], 'type': 'change'});
+    }
+
     if ($table.find("tr[name='path'], tr[name='path-ro']").length > 0)
         $table.show();
     else
@@ -426,7 +436,7 @@ function occupancies_showhide_cb() {
 
 function freq_type_cb() {
     var cur_value = $(this).attr('data-gem-value');
-    var sum, $tree;
+    var sum, $tree, $table;
 
     $button = $(this);
     $tree = $button.parents("div[name='tree']");
@@ -441,20 +451,16 @@ function freq_type_cb() {
     else {
         $button.text(__('quantitative frequencies'));
         $button.attr('data-gem-value', 'quantitative');
-        $tree.find("table[name='build_classes']").find("select[name='urban'] , select[name='rural']").hide();
-        $tree.find("table[name='build_classes']").find("input[name='urban_quan'], input[name='rural_quan']").show();
+        $table = $tree.find("table[name='build_classes']");
+        $table.find("select[name='urban'], select[name='rural']").hide();
 
-        var $par = $tree.find("table[name='build_classes']");
-
-        for (var i = 0 ; i < 2 ; i++) {
-            var name = (i == 0 ? 'urban' : 'rural');
-            sum = 0.0;
-            $par.find("input[type='text'][name='" + name + "_quan']").each(
-                function(){sum += parseFloat(this.value)});
-            if (sum != 1.0) {
-                $par.find("input[type='text'][name='" + name + "_quan']").parent().addClass('warning');
-            }
-            console.log('Ziguliz: ' + sum);
+        $urban_quan = $table.find("input[name='urban_quan'][type='text']");
+        $rural_quan = $table.find("input[name='rural_quan'][type='text']");
+        $urban_quan.show();
+        $rural_quan.show();
+        if ($urban_quan.length > 0) {
+            freq_quants_cb({'target': $urban_quan[0], 'type': 'change'});
+            freq_quants_cb({'target': $rural_quan[0], 'type': 'change'});
         }
     }
 
@@ -784,9 +790,19 @@ function classification_add(country) {
         }
         $tr.find("select[name='urban']").val(build_class.urban);
         $tr.find("select[name='rural']").val(build_class.rural);
-        $tr.find("input[name='urban_quan'][type='text']").val(build_class.urban_quan);
-        $tr.find("input[name='rural_quan'][type='text']").val(build_class.rural_quan);
+        $urban_quan = $tr.find("input[name='urban_quan'][type='text']");
+        $urban_quan.val(build_class.urban_quan);
+
+        $rural_quan = $tr.find("input[name='rural_quan'][type='text']");
+        $rural_quan.val(build_class.rural_quan);
         is_table_visible = true;
+    }
+
+    $urban_quan = $table.find("input[name='urban_quan'][type='text']");
+    if (freq_type == 'quantitative' && $urban_quan.length > 0) {
+        $rural_quan = $table.find("input[name='rural_quan'][type='text']");
+        freq_quants_cb({'target': $urban_quan[0], 'type': 'change'});
+        freq_quants_cb({'target': $rural_quan[0], 'type': 'change'});
     }
 
     if (is_table_visible)
