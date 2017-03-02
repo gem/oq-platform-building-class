@@ -157,11 +157,6 @@ function frequency_ddown_create(name, is_qualitative)
     return $sel;
 }
 
-
-
-
-
-
 function freq_quants_cb(event)
 {
     var item = event.target;
@@ -225,7 +220,7 @@ function build_classes_update(checkbox) {
             $leaf = $leaf.parent().parent().parent().parent().children('input[type="checkbox"]');
         }
         if (e == 1000) {
-            console.log("WARNING: Max iteration number reached 1000");
+            console.log("WARNING: Max iteration number reached 1000"); // not development log, good for production!
         }
     }
 
@@ -294,7 +289,6 @@ function build_classes_update(checkbox) {
 
 function checkbox_click_cb() {
     var item = $(this).parent();
-
     to_be_saved(true);
 
     if (this.checked) {
@@ -392,17 +386,6 @@ function classification_del_cb() {
     gem_modal_confirm(this, "Delete Classification",
                       __("Do you really want to delete '") + country + __("' classification?"),
                       success_cb, error_cb);
-}
-
-
-function classification_del_cb_old() {
-    var country = $(this).parent().find("p[name='title']").text();
-    if (confirm(__("Do you really want to delete '") + country + __("' classification?"))) {
-        $(this).parent().remove();
-        if ($('div#forest > div[name="tree"]').length == 0) {
-            $("button[name='save']").hide();
-        }
-    }
 }
 
 function cascade_showhide(to_show, $notes, $cascade, $button) {

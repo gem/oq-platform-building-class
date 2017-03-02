@@ -98,13 +98,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
         $("button[name='lang']").removeClass('active');
         $("button[name='lang'][data-gem-lang='" + lang + "']").addClass('active');
     }
-    
+
     $("button[name='lang']:not(.disabled)").on('click', function () { gem_video_change($(this).attr('data-gem-lang')); });
-    
+
     gem_video_change(gem_lang);
 
     var userLang = navigator.language || navigator.userLanguage;
     console.log(userLang);
   </script>
-  
+
 {% endblock extra_script %}
