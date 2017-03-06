@@ -215,6 +215,7 @@ span.legacy {
 
 input.radio_btn {
     vertical-align: text-bottom;
+    margin-left: 32px;
 }
 
 span.rbtn_label {
@@ -265,3 +266,8 @@ td.warning {
     background-color: #ffdddd;
 }
 
+form.user-settings label {
+    color: #1b75a7;
+    font-size: 21px;
+    margin: 12px 0 8px 0;
+}

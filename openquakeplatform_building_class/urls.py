@@ -28,8 +28,7 @@ admin.autodiscover()
 urlpatterns = patterns(
     '',
     url(r'^$', views.view, name='home'),
-    url(r'^/account/login/?next=/building-class/$', views.view, name='account_login'),
     url(r'^tutorial$', views.tutorial, name='tutorial'),
     url(r'^user-settings$', views.user_settings, name='user-settings'),
-    url(r'^data$', views.data, name='data'),
+    url(r'^data$', views.data, name='data')
 )
