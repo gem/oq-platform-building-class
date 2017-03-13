@@ -15,41 +15,23 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-from django.shortcuts import render_to_response
+from django.shortcuts import render, render_to_response
 from django.template import RequestContext
 from openquakeplatform.vulnerability.models import Country
 from django.utils.cache import add_never_cache_headers
 from django.core.serializers.json import DjangoJSONEncoder
 import json
-from django.http import (HttpResponse)
+from django.http import HttpResponse, HttpResponseRedirect
 from django.db import transaction
+from geonode.people.models import Profile
 
-from models import (UserSettings, ClassificationHead, ClassificationRow,
+from models import (UserSettings, UserSettingsForm,
+                    ClassificationHead, ClassificationRow,
                     FREQ_TYPE, FREQUENCY_TYPE,
                     FREQ_QUAL_TYPE, FREQUENCY_QUAL_TYPE, OCCUPACY_TYPE)
 from django.utils import timezone
 
 dataset_version = "0.9"
-
-
-def __user_settings_manager(request, user_settings, **kwargs):
-    if not user_settings:
-        publish_info = ''
-        not_publish_info = 'checked = "checked"'
-    else:
-        if user_settings.publish_info:
-            publish_info = 'checked = "checked"'
-            not_publish_info = ''
-        else:
-            publish_info = ''
-            not_publish_info = 'checked = "checked"'
-
-    return render_to_response(
-        "building-class/user-settings.html",
-        dict(none=None,
-             publish_info=publish_info,
-             not_publish_info=not_publish_info),
-        context_instance=RequestContext(request))
 
 _occupancies_dict = dict(OCCUPACY_TYPE)
 
@@ -74,11 +56,66 @@ def _occupancies_encode(occupancies):
 
     return occupancy
 
-def user_settings_view(request, **kwargs):
-    user_settings = UserSettings.objects.get(owner_id=request.user.pk)
+def _preferred_tut_lang(langs_in):
+    valid_langs = ['en', 'pt', 'tr', 'es' ]
+    langs = []
 
-    return __user_settings_manager(request, user_settings, **kwargs)
+    for lang in langs_in.split(','):
+        weight=1.0
+        lname=""
+        for atom in lang.split(';'):
+            if atom.strip()[0:2] == 'q=':
+                weight = float(atom.strip()[2:])
+            else:
+                lname=atom.strip().split('-')[0]
 
+        langs.append((lname, weight))
+
+    langs = sorted(langs, key=lambda lang: lang[1], reverse=True)
+
+    for lang in langs:
+        lname = lang[0]
+        if lname in valid_langs:
+            return lname
+    else:
+        return 'en'
+
+def tutorial(request, **kwargs):
+    lang = _preferred_tut_lang(request.META.get('HTTP_ACCEPT_LANGUAGE', 'en'))
+
+    return render_to_response(
+        "building-class/building-class-tutorial.html",
+        dict(next=request.get_full_path(), lang=lang),
+        context_instance=RequestContext(request))
+
+def user_settings(request, **kwargs):
+    instance = None
+    try:
+        instance = UserSettings.objects.get(owner_id=request.user.pk)
+    except:
+        try:
+            profile = Profile.objects.get(user_id=request.user.pk)
+            instance = UserSettings()
+            instance.name = profile.name
+            instance.organization = profile.organization
+            instance.position = profile.position
+            instance.publish_info = False
+        except:
+            instance = None
+
+    if request.method == 'POST':
+        form = UserSettingsForm(request.POST, instance=instance)
+
+        if form.is_valid():
+            form.instance.owner_id = request.user.pk
+            form.save()
+            return HttpResponseRedirect('.')
+        else:
+            instance = form.instance
+    else:
+        form = UserSettingsForm(instance=instance)
+
+    return render(request, 'building-class/user-settings.html', {'form': form})
 
 def view(request, **kwargs):
     success_msg = ''
@@ -86,30 +123,13 @@ def view(request, **kwargs):
     if not request.user.is_authenticated():
         return render_to_response(
             "building-class/building-class-not-auth.html",
-            dict(none=None),
+            dict(next=request.get_full_path(),),
             context_instance=RequestContext(request))
 
     try:
-        user_settings = UserSettings.objects.get(owner_id=request.user.pk)
+        UserSettings.objects.get(owner_id=request.user.pk)
     except:
-        user_settings = None
-
-    if request.method == 'POST' and request.POST.get('user_settings', '')  == 'true':
-        try:
-            if not user_settings:
-                user_settings = UserSettings(owner_id=request.user.pk,
-                                             publish_info=(request.POST.get('pub_info', 'no') == 'yes'))
-                user_settings.save()
-            else:
-                user_settings.publish_info = (request.POST.get('pub_info', 'no') == 'yes')
-                user_settings.save()
-            success_msg = 'User settings saved correctly.'
-        except Exception as e:
-            error_msg = 'User settings save failed (%s)'  % e
-
-    if not user_settings:
-        return __user_settings_manager(request, None, **kwargs)
-
+        return HttpResponseRedirect('user-settings')
 
     countries_opts = ""
     for country in Country.objects.all().order_by('name'):

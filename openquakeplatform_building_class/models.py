@@ -14,6 +14,9 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+from django.utils.translation import ugettext as _
+from django import forms
+from django.forms import ModelForm
 from django.contrib.gis.db import models
 from django_extras.contrib.auth.models import SingleOwnerMixin
 
@@ -60,8 +63,27 @@ OCCUPACY_TYPE = (
     (OCCUP_TYPE._GOVERNMENTAL, 'governmental')
     )
 
+
+BOOL_CHOICES = ((True, 'Yes'), (False, 'No'))
 class UserSettings(SingleOwnerMixin, models.Model):
-    publish_info = models.BooleanField()
+    name = models.CharField(_('Individual Name'), max_length=255, blank=True, null=True,
+                            help_text=_('name of the responsible person: surname, given name,'
+                                        ' title separated by a delimiter'))
+    organization = models.CharField(_('Organization Name'), max_length=255,
+                                    blank=True, null=True,
+                                    help_text=_('name of the responsible organization'))
+    position = models.CharField(_('Position Name'), max_length=255, blank=True, null=True,
+                                help_text=_('role or position of the responsible person'))
+    publish_info = models.BooleanField(choices=BOOL_CHOICES, help_text=_('''Would you like your contribution to be acknowledged in future documentation (eg. technical reports, scientific papers in peer reviewed journals, ...) ?<br>
+If you answer <b>no</b>, you will not appear in the contributors list and your contribution will remain anonymous.<br>
+          If you answer <b>yes</b>, please let us know how you prefer to be mentioned by adding your credentials'''
+    ))
+
+class UserSettingsForm(ModelForm):
+    class Meta:
+        model = UserSettings
+        fields = ['name', 'organization', 'position', 'publish_info']
+        widgets = { 'publish_info': forms.RadioSelect }
 
 class ClassificationHead(SingleOwnerMixin, models.Model):
     country = models.CharField(max_length=3)

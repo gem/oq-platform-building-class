@@ -28,6 +28,7 @@ admin.autodiscover()
 urlpatterns = patterns(
     '',
     url(r'^$', views.view, name='home'),
-    url(r'^user-settings$', views.user_settings_view, name='user-settings'),
-    url(r'^data$', views.data, name='data'),
+    url(r'^tutorial$', views.tutorial, name='tutorial'),
+    url(r'^user-settings$', views.user_settings, name='user-settings'),
+    url(r'^data$', views.data, name='data')
 )

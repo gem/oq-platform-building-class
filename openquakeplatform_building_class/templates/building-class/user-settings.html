@@ -1,5 +1,5 @@
 <!--
-Copyright (c) 2015-2016 GEM Foundation
+Copyright (c) 2017 GEM Foundation
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as
@@ -23,12 +23,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 
 {% block extra_head %}
     {{block.super}}
-    <link href="{{ STATIC_URL }}css/oqplatform_index.css" rel="stylesheet"/>
     <link href="{{ STATIC_URL }}css/handsontable.full.min.css" rel="stylesheet"/>
-    <link href="{{ STATIC_URL }}building-class/css/building-class.css" rel="stylesheet"/>
     <link href="{{ STATIC_URL }}css/jQuery-UI-Bootstrap-0.2.5.css" rel="stylesheet"/>
     <link rel="stylesheet" href="{{ STATIC_URL }}css/absolute_center_spinner.css" />
     <link href="{{ STATIC_URL }}css/sol.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}css/oqplatform_index.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}building-class/css/building-class.css" rel="stylesheet"/>
 {% endblock extra_head %}
 
 
@@ -44,6 +44,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           <h1>{% trans "Building Classification Survey" %}</h1>
           <h2>{% trans "User settings" %}</h2>
           <br />
+          The 'Building classification tool' aims to create a global inventory of
+building classes.<br><br>
         {% endblock oq_body_heading %}
       </div>
       <div id="oq-body-content" style="width: 100%;">
@@ -56,21 +58,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           </select>
         </div>
         <div class="disclaimer" name="disclaimer">
-          <form method="POST" action="./">
+          <form method="post" action="" class="user-settings">
             <input type="hidden" name="user_settings" value="true">
-          The 'Building classification tool' aims to create a global inventory of
-building classes in the world.<br><br>
-	
-
-          Would you like for your contribution to be acknowledged in future
-              documentation?: 
-            
-          <input class ="radio_btn" type="radio" name="pub_info" value="yes" {{ publish_info }}>
-          <span name="rbtn_yes" class="rbtn_label">yes</span>
-          <input class ="radio_btn" type="radio" name="pub_info" value="no" {{ not_publish_info }}>
-          <span name="rbtn_no" class="rbtn_label">no</span>
-          <br><br>
-          <input type="submit" value="submit">
+            {% csrf_token %}
+            {{ form }}
+            <br>
+            <br>
+            <button class="btn" />Submit</button>
           </form>
         </div>
     </div>
