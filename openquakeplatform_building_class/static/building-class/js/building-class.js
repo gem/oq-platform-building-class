@@ -642,6 +642,8 @@ function classification_add(country) {
                                             (freq_type == 'qualitative' ? 'qualitative frequencies' :
                                              'quantitative frequencies') ) });
     freq_type_btn.on('click', freq_type_cb);
+    if (occupancies_view)
+        freq_type_btn.hide()
 
     var $table = $("<table>", {"name": "build_classes", "class": "build_classes"}).append(
         $("<tr>", {"name": "titles"}).append($("<th>", {"text": __("building type")}),
