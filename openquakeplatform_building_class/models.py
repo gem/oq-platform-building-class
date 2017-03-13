@@ -67,7 +67,7 @@ OCCUPACY_TYPE = (
 BOOL_CHOICES = ((True, 'Yes'), (False, 'No'))
 class UserSettings(SingleOwnerMixin, models.Model):
     name = models.CharField(_('Individual Name'), max_length=255, blank=True, null=True,
-                            help_text=_('name of the responsible person surname, given name,'
+                            help_text=_('name of the responsible person: surname, given name,'
                                         ' title separated by a delimiter'))
     organization = models.CharField(_('Organization Name'), max_length=255,
                                     blank=True, null=True,

@@ -46,7 +46,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
         {% endblock oq_body_heading %}
       </div>
       <div id="oq-body-content" style="width: 100%;">
-        <!-- <div id="absoluteSpinner" class="loading">Loading&#8230;</div> -->
         <div style="display: none;">
           Language: <select id="language-id">
             <option selected value="en">English</option>
@@ -81,7 +80,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 
     function gem_video_change(lang)
     {
-        console.log(lang);
+        // console.log(lang);
         var $vid = $("iframe#gem-video");
         if (lang == 'tr') {
             $vid.attr("src", "https://www.youtube.com/embed/EPG7pU6Z--0");
@@ -104,7 +103,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
     gem_video_change(gem_lang);
 
     var userLang = navigator.language || navigator.userLanguage;
-    console.log(userLang);
+    // console.log(userLang);
   </script>
 
 {% endblock extra_script %}

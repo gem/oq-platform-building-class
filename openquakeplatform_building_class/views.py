@@ -56,17 +56,6 @@ def _occupancies_encode(occupancies):
 
     return occupancy
 
-#def user_settings(request, **kwargs):
-#    user_settings_ctx = UserSettings.objects.get(owner_id=request.user.pk)#
-#
-#    return __user_settings_manager(request, user_settings_ctx, **kwargs)
-
-# English version:    https://youtu.be/bXrvc9Qzie4
-# Portuguese version: https://youtu.be/JFLw3cdy5oY
-# Turkish version:    https://www.youtube.com/watch?v=EPG7pU6Z--0
-#                     https://www.youtube.com/embed/EPG7pU6Z--0
-# Spanish version:    https://youtu.be/HiFFZ46fZAs
-
 def _preferred_tut_lang(langs_in):
     valid_langs = ['en', 'pt', 'tr', 'es' ]
     langs = []
