@@ -74,7 +74,7 @@ class UserSettings(SingleOwnerMixin, models.Model):
                                     help_text=_('name of the responsible organization'))
     position = models.CharField(_('Position Name'), max_length=255, blank=True, null=True,
                                 help_text=_('role or position of the responsible person'))
-    publish_info = models.BooleanField(choices=BOOL_CHOICES, help_text=_('''Would you like for your contribution to be acknowledged in future documentation (eg. technical reports, scientific papers in peer reviewed journals, ...) ?<br>
+    publish_info = models.BooleanField(choices=BOOL_CHOICES, help_text=_('''Would you like your contribution to be acknowledged in future documentation (eg. technical reports, scientific papers in peer reviewed journals, ...) ?<br>
 If you answer <b>no</b>, you will not appear in the contributors list and your contribution will remain anonymous.<br>
           If you answer <b>yes</b>, please let us know how you prefer to be mentioned by adding your credentials'''
     ))
