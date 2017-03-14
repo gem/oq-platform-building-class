@@ -1,8 +1,8 @@
 include LICENSE.md
 include README.rst
-recursive-include openquakeplatform_taxtweb *.py
-recursive-include openquakeplatform_taxtweb/management *
-recursive-include openquakeplatform_taxtweb/static *
-recursive-include openquakeplatform_taxtweb/templates *
-recursive-include openquakeplatform_taxtweb/test *
+recursive-include openquakeplatform_building_class *.py
+recursive-include openquakeplatform_building_class/management *
+recursive-include openquakeplatform_building_class/static *
+recursive-include openquakeplatform_building_class/templates *
+recursive-include openquakeplatform_building_class/test *
 
