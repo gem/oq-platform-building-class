@@ -37,6 +37,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -44,6 +52,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -63,6 +79,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -70,6 +94,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -94,6 +126,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -101,6 +141,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -120,6 +168,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -127,6 +183,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -151,6 +215,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -158,6 +230,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -177,6 +257,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -184,6 +272,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -208,6 +304,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -215,6 +319,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -234,6 +346,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -241,6 +361,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -265,6 +393,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -272,6 +408,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -291,6 +435,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -298,6 +450,14 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -369,6 +529,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -492,6 +676,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -627,6 +835,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -756,6 +988,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -879,6 +1135,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -1124,6 +1404,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                     ],  "name": "Type of concrete", "type": "group" }, 
                    "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -1499,6 +1866,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", 
@@ -1928,6 +2382,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                     ],  "name": "Type of concrete", "type": "group" }, 
                    "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -2330,6 +2871,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                     ],  "name": "Type of concrete", "type": "group" }, 
                    "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -2705,6 +3333,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", 
@@ -3034,6 +3749,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -3157,6 +3896,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -3292,6 +4055,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -3421,6 +4208,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -3544,6 +4355,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -3684,6 +4519,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -3807,6 +4666,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -3942,6 +4825,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -4071,6 +4978,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -4194,6 +5125,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -4334,6 +5289,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -4457,6 +5436,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -4592,6 +5595,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -4721,6 +5748,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -4844,6 +5895,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -4984,6 +6059,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -5107,6 +6206,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -5242,6 +6365,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -5371,6 +6518,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -5494,6 +6665,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -5639,6 +6834,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -5762,6 +6981,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -5897,6 +7140,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -6026,6 +7293,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -6149,6 +7440,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -6394,6 +7709,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                     ],  "name": "Type of concrete", "type": "group" }, 
                    "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -6769,6 +8171,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", 
@@ -7198,6 +8687,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                     ],  "name": "Type of concrete", "type": "group" }, 
                    "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -7600,6 +9176,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                     ],  "name": "Type of concrete", "type": "group" }, 
                    "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -7975,6 +9638,93 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Ceramic brick", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }, 
+                  { "name": "Unknown", 
+                   "sub": {
+                    "el": [
+                     { "name": "Cast in place", "type": "choice" }, 
+                     { "name": "Pre-cast", "type": "choice" }, 
+                     { "name": "Unknown", "type": "choice" }
+                    ],  "name": "Type of concrete", "type": "group" }, 
+                   "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", 
@@ -8304,6 +10054,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -8427,6 +10201,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -8562,6 +10360,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -8691,6 +10513,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -8814,6 +10660,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -8954,6 +10824,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -9077,6 +10971,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -9212,6 +11130,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -9341,6 +11283,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -9464,6 +11430,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -9604,6 +11594,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -9727,6 +11741,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -9862,6 +11900,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -9991,6 +12053,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -10114,6 +12200,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -10254,6 +12364,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -10377,6 +12511,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 
@@ -10512,6 +12670,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -10641,6 +12823,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
                   { "name": "Pre-cast", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -10764,6 +12970,30 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Cast in place", "type": "choice" }, 
+                  { "name": "Pre-cast", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of concrete", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Cast in place", "type": "choice" }, 

@@ -39,7 +39,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -77,7 +80,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -115,7 +121,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -153,7 +162,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -191,7 +203,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -234,7 +249,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -272,7 +290,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -310,7 +331,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -348,7 +372,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -386,7 +413,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -429,7 +459,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -467,7 +500,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -505,7 +541,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -543,7 +582,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -581,7 +623,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -624,7 +669,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -662,7 +710,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -700,7 +751,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -738,7 +792,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -776,7 +833,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -819,7 +879,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -857,7 +920,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -895,7 +961,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -933,7 +1002,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -971,7 +1043,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1014,7 +1089,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1052,7 +1130,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1090,7 +1171,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1128,7 +1212,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1166,7 +1253,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1214,7 +1304,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1252,7 +1345,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1290,7 +1386,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1328,7 +1427,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1366,7 +1468,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1409,7 +1514,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1447,7 +1555,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1485,7 +1596,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1523,7 +1637,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1561,7 +1678,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1604,7 +1724,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1642,7 +1765,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1680,7 +1806,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1718,7 +1847,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1756,7 +1888,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1799,7 +1934,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1837,7 +1975,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1875,7 +2016,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1913,7 +2057,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1951,7 +2098,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1994,7 +2144,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2032,7 +2185,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2070,7 +2226,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2108,7 +2267,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2146,7 +2308,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2189,7 +2354,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2227,7 +2395,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2265,7 +2436,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2303,7 +2477,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2341,7 +2518,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2389,7 +2569,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2427,7 +2610,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2465,7 +2651,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2503,7 +2692,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2541,7 +2733,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2584,7 +2779,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2622,7 +2820,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2660,7 +2861,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2698,7 +2902,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2736,7 +2943,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2779,7 +2989,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2817,7 +3030,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2855,7 +3071,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2893,7 +3112,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2931,7 +3153,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2974,7 +3199,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3012,7 +3240,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3050,7 +3281,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3088,7 +3322,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3126,7 +3363,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3169,7 +3409,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3207,7 +3450,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3245,7 +3491,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3283,7 +3532,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3321,7 +3573,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3364,7 +3619,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3402,7 +3660,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3440,7 +3701,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3478,7 +3742,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3516,7 +3783,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3564,7 +3834,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3602,7 +3875,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3640,7 +3916,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3678,7 +3957,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3716,7 +3998,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3764,7 +4049,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3802,7 +4090,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3840,7 +4131,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3878,7 +4172,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3916,7 +4213,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3959,7 +4259,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3997,7 +4300,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4035,7 +4341,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4073,7 +4382,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4111,7 +4423,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4154,7 +4469,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4192,7 +4510,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4230,7 +4551,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4268,7 +4592,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4306,7 +4633,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4349,7 +4679,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4387,7 +4720,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4425,7 +4761,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4463,7 +4802,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4501,7 +4843,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4544,7 +4889,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4582,7 +4930,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4620,7 +4971,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4658,7 +5012,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4696,7 +5053,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4739,7 +5099,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4777,7 +5140,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4815,7 +5181,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4853,7 +5222,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4891,7 +5263,10 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 

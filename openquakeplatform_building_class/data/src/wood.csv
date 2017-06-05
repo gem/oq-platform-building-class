@@ -4,6 +4,9 @@ Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floor
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Regular,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -17,6 +20,9 @@ Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floo
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -30,6 +36,9 @@ Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 fl
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -43,6 +52,9 @@ Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Regular,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -56,6 +68,9 @@ Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,Mo
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -69,6 +84,9 @@ Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regula
 Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -82,6 +100,9 @@ Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regul
 Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -95,6 +116,9 @@ Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Reg
 Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -108,6 +132,9 @@ Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,M
 Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -121,6 +148,9 @@ Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Regular,Moderate du
 Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Regular,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Unknown 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -134,6 +164,9 @@ Wood,Light wood,Wall,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Light wood,Wall,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Wall,Low rise (<3 floors),Regular,Unknown 	
 Wood,Light wood,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Wall,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Wall,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -147,6 +180,9 @@ Wood,Light wood,Wall,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<
 Wood,Light wood,Wall,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Wall,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Light wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Wall,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Wall,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -160,6 +196,9 @@ Wood,Light wood,Wall,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PG
 Wood,Light wood,Wall,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Wall,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Light wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Wall,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Wall,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -173,6 +212,9 @@ Wood,Light wood,Wall,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g
 Wood,Light wood,Wall,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Wall,Tall (>12 floors),Regular,Unknown 	
 Wood,Light wood,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Wall,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Wall,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Wall,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -186,6 +228,9 @@ Wood,Light wood,Wall,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Light wood,Wall,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Wall,Unknown,Regular,Unknown 	
 Wood,Light wood,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Wall,Unknown,Irregular-soft storey,Unknown 	
 Wood,Light wood,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Wall,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Wall,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -199,6 +244,9 @@ Wood,Light wood,Dual system,Low rise (<3 floors),Regular,Moderate ductility (0.1
 Wood,Light wood,Dual system,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Dual system,Low rise (<3 floors),Regular,Unknown 	
 Wood,Light wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Dual system,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Dual system,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -212,6 +260,9 @@ Wood,Light wood,Dual system,Mid rise (4-6 floors),Regular,Moderate ductility (0.
 Wood,Light wood,Dual system,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Dual system,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Light wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -225,6 +276,9 @@ Wood,Light wood,Dual system,High-rise (7-12 floors),Regular,Moderate ductility (
 Wood,Light wood,Dual system,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Dual system,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Light wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Dual system,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Dual system,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -238,6 +292,9 @@ Wood,Light wood,Dual system,Tall (>12 floors),Regular,Moderate ductility (0.1g<P
 Wood,Light wood,Dual system,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Dual system,Tall (>12 floors),Regular,Unknown 	
 Wood,Light wood,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Dual system,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Dual system,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -251,6 +308,9 @@ Wood,Light wood,Dual system,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Light wood,Dual system,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Dual system,Unknown,Regular,Unknown 	
 Wood,Light wood,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Dual system,Unknown,Irregular-soft storey,Unknown 	
 Wood,Light wood,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Dual system,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Dual system,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -264,6 +324,9 @@ Wood,Light wood,Braced frame,Low rise (<3 floors),Regular,Moderate ductility (0.
 Wood,Light wood,Braced frame,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Braced frame,Low rise (<3 floors),Regular,Unknown 	
 Wood,Light wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Braced frame,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Braced frame,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -277,6 +340,9 @@ Wood,Light wood,Braced frame,Mid rise (4-6 floors),Regular,Moderate ductility (0
 Wood,Light wood,Braced frame,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Braced frame,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Light wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -290,6 +356,9 @@ Wood,Light wood,Braced frame,High-rise (7-12 floors),Regular,Moderate ductility 
 Wood,Light wood,Braced frame,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Braced frame,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Light wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -303,6 +372,9 @@ Wood,Light wood,Braced frame,Tall (>12 floors),Regular,Moderate ductility (0.1g<
 Wood,Light wood,Braced frame,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Braced frame,Tall (>12 floors),Regular,Unknown 	
 Wood,Light wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Braced frame,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Braced frame,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -316,6 +388,9 @@ Wood,Light wood,Braced frame,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Light wood,Braced frame,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Braced frame,Unknown,Regular,Unknown 	
 Wood,Light wood,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Braced frame,Unknown,Irregular-soft storey,Unknown 	
 Wood,Light wood,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Braced frame,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Braced frame,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -329,6 +404,9 @@ Wood,Light wood,Unknown,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PG
 Wood,Light wood,Unknown,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Unknown,Low rise (<3 floors),Regular,Unknown 	
 Wood,Light wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Unknown,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Unknown,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -342,6 +420,9 @@ Wood,Light wood,Unknown,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<P
 Wood,Light wood,Unknown,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Unknown,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Light wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -355,6 +436,9 @@ Wood,Light wood,Unknown,High-rise (7-12 floors),Regular,Moderate ductility (0.1g
 Wood,Light wood,Unknown,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Unknown,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Light wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Unknown,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Unknown,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -368,6 +452,9 @@ Wood,Light wood,Unknown,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Light wood,Unknown,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Unknown,Tall (>12 floors),Regular,Unknown 	
 Wood,Light wood,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Light wood,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Unknown,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Unknown,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -381,6 +468,9 @@ Wood,Light wood,Unknown,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Light wood,Unknown,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Light wood,Unknown,Unknown,Regular,Unknown 	
 Wood,Light wood,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Light wood,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Light wood,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Light wood,Unknown,Unknown,Irregular-soft storey,Unknown 	
 Wood,Light wood,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Light wood,Unknown,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Light wood,Unknown,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -394,6 +484,9 @@ Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floor
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Regular,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -407,6 +500,9 @@ Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floo
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -420,6 +516,9 @@ Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 fl
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -433,6 +532,9 @@ Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Regular,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -446,6 +548,9 @@ Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,Mo
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -459,6 +564,9 @@ Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regula
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -472,6 +580,9 @@ Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regul
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -485,6 +596,9 @@ Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Reg
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -498,6 +612,9 @@ Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,M
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -511,6 +628,9 @@ Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Regular,Moderate du
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Regular,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -524,6 +644,9 @@ Wood,Heavy wood,Wall,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Heavy wood,Wall,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Wall,Low rise (<3 floors),Regular,Unknown 	
 Wood,Heavy wood,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Wall,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Wall,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -537,6 +660,9 @@ Wood,Heavy wood,Wall,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<
 Wood,Heavy wood,Wall,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Wall,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Heavy wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Wall,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Wall,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -550,6 +676,9 @@ Wood,Heavy wood,Wall,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PG
 Wood,Heavy wood,Wall,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Wall,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Heavy wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Wall,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Wall,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -563,6 +692,9 @@ Wood,Heavy wood,Wall,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g
 Wood,Heavy wood,Wall,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Wall,Tall (>12 floors),Regular,Unknown 	
 Wood,Heavy wood,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Wall,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Wall,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Wall,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -576,6 +708,9 @@ Wood,Heavy wood,Wall,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Heavy wood,Wall,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Wall,Unknown,Regular,Unknown 	
 Wood,Heavy wood,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Wall,Unknown,Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Wall,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Wall,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -589,6 +724,9 @@ Wood,Heavy wood,Dual system,Low rise (<3 floors),Regular,Moderate ductility (0.1
 Wood,Heavy wood,Dual system,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Dual system,Low rise (<3 floors),Regular,Unknown 	
 Wood,Heavy wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Dual system,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Dual system,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -602,6 +740,9 @@ Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Regular,Moderate ductility (0.
 Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -615,6 +756,9 @@ Wood,Heavy wood,Dual system,High-rise (7-12 floors),Regular,Moderate ductility (
 Wood,Heavy wood,Dual system,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Dual system,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Heavy wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Dual system,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Dual system,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -628,6 +772,9 @@ Wood,Heavy wood,Dual system,Tall (>12 floors),Regular,Moderate ductility (0.1g<P
 Wood,Heavy wood,Dual system,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Dual system,Tall (>12 floors),Regular,Unknown 	
 Wood,Heavy wood,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Dual system,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Dual system,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -641,6 +788,9 @@ Wood,Heavy wood,Dual system,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Heavy wood,Dual system,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Dual system,Unknown,Regular,Unknown 	
 Wood,Heavy wood,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Dual system,Unknown,Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Dual system,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Dual system,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -654,6 +804,9 @@ Wood,Heavy wood,Braced frame,Low rise (<3 floors),Regular,Moderate ductility (0.
 Wood,Heavy wood,Braced frame,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Braced frame,Low rise (<3 floors),Regular,Unknown 	
 Wood,Heavy wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Braced frame,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Braced frame,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -667,6 +820,9 @@ Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Regular,Moderate ductility (0
 Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -680,6 +836,9 @@ Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Regular,Moderate ductility 
 Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -693,6 +852,9 @@ Wood,Heavy wood,Braced frame,Tall (>12 floors),Regular,Moderate ductility (0.1g<
 Wood,Heavy wood,Braced frame,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Braced frame,Tall (>12 floors),Regular,Unknown 	
 Wood,Heavy wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Braced frame,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Braced frame,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -706,6 +868,9 @@ Wood,Heavy wood,Braced frame,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Heavy wood,Braced frame,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Braced frame,Unknown,Regular,Unknown 	
 Wood,Heavy wood,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Braced frame,Unknown,Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Braced frame,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Braced frame,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -719,6 +884,9 @@ Wood,Heavy wood,Unknown,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PG
 Wood,Heavy wood,Unknown,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Unknown,Low rise (<3 floors),Regular,Unknown 	
 Wood,Heavy wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Unknown,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Unknown,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -732,6 +900,9 @@ Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<P
 Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -745,6 +916,9 @@ Wood,Heavy wood,Unknown,High-rise (7-12 floors),Regular,Moderate ductility (0.1g
 Wood,Heavy wood,Unknown,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Unknown,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Heavy wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Unknown,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Unknown,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -758,6 +932,9 @@ Wood,Heavy wood,Unknown,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Heavy wood,Unknown,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Unknown,Tall (>12 floors),Regular,Unknown 	
 Wood,Heavy wood,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Unknown,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Unknown,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -771,6 +948,9 @@ Wood,Heavy wood,Unknown,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Heavy wood,Unknown,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Heavy wood,Unknown,Unknown,Regular,Unknown 	
 Wood,Heavy wood,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Heavy wood,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Heavy wood,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Heavy wood,Unknown,Unknown,Irregular-soft storey,Unknown 	
 Wood,Heavy wood,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Heavy wood,Unknown,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Heavy wood,Unknown,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -784,6 +964,9 @@ Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floor
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Regular,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -797,6 +980,9 @@ Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floo
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -810,6 +996,9 @@ Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 fl
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -823,6 +1012,9 @@ Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Regular,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -836,6 +1028,9 @@ Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,Mo
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -849,6 +1044,9 @@ Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regula
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -862,6 +1060,9 @@ Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regul
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -875,6 +1076,9 @@ Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Reg
 Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -888,6 +1092,9 @@ Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,M
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -901,6 +1108,9 @@ Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Regular,Moderate du
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Regular,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Unknown 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -914,6 +1124,9 @@ Wood,Solid wood,Wall,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Solid wood,Wall,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Wall,Low rise (<3 floors),Regular,Unknown 	
 Wood,Solid wood,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Wall,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Wall,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -927,6 +1140,9 @@ Wood,Solid wood,Wall,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<
 Wood,Solid wood,Wall,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Wall,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Solid wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Wall,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Wall,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -940,6 +1156,9 @@ Wood,Solid wood,Wall,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PG
 Wood,Solid wood,Wall,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Wall,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Solid wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Wall,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Wall,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -953,6 +1172,9 @@ Wood,Solid wood,Wall,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g
 Wood,Solid wood,Wall,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Wall,Tall (>12 floors),Regular,Unknown 	
 Wood,Solid wood,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Wall,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Wall,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Wall,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -966,6 +1188,9 @@ Wood,Solid wood,Wall,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Solid wood,Wall,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Wall,Unknown,Regular,Unknown 	
 Wood,Solid wood,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Wall,Unknown,Irregular-soft storey,Unknown 	
 Wood,Solid wood,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Wall,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Wall,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -979,6 +1204,9 @@ Wood,Solid wood,Dual system,Low rise (<3 floors),Regular,Moderate ductility (0.1
 Wood,Solid wood,Dual system,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Dual system,Low rise (<3 floors),Regular,Unknown 	
 Wood,Solid wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Dual system,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Dual system,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -992,6 +1220,9 @@ Wood,Solid wood,Dual system,Mid rise (4-6 floors),Regular,Moderate ductility (0.
 Wood,Solid wood,Dual system,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Dual system,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Solid wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Dual system,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1005,6 +1236,9 @@ Wood,Solid wood,Dual system,High-rise (7-12 floors),Regular,Moderate ductility (
 Wood,Solid wood,Dual system,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Dual system,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Solid wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Dual system,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Dual system,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1018,6 +1252,9 @@ Wood,Solid wood,Dual system,Tall (>12 floors),Regular,Moderate ductility (0.1g<P
 Wood,Solid wood,Dual system,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Dual system,Tall (>12 floors),Regular,Unknown 	
 Wood,Solid wood,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Dual system,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Dual system,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1031,6 +1268,9 @@ Wood,Solid wood,Dual system,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Solid wood,Dual system,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Dual system,Unknown,Regular,Unknown 	
 Wood,Solid wood,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Dual system,Unknown,Irregular-soft storey,Unknown 	
 Wood,Solid wood,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Dual system,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Dual system,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1044,6 +1284,9 @@ Wood,Solid wood,Braced frame,Low rise (<3 floors),Regular,Moderate ductility (0.
 Wood,Solid wood,Braced frame,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Braced frame,Low rise (<3 floors),Regular,Unknown 	
 Wood,Solid wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Braced frame,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Braced frame,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1057,6 +1300,9 @@ Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Regular,Moderate ductility (0
 Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Braced frame,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1070,6 +1316,9 @@ Wood,Solid wood,Braced frame,High-rise (7-12 floors),Regular,Moderate ductility 
 Wood,Solid wood,Braced frame,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Braced frame,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Solid wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Braced frame,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1083,6 +1332,9 @@ Wood,Solid wood,Braced frame,Tall (>12 floors),Regular,Moderate ductility (0.1g<
 Wood,Solid wood,Braced frame,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Braced frame,Tall (>12 floors),Regular,Unknown 	
 Wood,Solid wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Braced frame,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Braced frame,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1096,6 +1348,9 @@ Wood,Solid wood,Braced frame,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Solid wood,Braced frame,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Braced frame,Unknown,Regular,Unknown 	
 Wood,Solid wood,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Braced frame,Unknown,Irregular-soft storey,Unknown 	
 Wood,Solid wood,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Braced frame,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Braced frame,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1109,6 +1364,9 @@ Wood,Solid wood,Unknown,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PG
 Wood,Solid wood,Unknown,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Unknown,Low rise (<3 floors),Regular,Unknown 	
 Wood,Solid wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Unknown,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Unknown,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1122,6 +1380,9 @@ Wood,Solid wood,Unknown,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<P
 Wood,Solid wood,Unknown,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Unknown,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Solid wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Unknown,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1135,6 +1396,9 @@ Wood,Solid wood,Unknown,High-rise (7-12 floors),Regular,Moderate ductility (0.1g
 Wood,Solid wood,Unknown,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Unknown,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Solid wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Unknown,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Unknown,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1148,6 +1412,9 @@ Wood,Solid wood,Unknown,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Solid wood,Unknown,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Unknown,Tall (>12 floors),Regular,Unknown 	
 Wood,Solid wood,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Solid wood,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Unknown,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Unknown,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1161,6 +1428,9 @@ Wood,Solid wood,Unknown,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Solid wood,Unknown,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Solid wood,Unknown,Unknown,Regular,Unknown 	
 Wood,Solid wood,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Solid wood,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Solid wood,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Solid wood,Unknown,Unknown,Irregular-soft storey,Unknown 	
 Wood,Solid wood,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Solid wood,Unknown,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Solid wood,Unknown,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1174,6 +1444,9 @@ Wood,Stud wall,Wall,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.
 Wood,Stud wall,Wall,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Stud wall,Wall,Low rise (<3 floors),Regular,Unknown 	
 Wood,Stud wall,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Stud wall,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Stud wall,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Stud wall,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Stud wall,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Stud wall,Wall,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Stud wall,Wall,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1187,6 +1460,9 @@ Wood,Stud wall,Wall,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Stud wall,Wall,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Stud wall,Wall,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Stud wall,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Stud wall,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Stud wall,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Stud wall,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Stud wall,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Stud wall,Wall,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Stud wall,Wall,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1200,6 +1476,9 @@ Wood,Stud wall,Wall,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA
 Wood,Stud wall,Wall,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Stud wall,Wall,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Stud wall,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Stud wall,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Stud wall,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Stud wall,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Stud wall,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Stud wall,Wall,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Stud wall,Wall,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1213,6 +1492,9 @@ Wood,Stud wall,Wall,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Stud wall,Wall,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Stud wall,Wall,Tall (>12 floors),Regular,Unknown 	
 Wood,Stud wall,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Stud wall,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Stud wall,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Stud wall,Wall,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Stud wall,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Stud wall,Wall,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Stud wall,Wall,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1226,6 +1508,9 @@ Wood,Stud wall,Wall,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Stud wall,Wall,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Stud wall,Wall,Unknown,Regular,Unknown 	
 Wood,Stud wall,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Stud wall,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Stud wall,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Stud wall,Wall,Unknown,Irregular-soft storey,Unknown 	
 Wood,Stud wall,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Stud wall,Wall,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Stud wall,Wall,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1239,6 +1524,9 @@ Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Regular,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1252,6 +1540,9 @@ Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors)
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1265,6 +1556,9 @@ Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floor
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1278,6 +1572,9 @@ Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Reg
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Regular,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1291,6 +1588,9 @@ Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,Moder
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Regular,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Traditional joinery - e.g. dovetails) ,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1304,6 +1604,9 @@ Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,M
 Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Regular,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1317,6 +1620,9 @@ Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,
 Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1330,6 +1636,9 @@ Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regula
 Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1343,6 +1652,9 @@ Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,Mode
 Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Regular,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1356,6 +1668,9 @@ Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Regular,Moderate ducti
 Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Regular,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Irregular-soft storey,Unknown 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Frame (Joins with plates and bolts) ,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1369,6 +1684,9 @@ Wood,Unknown,Wall,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g
 Wood,Unknown,Wall,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Wall,Low rise (<3 floors),Regular,Unknown 	
 Wood,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Wall,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Wall,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1382,6 +1700,9 @@ Wood,Unknown,Wall,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3
 Wood,Unknown,Wall,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Wall,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Wall,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Wall,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1395,6 +1716,9 @@ Wood,Unknown,Wall,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Unknown,Wall,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Wall,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Wall,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Wall,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1408,6 +1732,9 @@ Wood,Unknown,Wall,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Unknown,Wall,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Wall,Tall (>12 floors),Regular,Unknown 	
 Wood,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Wall,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Wall,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1421,6 +1748,9 @@ Wood,Unknown,Wall,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Unknown,Wall,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Wall,Unknown,Regular,Unknown 	
 Wood,Unknown,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Wall,Unknown,Irregular-soft storey,Unknown 	
 Wood,Unknown,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Wall,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Wall,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1434,6 +1764,9 @@ Wood,Unknown,Dual system,Low rise (<3 floors),Regular,Moderate ductility (0.1g<P
 Wood,Unknown,Dual system,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Dual system,Low rise (<3 floors),Regular,Unknown 	
 Wood,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Dual system,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Dual system,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1447,6 +1780,9 @@ Wood,Unknown,Dual system,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<
 Wood,Unknown,Dual system,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Dual system,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Dual system,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Dual system,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1460,6 +1796,9 @@ Wood,Unknown,Dual system,High-rise (7-12 floors),Regular,Moderate ductility (0.1
 Wood,Unknown,Dual system,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Dual system,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Dual system,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Dual system,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1473,6 +1812,9 @@ Wood,Unknown,Dual system,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<
 Wood,Unknown,Dual system,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Dual system,Tall (>12 floors),Regular,Unknown 	
 Wood,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Dual system,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Dual system,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1486,6 +1828,9 @@ Wood,Unknown,Dual system,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Unknown,Dual system,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Dual system,Unknown,Regular,Unknown 	
 Wood,Unknown,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Dual system,Unknown,Irregular-soft storey,Unknown 	
 Wood,Unknown,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Dual system,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Dual system,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1499,6 +1844,9 @@ Wood,Unknown,Braced frame,Low rise (<3 floors),Regular,Moderate ductility (0.1g<
 Wood,Unknown,Braced frame,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Braced frame,Low rise (<3 floors),Regular,Unknown 	
 Wood,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Braced frame,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Braced frame,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1512,6 +1860,9 @@ Wood,Unknown,Braced frame,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g
 Wood,Unknown,Braced frame,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Braced frame,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1525,6 +1876,9 @@ Wood,Unknown,Braced frame,High-rise (7-12 floors),Regular,Moderate ductility (0.
 Wood,Unknown,Braced frame,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Braced frame,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Braced frame,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Braced frame,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1538,6 +1892,9 @@ Wood,Unknown,Braced frame,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA
 Wood,Unknown,Braced frame,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Braced frame,Tall (>12 floors),Regular,Unknown 	
 Wood,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Braced frame,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Braced frame,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1551,6 +1908,9 @@ Wood,Unknown,Braced frame,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Unknown,Braced frame,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Braced frame,Unknown,Regular,Unknown 	
 Wood,Unknown,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Braced frame,Unknown,Irregular-soft storey,Unknown 	
 Wood,Unknown,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Braced frame,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Braced frame,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1564,6 +1924,9 @@ Wood,Unknown,Unknown,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0
 Wood,Unknown,Unknown,Low rise (<3 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Unknown,Low rise (<3 floors),Regular,Unknown 	
 Wood,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Unknown,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Unknown,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1577,6 +1940,9 @@ Wood,Unknown,Unknown,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<
 Wood,Unknown,Unknown,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Unknown,Mid rise (4-6 floors),Regular,Unknown 	
 Wood,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Unknown,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Unknown,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1590,6 +1956,9 @@ Wood,Unknown,Unknown,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PG
 Wood,Unknown,Unknown,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Unknown,High-rise (7-12 floors),Regular,Unknown 	
 Wood,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Unknown,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Unknown,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1603,6 +1972,9 @@ Wood,Unknown,Unknown,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g
 Wood,Unknown,Unknown,Tall (>12 floors),Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Unknown,Tall (>12 floors),Regular,Unknown 	
 Wood,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown 	
 Wood,Unknown,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Unknown,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Unknown,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g) 	
@@ -1616,6 +1988,9 @@ Wood,Unknown,Unknown,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Unknown,Unknown,Unknown,Regular,High ductility (PGA>0.3g) 	
 Wood,Unknown,Unknown,Unknown,Regular,Unknown 	
 Wood,Unknown,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g) 	
+Wood,Unknown,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g) 	
+Wood,Unknown,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g) 	
+Wood,Unknown,Unknown,Unknown,Irregular-soft storey,Unknown 	
 Wood,Unknown,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g) 	
 Wood,Unknown,Unknown,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g) 	
 Wood,Unknown,Unknown,Unknown,Irregular-torsion,High ductility (PGA>0.3g) 	
