@@ -2,63 +2,123 @@ Material,Type,Lateral load resisting  system,Height,Irregularities ,Ductility,Ty
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-torsion,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-torsion,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Irregular-torsion,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Unknown,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Unknown,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Low rise (<3 floors),Unknown,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Regular,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Regular,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Regular,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Unknown,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Unknown,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Mid rise (4-6 floors),Unknown,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Regular,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Regular,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Regular,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Unknown,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Unknown,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,High-rise (7-12 floors),Unknown,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Regular,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Regular,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Regular,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-torsion,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-torsion,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Irregular-torsion,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Unknown,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Unknown,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Tall (>12 floors),Unknown,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Unknown,Regular,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Unknown,Regular,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Unknown,Regular,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Unknown,Regular,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Unknown,Regular,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Unknown,Regular,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Unknown,Irregular-torsion,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Unknown,Irregular-torsion,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Unknown,Irregular-torsion,Unknown,-,Unknown 	
 Concrete,Unreinforced,Wall,Unknown,Unknown,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unreinforced,Wall,Unknown,Unknown,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unreinforced,Wall,Unknown,Unknown,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unreinforced,Wall,Unknown,Unknown,Unknown,-,Cast in place 	
+Concrete,Unreinforced,Wall,Unknown,Unknown,Unknown,-,Pre-cast 	
+Concrete,Unreinforced,Wall,Unknown,Unknown,Unknown,-,Unknown 	
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Unknown 	
@@ -74,6 +134,15 @@ Concrete,Reinforced,Moment frame,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -113,6 +182,15 @@ Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -152,6 +230,15 @@ Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Regular,Unknown,-,Unkno
 Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -191,6 +278,15 @@ Concrete,Reinforced,Moment frame,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -230,6 +326,15 @@ Concrete,Reinforced,Moment frame,Unknown,Regular,Unknown,-,Unknown
 Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Moment frame,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Moment frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Moment frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Moment frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -299,6 +404,33 @@ Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,No
 Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Reinforced,Infilled frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -416,6 +548,33 @@ Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,N
 Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Reinforced,Infilled frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -533,6 +692,33 @@ Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey
 Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Reinforced,Infilled frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -650,6 +836,33 @@ Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Non d
 Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Reinforced,Infilled frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -767,6 +980,33 @@ Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Non ductile (PG
 Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Reinforced,Infilled frame,Unknown,Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Reinforced,Infilled frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Reinforced,Infilled frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Reinforced,Infilled frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -854,6 +1094,15 @@ Concrete,Reinforced,Wall,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -893,6 +1142,15 @@ Concrete,Reinforced,Wall,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -932,6 +1190,15 @@ Concrete,Reinforced,Wall,High-rise (7-12 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -971,6 +1238,15 @@ Concrete,Reinforced,Wall,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1010,6 +1286,15 @@ Concrete,Reinforced,Wall,Unknown,Regular,Unknown,-,Unknown
 Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Wall,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1049,6 +1334,15 @@ Concrete,Reinforced,Dual system,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1088,6 +1382,15 @@ Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1127,6 +1430,15 @@ Concrete,Reinforced,Dual system,High-rise (7-12 floors),Regular,Unknown,-,Unknow
 Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1166,6 +1478,15 @@ Concrete,Reinforced,Dual system,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1205,6 +1526,15 @@ Concrete,Reinforced,Dual system,Unknown,Regular,Unknown,-,Unknown
 Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Dual system,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1244,6 +1574,15 @@ Concrete,Reinforced,Braced frame,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1283,6 +1622,15 @@ Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1322,6 +1670,15 @@ Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Regular,Unknown,-,Unkno
 Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1361,6 +1718,15 @@ Concrete,Reinforced,Braced frame,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1400,6 +1766,15 @@ Concrete,Reinforced,Braced frame,Unknown,Regular,Unknown,-,Unknown
 Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Braced frame,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1439,6 +1814,15 @@ Concrete,Reinforced,Unknown,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1478,6 +1862,15 @@ Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1517,6 +1910,15 @@ Concrete,Reinforced,Unknown,High-rise (7-12 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1556,6 +1958,15 @@ Concrete,Reinforced,Unknown,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1595,6 +2006,15 @@ Concrete,Reinforced,Unknown,Unknown,Regular,Unknown,-,Unknown
 Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Reinforced,Unknown,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Reinforced,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Reinforced,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Reinforced,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1634,6 +2054,15 @@ Concrete,Unknown,Moment frame,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1673,6 +2102,15 @@ Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1712,6 +2150,15 @@ Concrete,Unknown,Moment frame,High-rise (7-12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1751,6 +2198,15 @@ Concrete,Unknown,Moment frame,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1790,6 +2246,15 @@ Concrete,Unknown,Moment frame,Unknown,Regular,Unknown,-,Unknown
 Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Moment frame,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Moment frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Moment frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Moment frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -1859,6 +2324,33 @@ Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Non d
 Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Unknown,Infilled frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -1976,6 +2468,33 @@ Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Non 
 Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Unknown,Infilled frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -2093,6 +2612,33 @@ Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,No
 Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Unknown,Infilled frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -2210,6 +2756,33 @@ Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Non duct
 Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Unknown,Infilled frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -2327,6 +2900,33 @@ Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Non ductile (PGA<0
 Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Cast in place 	
 Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Pre-cast 	
 Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),Unknown,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Concrete block,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Concrete block,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Concrete block,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Ceramic brick,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Ceramic brick,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Ceramic brick,Unknown 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Unknown,Cast in place 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Unknown,Pre-cast 	
+Concrete,Unknown,Infilled frame,Unknown,Irregular-soft storey,Unknown,Unknown,Unknown 	
 Concrete,Unknown,Infilled frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Cast in place 	
 Concrete,Unknown,Infilled frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Pre-cast 	
 Concrete,Unknown,Infilled frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),Concrete block,Unknown 	
@@ -2414,6 +3014,15 @@ Concrete,Unknown,Wall,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2453,6 +3062,15 @@ Concrete,Unknown,Wall,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2492,6 +3110,15 @@ Concrete,Unknown,Wall,High-rise (7-12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2531,6 +3158,15 @@ Concrete,Unknown,Wall,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Wall,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2570,6 +3206,15 @@ Concrete,Unknown,Wall,Unknown,Regular,Unknown,-,Unknown
 Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Wall,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Wall,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2609,6 +3254,15 @@ Concrete,Unknown,Dual system,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2648,6 +3302,15 @@ Concrete,Unknown,Dual system,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2687,6 +3350,15 @@ Concrete,Unknown,Dual system,High-rise (7-12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2726,6 +3398,15 @@ Concrete,Unknown,Dual system,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2765,6 +3446,15 @@ Concrete,Unknown,Dual system,Unknown,Regular,Unknown,-,Unknown
 Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Dual system,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Dual system,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2804,6 +3494,15 @@ Concrete,Unknown,Braced frame,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2843,6 +3542,15 @@ Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2882,6 +3590,15 @@ Concrete,Unknown,Braced frame,High-rise (7-12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2921,6 +3638,15 @@ Concrete,Unknown,Braced frame,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2960,6 +3686,15 @@ Concrete,Unknown,Braced frame,Unknown,Regular,Unknown,-,Unknown
 Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Braced frame,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Braced frame,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -2999,6 +3734,15 @@ Concrete,Unknown,Unknown,Low rise (<3 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -3038,6 +3782,15 @@ Concrete,Unknown,Unknown,Mid rise (4-6 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -3077,6 +3830,15 @@ Concrete,Unknown,Unknown,High-rise (7-12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -3116,6 +3878,15 @@ Concrete,Unknown,Unknown,Tall (>12 floors),Regular,Unknown,-,Unknown
 Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	
@@ -3155,6 +3926,15 @@ Concrete,Unknown,Unknown,Unknown,Regular,Unknown,-,Unknown
 Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-,Unknown 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Cast in place 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Pre-cast 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-,Unknown 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Unknown,-,Cast in place 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Unknown,-,Pre-cast 	
+Concrete,Unknown,Unknown,Unknown,Irregular-soft storey,Unknown,-,Unknown 	
 Concrete,Unknown,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Cast in place 	
 Concrete,Unknown,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Pre-cast 	
 Concrete,Unknown,Unknown,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-,Unknown 	

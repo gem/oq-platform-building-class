@@ -39,7 +39,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -77,7 +80,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -115,7 +121,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -153,7 +162,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -191,7 +203,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -269,6 +284,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -392,6 +431,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", "type": "choice" }, 
@@ -527,6 +590,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -656,6 +743,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -779,6 +890,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", "type": "choice" }, 
@@ -884,7 +1019,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -922,7 +1060,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -960,7 +1101,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -998,7 +1142,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1036,7 +1183,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1079,7 +1229,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1117,7 +1270,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1155,7 +1311,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1193,7 +1352,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1231,7 +1393,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1274,7 +1439,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1312,7 +1480,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1350,7 +1521,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1388,7 +1562,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1426,7 +1603,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1469,7 +1649,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1507,7 +1690,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1545,7 +1731,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1583,7 +1772,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1621,7 +1813,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1669,7 +1864,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1707,7 +1905,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1745,7 +1946,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1783,7 +1987,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1821,7 +2028,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -1899,6 +2109,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -2022,6 +2256,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", "type": "choice" }, 
@@ -2157,6 +2415,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -2286,6 +2568,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -2409,6 +2715,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", "type": "choice" }, 
@@ -2514,7 +2844,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2552,7 +2885,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2590,7 +2926,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2628,7 +2967,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2666,7 +3008,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2709,7 +3054,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2747,7 +3095,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2785,7 +3136,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2823,7 +3177,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2861,7 +3218,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2904,7 +3264,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2942,7 +3305,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -2980,7 +3346,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3018,7 +3387,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3056,7 +3428,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3099,7 +3474,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3137,7 +3515,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3175,7 +3556,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3213,7 +3597,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3251,7 +3638,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3299,7 +3689,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3337,7 +3730,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3375,7 +3771,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3413,7 +3812,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3451,7 +3853,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -3529,6 +3934,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -3652,6 +4081,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", "type": "choice" }, 
@@ -3787,6 +4240,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -3916,6 +4393,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
                   { "name": "Ceramic brick", "type": "choice" }, 
                   { "name": "Unknown", "type": "choice" }
                  ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
                 "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
@@ -4039,6 +4540,30 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
              "sub": {
               "el": [
                { "name": "Non ductile (PGA<0.1g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", 
+                "sub": {
+                 "el": [
+                  { "name": "Concrete block", "type": "choice" }, 
+                  { "name": "Ceramic brick", "type": "choice" }, 
+                  { "name": "Unknown", "type": "choice" }
+                 ],  "name": "Type of block", "type": "group" }, 
+                "type": "choice" }, 
+               { "name": "Unknown", 
                 "sub": {
                  "el": [
                   { "name": "Concrete block", "type": "choice" }, 
@@ -4144,7 +4669,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4182,7 +4710,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4220,7 +4751,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4258,7 +4792,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4296,7 +4833,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4339,7 +4879,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4377,7 +4920,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4415,7 +4961,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4453,7 +5002,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4491,7 +5043,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4534,7 +5089,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4572,7 +5130,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4610,7 +5171,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4648,7 +5212,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4686,7 +5253,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4729,7 +5299,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4767,7 +5340,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4805,7 +5381,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4843,7 +5422,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
@@ -4881,7 +5463,10 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
             { "name": "Irregular-soft storey", 
              "sub": {
               "el": [
-               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }
+               { "name": "Non ductile (PGA<0.1g)", "type": "choice" }, 
+               { "name": "Moderate ductility (0.1g<PGA<0.3g)", "type": "choice" }, 
+               { "name": "High ductility (PGA>0.3g)", "type": "choice" }, 
+               { "name": "Unknown", "type": "choice" }
               ],  "name": "Ductility", "type": "group" }, 
              "type": "choice" }, 
             { "name": "Irregular-torsion", 
