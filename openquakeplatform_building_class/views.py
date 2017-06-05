@@ -31,7 +31,7 @@ from models import (UserSettings, UserSettingsForm,
                     FREQ_QUAL_TYPE, FREQUENCY_QUAL_TYPE, OCCUPACY_TYPE)
 from django.utils import timezone
 
-dataset_version = "0.9.1"
+dataset_version = "1.0.0"
 
 _occupancies_dict = dict(OCCUPACY_TYPE)
 
