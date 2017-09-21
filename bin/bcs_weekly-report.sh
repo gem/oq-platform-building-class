@@ -1,6 +1,9 @@
 #!/bin/bash
 #
+# Place this script in /usr/local/bin directory
 #
+# add a line in postgres crontab like:
+# 2 0 * * 1 export GEM_BCS_REPORT="<list of emails>" ; /usr/local/bin/bcs_weekly-report.sh '7 days'
 #
 # THIS POSTGRES PROCEDURE IS REQUIRED TO REVERSE 'path' FIELDS
 #
