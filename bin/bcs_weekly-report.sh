@@ -11,25 +11,59 @@
 #     ORDER BY i DESC
 # );
 # $$ LANGUAGE 'sql' STRICT IMMUTABLE;
-# 
 #
-# TODO
-#   constraint on mod date (and buffering of header to skip empty updates
 #
-DT=$(date '+%Y%m%d_%H%M')
+
+if [ "$GEM_BCS_REPORT" = "" ]; then
+    echo "GEM_BCS_REPORT not set, please configure to the email receiver addresses"
+    exit 1
+fi
+
+usage () {
+    cat <<EOF
+$0 <interval>
+
+  interval - interval to keep in consideration in the past from now
+             as '7 days' or '3 hours' ...
+
+EOF
+    exit $1
+}
+
+#
+#  MAIN
+#
+if [ $# -gt 1 ]; then
+    usage 1
+fi
+INTERVAL="$1"
+
+DT_HUM=$(date -R)
+DT=$(date '+%Y%m%d_%H%M' -d "$DT_HUM")
+
+WHERE_INTER=""
+title_range=""
+if [ "$INTERVAL" ]; then
+    title_range=" for the last $INTERVAL"
+    WHERE_INTER="AND (h.last_mod > (now() - INTERVAL '$INTERVAL'))"
+fi
+title="Building Classification Survey Report of ${DT_HUM}${title_range}"
 
 # LOG_FILE=/tmp/bcs_sql.log
 LOG_FILE=/dev/null
 
-date > 
-owner_id_list=$(echo "SELECT owner_id FROM openquakeplatform_building_class_classificationhead GROUP BY owner_id;" | tee -a $LOG_FILE | psql -A -t oqplatform)
+date > $LOG_FILE
+# except developers id
+owner_id_list=$(echo "SELECT h.owner_id FROM openquakeplatform_building_class_classificationhead as h, openquakeplatform_building_class_classificationrow as r WHERE h.id = r.head_id AND h.owner_id NOT IN (15, 1820) ${WHERE_INTER} GROUP BY h.owner_id;" | tee -a $LOG_FILE | psql -A -t oqplatform)
 
+old_ifs="$IFS"
 IFS='
 '
 (
 cat <<EOF
 <html>
   <head>
+    <title>$title</title>
     <style>
 table {
 border-collapse: collapse;
@@ -64,17 +98,14 @@ margin: 0;
 padding: 0;
 }
     </style>
-    
     </head>
 <body>
+<h2>$title</h2>
 EOF
 echo "owner_id_list [$owner_id_list]" >> $LOG_FILE
 for owner_id in $owner_id_list; do
-    if [ "$owner_id" = "15" -o "$owner_id" = "1820" ]; then
-        continue
-    fi
     echo -e "\\pset footer off\nSELECT username,first_name,last_name,email FROM auth_user WHERE id=$owner_id;" | tee -a $LOG_FILE | psql -q --html oqplatform 2>/dev/null
-    header_id_list=$(echo "SELECT id, freq_type FROM openquakeplatform_building_class_classificationhead WHERE  owner_id = $owner_id;" | tee -a $LOG_FILE | psql -A -t oqplatform)
+    header_id_list=$(echo "SELECT h.id, h.freq_type FROM openquakeplatform_building_class_classificationhead as h WHERE h.owner_id = $owner_id ${WHERE_INTER};" | tee -a $LOG_FILE | psql -A -t oqplatform)
     echo "header_id_list [$header_id_list]" >> $LOG_FILE
     for header_row in $header_id_list; do
         header_id=$(echo "$header_row" | cut -d '|' -f 1)
@@ -142,9 +173,6 @@ cat <<EOF
 EOF
 ) > bcs_weekly-report_${DT}.html
 
-echo "POST HTML"
-set -x
-
 echo "\\copy (\
 SELECT u.username, u.first_name, u.last_name, u.email, c.name_0 as country, \
 \
@@ -176,5 +204,20 @@ FROM auth_user AS u, \
      openquakeplatform_building_class_classificationhead AS h, \
      openquakeplatform_building_class_classificationrow AS r, \
      gadm_countries_simplified_1000m AS c \
-WHERE h.country = c.iso AND h.id = r.head_id AND h.owner_id = u.id ORDER BY u.username, h.id) \
+WHERE h.country = c.iso AND h.id = r.head_id AND h.owner_id = u.id AND h.owner_id NOT IN (15, 1820) ORDER BY u.username, h.id) \
 TO bcs_dump_${DT}.csv DELIMITER ',' CSV HEADER;" | tee -a $LOG_FILE | psql oqplatform
+
+
+attachments="../src/test/resources/my.pdf ../src/test/resources/my2.pdf"
+
+html_file="../src/main/resources/email_template.html"
+
+IFS="$old_ifs"
+
+# --------------------------------------------------------------------------------------
+# send html with pdf attachment
+# You can send additional attachments, the attachment list can be terminated with the "--"
+mutt -e "set copy=no" -e "set content_type=text/html" -s "$title" -a bcs_dump_${DT}.csv -- $GEM_BCS_REPORT < bcs_weekly-report_${DT}.html
+
+rm bcs_weekly-report_${DT}.html
+rm bcs_dump_${DT}.csv
