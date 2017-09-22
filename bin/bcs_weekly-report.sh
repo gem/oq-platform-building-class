@@ -17,6 +17,9 @@
 #
 #
 
+# set umask for security reasons
+umask 0077
+
 if [ "$GEM_BCS_REPORT" = "" ]; then
     echo "GEM_BCS_REPORT not set, please configure to the email receiver addresses"
     exit 1
@@ -174,7 +177,7 @@ cat <<EOF
 </body>
 </html>
 EOF
-) > bcs_weekly-report_${DT}.html
+) > /tmp/bcs_weekly-report_${DT}.html
 
 echo "\\copy (\
 SELECT u.username, u.first_name, u.last_name, u.email, c.name_0 as country, \
@@ -208,7 +211,7 @@ FROM auth_user AS u, \
      openquakeplatform_building_class_classificationrow AS r, \
      gadm_countries_simplified_1000m AS c \
 WHERE h.country = c.iso AND h.id = r.head_id AND h.owner_id = u.id AND h.owner_id NOT IN (15, 1820) ORDER BY u.username, h.id) \
-TO bcs_dump_${DT}.csv DELIMITER ',' CSV HEADER;" | tee -a $LOG_FILE | psql oqplatform
+TO /tmp/bcs_dump_${DT}.csv DELIMITER ',' CSV HEADER;" | tee -a $LOG_FILE | psql oqplatform
 
 
 IFS="$old_ifs"
@@ -216,7 +219,7 @@ IFS="$old_ifs"
 # --------------------------------------------------------------------------------------
 # send html with pdf attachment
 # You can send additional attachments, the attachment list can be terminated with the "--"
-mutt -e "set copy=no" -e "set content_type=text/html" -s "$title" -a bcs_dump_${DT}.csv -- $GEM_BCS_REPORT < bcs_weekly-report_${DT}.html
+mutt -e "set copy=no" -e "set content_type=text/html" -s "$title" -a /tmp/bcs_dump_${DT}.csv -- $GEM_BCS_REPORT < /tmp/bcs_weekly-report_${DT}.html
 
-rm bcs_weekly-report_${DT}.html
-rm bcs_dump_${DT}.csv
+rm /tmp/bcs_weekly-report_${DT}.html
+rm /tmp/bcs_dump_${DT}.csv
