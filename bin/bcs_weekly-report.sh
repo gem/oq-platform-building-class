@@ -211,10 +211,6 @@ WHERE h.country = c.iso AND h.id = r.head_id AND h.owner_id = u.id AND h.owner_i
 TO bcs_dump_${DT}.csv DELIMITER ',' CSV HEADER;" | tee -a $LOG_FILE | psql oqplatform
 
 
-attachments="../src/test/resources/my.pdf ../src/test/resources/my2.pdf"
-
-html_file="../src/main/resources/email_template.html"
-
 IFS="$old_ifs"
 
 # --------------------------------------------------------------------------------------
