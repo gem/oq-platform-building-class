@@ -35,6 +35,10 @@ dataset_version = "1.0.0"
 
 _occupancies_dict = dict(OCCUPACY_TYPE)
 
+
+def is_close(a, b, rel_tol=1e-09, abs_tol=0.0):
+    return abs(a-b) <= max(rel_tol * max(abs(a), abs(b)), abs_tol)
+
 def _occupancies_decode(occupancy):
     print _occupancies_dict
     occupancies = []
@@ -234,11 +238,17 @@ def data(request, **kwargs):
                                         vers=dataset_version)
                 row.save()
 
-            if classification['freq_type'] == 'quantitative' and (urban_quan_tot != 1 or rural_quan_tot != 1):
-                raise ValueError("%s<b>Error:</b> '%s' frequencies sum is %3.3f instead of 1.0" % (
-                    _errlog_shortheader(classification['country'], classification['occupancies']),
-                    ('urban' if urban_quan_tot != 1 else 'rural'),
-                    (urban_quan_tot if urban_quan_tot != 1 else rural_quan_tot)))
+            if classification['freq_type'] == 'quantitative' and (
+                    is_close(urban_quan_tot, 1.0) is False or
+                    is_close(rural_quan_tot, 1.0) is False):
+                raise ValueError(
+                    "%s<b>Error:</b> '%s' frequencies sum is %3.3f instead of"
+                    " 1.000" % (
+                        _errlog_shortheader(classification['country'],
+                                            classification['occupancies']),
+                        ('urban' if urban_quan_tot != 1 else 'rural'),
+                        (urban_quan_tot if urban_quan_tot != 1 else
+                         rural_quan_tot)))
 
         transaction.commit()
         resp = { 'ret': 0,
