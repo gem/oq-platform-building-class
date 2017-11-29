@@ -32,11 +32,9 @@ function table2csv(tab) {
                 out += ",";
             if (el.indexOf('"') == -1 && el.indexOf(',') == -1 &&
                 el.indexOf("\r") == -1 && el.indexOf("\n") == -1) {
-                console.log("l'uno");
                 out += el;
             }
             else {
-                console.log("l'altro");
                 out += '"';
                 out += el.replace(/"/g, '""');
                 out += '"';
@@ -56,7 +54,6 @@ function copy_to_clipboard(matrix) {
         $clip_area.select();
         document.execCommand("Copy");
         $clip_area.remove();
-        console.log("Copied the text: " + content);
     }
     else {
         gem_modal_alert(
