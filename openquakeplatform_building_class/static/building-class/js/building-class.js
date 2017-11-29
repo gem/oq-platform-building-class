@@ -22,7 +22,45 @@ var gem_occupancy_names = ['residential', 'commercial', 'industrial', 'education
 var gem_bcs_to_init_phase = false;
 var gem_bcs_to_be_saved = false;
 
+function table2csv(tab) {
+    var out = "";
 
+    for (i = 0 ; i < tab.length ; i++) {
+        for (e = 0 ; e < tab[i].length ; e++) {
+            var el = String(tab[i][e]);
+            if (e > 0)
+                out += ",";
+            if (el.indexOf('"') == -1 && el.indexOf(',') == -1 &&
+                el.indexOf("\r") == -1 && el.indexOf("\n") == -1) {
+                out += el;
+            }
+            else {
+                out += '"';
+                out += el.replace(/"/g, '""');
+                out += '"';
+            }
+        }
+        out += "\r\n";
+    }
+    return out;
+}
+
+function copy_to_clipboard(matrix) {
+    var content = table2csv(matrix);
+
+    if (! document.queryCommandSupported("Copy")) {
+        $clip_area = $('<textarea>', {'text': content});
+        $('body').append($clip_area);
+        $clip_area.select();
+        document.execCommand("Copy");
+        $clip_area.remove();
+    }
+    else {
+        gem_modal_alert(
+            __('Clipboad copy not supported.'),
+            __('<div>This feature is not supported by your browser.<br>Please, use a more recent version or use firefox or chrome to be able to copy tables to clipboard.</div>'));
+    }
+}
 
 var confirmOnPageExit = function (e)
 {
@@ -225,6 +263,7 @@ function build_classes_update(checkbox) {
     }
 
     $table = $tree.find("table[name='build_classes']");
+    $table_to_clipboard_btn = $tree.find("button[name='table-to-clipboard']");
 
     // set all rows as not checked
     $table.find("tr[name='path']").each(function () { this.checked = false });
@@ -291,10 +330,14 @@ function build_classes_update(checkbox) {
         freq_quants_cb({'target': $rural_quan[0], 'type': 'change'});
     }
 
-    if ($table.find("tr[name='path'], tr[name='path-ro']").length > 0)
+    if ($table.find("tr[name='path'], tr[name='path-ro']").length > 0) {
         $table.show();
-    else
+        $table_to_clipboard_btn.show();
+    }
+    else {
         $table.hide();
+        $table_to_clipboard_btn.hide();
+    }
 }
 
 function checkbox_click_cb() {
@@ -358,7 +401,7 @@ function gem_modal_confirm(obj, title, content, success_cb, error_cb) {
 function gem_modal_alert(title, content) {
     var $dial;
 
-    $dial = $('<div>', { 'title': title, 'text': content });
+    $dial = $('<div>', { 'title': title, 'html': content });
     $('body').append($dial);
     var buttons = {}
 
@@ -580,6 +623,47 @@ function notes_textarea_cb(event) {
         to_be_saved(true);
 }
 
+function table_to_clipboard_cb(event) {
+    var build_classes = [], bc_out = [];
+
+    var $tree = $(event.target).closest('div.tree');
+    var freq_type = $tree.find("button[name='freq_type']").attr('data-gem-value');
+
+    var $bc_rows = $tree.find("table[name='build_classes']").find("tr[name='path']");
+    var $bc_rows_ro = $tree.find("table[name='build_classes']").find("tr[name='path-ro']");
+    var bc_idx, bc_row, bc_row_ro;
+
+    for (bc_idx = ($bc_rows.length - 1) ; bc_idx >= 0 ; bc_idx--) {
+        bc_row = $bc_rows[bc_idx];
+        build_classes.push(build_class2obj(bc_row, false));
+    }
+
+    for (bc_idx = 0 ; bc_idx < $bc_rows_ro.length ; bc_idx++) {
+        bc_row_ro = $bc_rows_ro[bc_idx];
+        build_classes.push(build_class2obj(bc_row_ro, false));
+    }
+    for (bc_idx = 0 ; bc_idx < build_classes.length ; bc_idx++) {
+        var bc, row_out = []
+        bc = build_classes[build_classes.length -1 - bc_idx];
+        row_out[0] = bc.path;
+        if (freq_type == 'quantitative') {
+            row_out[1] = bc.urban_quan;
+            row_out[2] = bc.rural_quan;
+        }
+        else if (freq_type == 'qualitative') {
+            row_out[1] = bc.urban;
+            row_out[2] = bc.rural;
+        }
+        else {
+            console.log('unknown type ' + freq_type);
+        }
+        bc_out.push(row_out);
+    }
+
+    copy_to_clipboard(bc_out);
+    return;
+}
+
 function classification_add(country) {
     var li = [];
     var notes = "";
@@ -650,9 +734,15 @@ function classification_add(country) {
                                              $("<th>", {"text": __("urban") }),
                                              $("<th>", {"text": __("rural") }))
     );
+    var $table_to_clipboard_btn = $("<button>", {"name": "table-to-clipboard", "type": "button",
+                                                 "class": "table_to_clipboard",
+                                                 "text": "Copy to Clipboard as CSV"});
+    $table_to_clipboard_btn.click(table_to_clipboard_cb);
 
-    if (build_classes.length == 0)
+    if (build_classes.length == 0) {
         $table.hide();
+        $table_to_clipboard_btn.hide();
+    }
 
     var occupancies_tab = $('<table>', {'name': 'occupancies_mod', 'class': 'occupancies_mod'});
     var tr = null;
@@ -700,7 +790,7 @@ function classification_add(country) {
             $('<p>', {'name': 'descr', 'class': 'sub-title',
                       'text': __('Material')}),
             $("<ul>").append(li)),
-        $table);
+        $table, $table_to_clipboard_btn);
     if (occupancies_view)
         operational_div.hide();
 
@@ -807,8 +897,11 @@ function classification_add(country) {
         freq_quants_cb({'target': $rural_quan[0], 'type': 'change'});
     }
 
-    if (is_table_visible)
+    if (is_table_visible) {
         $table.show();
+        $table_to_clipboard_btn.show();
+    }
+
 
     $("button[name='save']").show();
 }
@@ -820,16 +913,20 @@ function classification_add_cb(event) {
     to_be_saved(true);
 }
 
-
-
-
-function build_class2obj(bc_row)
+function build_class2obj(bc_row, is_reverse_path)
 {
-    var obj = { path: "", urban: "", rural: "" };
+    var obj = { path: "", urban: "", urban_quan: "", rural: "", rural_quan: ""};
     var path = bc_row.data_gem_path;
 
-    for (var i = 0 ; i < path.length ; i++) {
-        obj.path += (i == 0 ? "" : "|") + path[i];
+    if (is_reverse_path == true) {
+        for (var i = 0 ; i < path.length ; i++) {
+            obj.path += (i == 0 ? "" : "|") + path[i];
+        }
+    }
+    else {
+        for (var i = path.length - 1 ; i >= 0 ; i--) {
+            obj.path += (i == path.length - 1 ? "" : "|") + path[i];
+        }
     }
     obj.urban = $(bc_row).find("select[name='urban']").val();
     obj.urban_quan = $(bc_row).find("input[name='urban_quan'][type='text']").val();
@@ -845,7 +942,7 @@ function tree2obj(idx, tree)
     var obj = { country: "", notes: "", build_classes: [] };
     var $bc_rows = $tree.find("table[name='build_classes']").find("tr[name='path']");
     var $bc_rows_ro = $tree.find("table[name='build_classes']").find("tr[name='path-ro']");
-    var bc_idx, bc_row;
+    var bc_idx, bc_row, bc_row_ro;
 
     obj.country = $tree.find("p[name='title']").attr("data-gem-country");
     obj.freq_type = $tree.find("button[name='freq_type']").attr('data-gem-value');
@@ -854,12 +951,12 @@ function tree2obj(idx, tree)
 
     for (bc_idx = ($bc_rows.length - 1) ; bc_idx >= 0 ; bc_idx--) {
         bc_row = $bc_rows[bc_idx];
-        obj.build_classes.push(build_class2obj(bc_row));
+        obj.build_classes.push(build_class2obj(bc_row, true));
     }
 
     for (bc_idx = 0 ; bc_idx < $bc_rows_ro.length ; bc_idx++) {
         bc_row_ro = $bc_rows_ro[bc_idx];
-        obj.build_classes.push(build_class2obj(bc_row_ro));
+        obj.build_classes.push(build_class2obj(bc_row_ro, true));
     }
 
     return obj;
