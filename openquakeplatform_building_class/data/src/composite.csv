@@ -559,6 +559,326 @@ Composite (concrete + steel),Cast in place,Braced frame,Unknown,Unknown,Non duct
 Composite (concrete + steel),Cast in place,Braced frame,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
 Composite (concrete + steel),Cast in place,Braced frame,Unknown,Unknown,High ductility (PGA>0.3g),-
 Composite (concrete + steel),Cast in place,Braced frame,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Post and beam,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Flat slab/plate or waffle slab,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Cast in place,Hybrid,Unknown,Unknown,Unknown,-
 Composite (concrete + steel),Cast in place,Unknown,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
 Composite (concrete + steel),Cast in place,Unknown,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
 Composite (concrete + steel),Cast in place,Unknown,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
@@ -1199,6 +1519,326 @@ Composite (concrete + steel),Pre-cast,Braced frame,Unknown,Unknown,Non ductile (
 Composite (concrete + steel),Pre-cast,Braced frame,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
 Composite (concrete + steel),Pre-cast,Braced frame,Unknown,Unknown,High ductility (PGA>0.3g),-
 Composite (concrete + steel),Pre-cast,Braced frame,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Post and beam,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Flat slab/plate or waffle slab,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Pre-cast,Hybrid,Unknown,Unknown,Unknown,-
 Composite (concrete + steel),Pre-cast,Unknown,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
 Composite (concrete + steel),Pre-cast,Unknown,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
 Composite (concrete + steel),Pre-cast,Unknown,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
@@ -1839,6 +2479,326 @@ Composite (concrete + steel),Unknown,Braced frame,Unknown,Unknown,Non ductile (P
 Composite (concrete + steel),Unknown,Braced frame,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
 Composite (concrete + steel),Unknown,Braced frame,Unknown,Unknown,High ductility (PGA>0.3g),-
 Composite (concrete + steel),Unknown,Braced frame,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Post and beam,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Flat slab/plate or waffle slab,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Infilled flat slab/plate or infilled waffle slab,Unknown,Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Low rise (<3 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Mid rise (4-6 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,High-rise (7-12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Regular,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Tall (>12 floors),Unknown,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Regular,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Regular,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Regular,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Regular,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Irregular-soft storey,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Irregular-soft storey,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Irregular-soft storey,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Irregular-soft storey,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Irregular-torsion,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Irregular-torsion,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Irregular-torsion,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Irregular-torsion,Unknown,-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Unknown,Non ductile (PGA<0.1g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Unknown,Moderate ductility (0.1g<PGA<0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Unknown,High ductility (PGA>0.3g),-
+Composite (concrete + steel),Unknown,Hybrid,Unknown,Unknown,Unknown,-
 Composite (concrete + steel),Unknown,Unknown,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
 Composite (concrete + steel),Unknown,Unknown,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
 Composite (concrete + steel),Unknown,Unknown,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-
