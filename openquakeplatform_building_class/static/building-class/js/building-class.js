@@ -48,7 +48,7 @@ function table2csv(tab) {
 function copy_to_clipboard(matrix) {
     var content = table2csv(matrix);
 
-    if (! document.queryCommandSupported("Copy")) {
+    if (document.queryCommandSupported("Copy")) {
         $clip_area = $('<textarea>', {'text': content});
         $('body').append($clip_area);
         $clip_area.select();
