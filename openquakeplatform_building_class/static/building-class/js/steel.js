@@ -2684,7 +2684,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Bolted connection", 
        "sub": {
@@ -5349,7 +5349,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Riveted", 
        "sub": {
@@ -8014,7 +8014,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Unknown", 
        "sub": {
@@ -10679,7 +10679,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }
      ],  "name": "Type of connnection", "type": "group" }, 
     "type": "choice" }, 
@@ -13349,7 +13349,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Bolted connection", 
        "sub": {
@@ -16014,7 +16014,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Riveted", 
        "sub": {
@@ -18679,7 +18679,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Unknown", 
        "sub": {
@@ -21344,7 +21344,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }
      ],  "name": "Type of connnection", "type": "group" }, 
     "type": "choice" }, 
@@ -24014,7 +24014,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Bolted connection", 
        "sub": {
@@ -26679,7 +26679,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Riveted", 
        "sub": {
@@ -29344,7 +29344,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }, 
       { "name": "Unknown", 
        "sub": {
@@ -32009,7 +32009,7 @@ gem_bcs_tree_descr['steel'] = { "name": "Steel",
              "type": "choice" }
            ],  "name": "Height", "type": "group" }, 
           "type": "choice" }
-        ],  "name": "Lateral load resisting  system", "type": "group" }, 
+        ],  "name": "Lateral load resisting system", "type": "group" }, 
        "type": "choice" }
      ],  "name": "Type of connnection", "type": "group" }, 
     "type": "choice" }

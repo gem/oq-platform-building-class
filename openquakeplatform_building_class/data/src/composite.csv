@@ -1,4 +1,4 @@
-Material,Type of concrete,Lateral load resisting  system,Height,Irregularities,Ductility,Type of block
+Material,Type of concrete,Lateral load resisting system,Height,Irregularities,Ductility,Type of block
 Composite (concrete + steel),Cast in place,Moment frame,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-
 Composite (concrete + steel),Cast in place,Moment frame,Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g),-
 Composite (concrete + steel),Cast in place,Moment frame,Low rise (<3 floors),Regular,High ductility (PGA>0.3g),-

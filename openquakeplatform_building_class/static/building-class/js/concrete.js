@@ -471,7 +471,7 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }, 
    { "name": "Reinforced", 
     "sub": {
@@ -9856,7 +9856,7 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }, 
    { "name": "Unknown", 
     "sub": {
@@ -19241,7 +19241,7 @@ gem_bcs_tree_descr['concrete'] = { "name": "Concrete",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }
   ],  "name": "Type", "type": "group" }, 
  "type": "choice" };

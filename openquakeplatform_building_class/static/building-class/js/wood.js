@@ -2121,7 +2121,7 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }, 
    { "name": "Heavy wood", 
     "sub": {
@@ -4226,7 +4226,7 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }, 
    { "name": "Solid wood", 
     "sub": {
@@ -6331,7 +6331,7 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }, 
    { "name": "Stud wall", 
     "sub": {
@@ -6546,7 +6546,7 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }, 
    { "name": "Unknown", 
     "sub": {
@@ -8651,7 +8651,7 @@ gem_bcs_tree_descr['wood'] = { "name": "Wood",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }
   ],  "name": "Type of wood", "type": "group" }, 
  "type": "choice" };

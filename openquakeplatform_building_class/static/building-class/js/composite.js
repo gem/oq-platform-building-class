@@ -2681,7 +2681,7 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }, 
    { "name": "Pre-cast", 
     "sub": {
@@ -5346,7 +5346,7 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }, 
    { "name": "Unknown", 
     "sub": {
@@ -8011,7 +8011,7 @@ gem_bcs_tree_descr['composite'] = { "name": "Composite (concrete + steel)",
           "type": "choice" }
         ],  "name": "Height", "type": "group" }, 
        "type": "choice" }
-     ],  "name": "Lateral load resisting  system", "type": "group" }, 
+     ],  "name": "Lateral load resisting system", "type": "group" }, 
     "type": "choice" }
   ],  "name": "Type of concrete", "type": "group" }, 
  "type": "choice" };

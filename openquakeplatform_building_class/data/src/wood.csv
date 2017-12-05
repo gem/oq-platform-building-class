@@ -1,4 +1,4 @@
-Material,Type of wood,Lateral load resisting  system,Height,Irregularities,Ductility
+Material,Type of wood,Lateral load resisting system,Height,Irregularities,Ductility
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails),Low rise (<3 floors),Regular,Non ductile (PGA<0.1g)
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails),Low rise (<3 floors),Regular,Moderate ductility (0.1g<PGA<0.3g)
 Wood,Light wood,Frame (Traditional joinery - e.g. dovetails),Low rise (<3 floors),Regular,High ductility (PGA>0.3g)

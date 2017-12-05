@@ -1,4 +1,4 @@
-Material,Type,Lateral load resisting  system,Height,Irregularities,Ductility,Type of block,Type of concrete
+Material,Type,Lateral load resisting system,Height,Irregularities,Ductility,Type of block,Type of concrete
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Cast in place
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Pre-cast
 Concrete,Unreinforced,Wall,Low rise (<3 floors),Regular,Non ductile (PGA<0.1g),-,Unknown
