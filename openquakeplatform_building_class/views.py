@@ -31,7 +31,7 @@ from models import (UserSettings, UserSettingsForm,
                     FREQ_QUAL_TYPE, FREQUENCY_QUAL_TYPE, OCCUPACY_TYPE)
 from django.utils import timezone
 
-dataset_version = "1.0.0"
+dataset_version = "1.1.0"
 
 _occupancies_dict = dict(OCCUPACY_TYPE)
 
@@ -39,8 +39,8 @@ _occupancies_dict = dict(OCCUPACY_TYPE)
 def is_close(a, b, rel_tol=1e-09, abs_tol=0.0):
     return abs(a-b) <= max(rel_tol * max(abs(a), abs(b)), abs_tol)
 
+
 def _occupancies_decode(occupancy):
-    print _occupancies_dict
     occupancies = []
     for i in range(0, len(OCCUPACY_TYPE)):
         if occupancy & (2**i):
@@ -49,6 +49,7 @@ def _occupancies_decode(occupancy):
             break
 
     return occupancies
+
 
 def _occupancies_encode(occupancies):
     occupancy = 0
@@ -60,18 +61,19 @@ def _occupancies_encode(occupancies):
 
     return occupancy
 
+
 def _preferred_tut_lang(langs_in):
-    valid_langs = ['en', 'pt', 'tr', 'es' ]
+    valid_langs = ['en', 'pt', 'tr', 'es']
     langs = []
 
     for lang in langs_in.split(','):
-        weight=1.0
-        lname=""
+        weight = 1.0
+        lname = ""
         for atom in lang.split(';'):
             if atom.strip()[0:2] == 'q=':
                 weight = float(atom.strip()[2:])
             else:
-                lname=atom.strip().split('-')[0]
+                lname = atom.strip().split('-')[0]
 
         langs.append((lname, weight))
 
@@ -84,6 +86,7 @@ def _preferred_tut_lang(langs_in):
     else:
         return 'en'
 
+
 def tutorial(request, **kwargs):
     lang = _preferred_tut_lang(request.META.get('HTTP_ACCEPT_LANGUAGE', 'en'))
 
@@ -91,6 +94,7 @@ def tutorial(request, **kwargs):
         "building-class/building-class-tutorial.html",
         dict(next=request.get_full_path(), lang=lang),
         context_instance=RequestContext(request))
+
 
 def user_settings(request, **kwargs):
     instance = None
@@ -121,6 +125,7 @@ def user_settings(request, **kwargs):
 
     return render(request, 'building-class/user-settings.html', {'form': form})
 
+
 def view(request, **kwargs):
     success_msg = ''
     error_msg = ''
@@ -139,24 +144,28 @@ def view(request, **kwargs):
     for country in Country.objects.all().order_by('name'):
         if not country.is_visible:
             continue
-        countries_opts += '<option value="%s">%s</option>\n' % (country.iso3, country.name)
+        countries_opts += ('<option value="%s">%s</option>\n'
+                           % (country.iso3, country.name))
 
     classifications = []
-    heads = ClassificationHead.objects.filter(owner_id=request.user.pk).order_by("id")
+    heads = ClassificationHead.objects.filter(
+        owner_id=request.user.pk).order_by("id")
     for head in heads:
         occupancies = _occupancies_decode(head.occupancy)
-        classification = { "country": head.country, "freq_type": dict(FREQUENCY_TYPE)[head.freq_type],
-                           "occupancies": occupancies,
-                           "notes": head.notes, "build_classes": [],
-                           "vers": head.vers}
-        rows = ClassificationRow.objects.filter(owner_id=request.user.pk, head_id=head.pk)
+        classification = {"country": head.country,
+                          "freq_type": dict(FREQUENCY_TYPE)[head.freq_type],
+                          "occupancies": occupancies,
+                          "notes": head.notes, "build_classes": [],
+                          "vers": head.vers}
+        rows = ClassificationRow.objects.filter(
+            owner_id=request.user.pk, head_id=head.pk)
         for row in rows:
-            build_class = { "path": row.path,
-                            "urban": dict(FREQUENCY_QUAL_TYPE)[row.urban],
-                            "urban_quan": row.urban_quan,
-                            "rural": dict(FREQUENCY_QUAL_TYPE)[row.rural],
-                            "rural_quan": row.rural_quan,
-                            "vers": row.vers}
+            build_class = {"path": row.path,
+                           "urban": dict(FREQUENCY_QUAL_TYPE)[row.urban],
+                           "urban_quan": row.urban_quan,
+                           "rural": dict(FREQUENCY_QUAL_TYPE)[row.rural],
+                           "rural_quan": row.rural_quan,
+                           "vers": row.vers}
             classification["build_classes"].append(build_class)
         classifications.append(classification)
     classifications_ser = json.dumps(classifications)
@@ -170,27 +179,32 @@ def view(request, **kwargs):
              ),
         context_instance=RequestContext(request))
 
+
 def _freq_type2int(id):
     return getattr(FREQ_TYPE, "_" + id.upper())
 
+
 def _freq_qual_type2int(id):
     return getattr(FREQ_QUAL_TYPE, "_" + id.upper())
+
 
 def _errlog_shortheader(iso3, occup):
     return "<b>Country</b>: %s - <b>Occupancy</b>: %s\n" % (
         Country.objects.get(iso3=iso3).name,
         ', '.join(map(str, occup)))
 
+
 def _errlog_longheader(iso3, occup, cls):
     return "%s<b>Type</b>: %s\n" % (
         _errlog_shortheader(iso3, occup),
         ' | '.join(map(lambda x: str(x).strip(), reversed(cls.split('|')))))
 
+
 @transaction.commit_manually
 def data(request, **kwargs):
     # request.is_ajax() if not exit
     if not request.user.is_authenticated():
-        print "TODO: manage not auth"
+        print("TODO: manage not auth")
         return
 
     dt = json.loads(request.body)
@@ -201,11 +215,12 @@ def data(request, **kwargs):
             rural_quan_tot = 0
 
             freq_type = _freq_type2int(classification['freq_type'])
-            head = ClassificationHead(owner_id=request.user.pk, country=classification['country'],
-                                      freq_type=freq_type,
-                                      occupancy=_occupancies_encode(classification['occupancies']),
-                                      notes=classification['notes'], last_mod=timezone.now(),
-                                      vers=dataset_version)
+            head = ClassificationHead(
+                owner_id=request.user.pk, country=classification['country'],
+                freq_type=freq_type,
+                occupancy=_occupancies_encode(classification['occupancies']),
+                notes=classification['notes'], last_mod=timezone.now(),
+                vers=dataset_version)
             head.save()
             for bc in classification['build_classes']:
                 try:
@@ -219,18 +234,23 @@ def data(request, **kwargs):
                     rural_quan = 0
 
                 if urban_quan < 0.0 or urban_quan > 1.0:
-                    raise ValueError("%s<b>Error:</b>'urban' frequency out of range" % (
-                            _errlog_longheader(classification['country'], classification['occupancies'],
-                            bc['path'])))
+                    raise ValueError(
+                        "%s<b>Error:</b>'urban' frequency out of range" % (
+                            _errlog_longheader(classification['country'],
+                                               classification['occupancies'],
+                                               bc['path'])))
                 if rural_quan < 0.0 or rural_quan > 1.0:
-                    raise ValueError("%s<b>Error:</b>'rural' frequency out of range" % (
-                            _errlog_longheader(classification['country'], classification['occupancies'],
-                            bc['path'])))
+                    raise ValueError(
+                        "%s<b>Error:</b>'rural' frequency out of range" % (
+                            _errlog_longheader(classification['country'],
+                                               classification['occupancies'],
+                                               bc['path'])))
 
                 urban_quan_tot += urban_quan
                 rural_quan_tot += rural_quan
 
-                row = ClassificationRow(owner_id=request.user.pk, head_id=head.pk, path=bc['path'],
+                row = ClassificationRow(owner_id=request.user.pk,
+                                        head_id=head.pk, path=bc['path'],
                                         urban=_freq_qual_type2int(bc['urban']),
                                         urban_quan=urban_quan,
                                         rural=_freq_qual_type2int(bc['rural']),
@@ -251,13 +271,13 @@ def data(request, **kwargs):
                          rural_quan_tot)))
 
         transaction.commit()
-        resp = { 'ret': 0,
-            'ret_s': 'success' }
+        resp = {'ret': 0,
+                'ret_s': 'success'}
 
     except Exception as e:
         transaction.rollback()
-        resp = { 'ret': 1,
-            'ret_s': str(e) }
+        resp = {'ret': 1,
+                'ret_s': str(e)}
 
     response = HttpResponse(
         json.dumps(resp, cls=DjangoJSONEncoder),
@@ -265,9 +285,3 @@ def data(request, **kwargs):
     )
     add_never_cache_headers(response)
     return response
-
-
-
-
-
-
