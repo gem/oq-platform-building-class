@@ -200,7 +200,7 @@ def _errlog_longheader(iso3, occup, cls):
         ' | '.join(map(lambda x: str(x).strip(), reversed(cls.split('|')))))
 
 
-@transaction.commit_manually
+@transaction.atomic()
 def data(request, **kwargs):
     # request.is_ajax() if not exit
     if not request.user.is_authenticated():
