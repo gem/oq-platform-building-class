@@ -46,6 +46,7 @@ div.to_be_saved {
 
 div.tree input.checkbox {
     vertical-align: top;
+    float: left;
 }
 
 button.classification_del {
