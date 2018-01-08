@@ -270,6 +270,7 @@ form.user-settings label {
     color: #1b75a7;
     font-size: 21px;
     margin: 12px 0 8px 0;
+    width: 100%;
 }
 
 button.table_to_clipboard {
