@@ -23,12 +23,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 
 {% block extra_head %}
     {{block.super}}
-    <link href="{{ STATIC_URL }}css/oqplatform_index.css" rel="stylesheet"/>
-    <link href="{{ STATIC_URL }}css/handsontable.full.min.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}geonode/css/handsontable.full.min.css" rel="stylesheet"/>
     <link href="{{ STATIC_URL }}building-class/css/building-class.css" rel="stylesheet"/>
-    <link href="{{ STATIC_URL }}css/jQuery-UI-Bootstrap-0.2.5.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="{{ STATIC_URL }}css/absolute_center_spinner.css" />
-    <link href="{{ STATIC_URL }}css/sol.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}geonode/css/jQuery-UI-Bootstrap-0.2.5.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ STATIC_URL }}geonode/css/absolute_center_spinner.css" />
+    <link href="{{ STATIC_URL }}geonode/css/sol.css" rel="stylesheet"/>
 {% endblock extra_head %}
 
 
@@ -64,9 +63,3 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
   </div>
   <div id="dialog-message" title="Error" style="display: none; width: 600px;"></div>
 {% endblock body %}
-
-{% block extra_script %}
-    {{block.super}}
-    {% include 'search_scripts.html' %}
-
-{% endblock extra_script %}
