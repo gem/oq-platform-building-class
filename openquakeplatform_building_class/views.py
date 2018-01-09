@@ -270,7 +270,7 @@ def data(request, **kwargs):
                         (urban_quan_tot if urban_quan_tot != 1 else
                          rural_quan_tot)))
 
-        transaction.commit()
+        transaction.atomic()
         resp = {'ret': 0,
                 'ret_s': 'success'}
 
@@ -281,7 +281,7 @@ def data(request, **kwargs):
 
     response = HttpResponse(
         json.dumps(resp, cls=DjangoJSONEncoder),
-        mimetype='application/javascript'
+        content_type='application/javascript'
     )
     add_never_cache_headers(response)
     return response
