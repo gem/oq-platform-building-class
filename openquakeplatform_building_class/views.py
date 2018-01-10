@@ -96,21 +96,33 @@ def tutorial(request, **kwargs):
         context_instance=RequestContext(request))
 
 
+def compose_name(profile):
+    human_name = ""
+    if profile.last_name:
+        if profile.first_name:
+            human_name += "%s%s" % ((" " if human_name else ""),
+                                    profile.first_name)
+        human_name += " %s" % profile.last_name
+    else:
+        human_name = "user with login-name '%s'" % profile.username
+    return human_name
+
+
 def user_settings(request, **kwargs):
     instance = None
     try:
         instance = UserSettings.objects.get(owner_id=request.user.pk)
     except:
         try:
-            profile = Profile.objects.get(user_id=request.user.pk)
+            profile = Profile.objects.get(id=request.user.pk)
             instance = UserSettings()
-            instance.name = profile.name
+            instance.name = compose_name(profile)
             instance.organization = profile.organization
             instance.position = profile.position
             instance.publish_info = False
-        except:
+        except Exception as ex:
+            print(ex)
             instance = None
-
     if request.method == 'POST':
         form = UserSettingsForm(request.POST, instance=instance)
 
