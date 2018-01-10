@@ -22,14 +22,17 @@ from django_extras.contrib.auth.models import SingleOwnerMixin
 
 CHMAX = 1024
 
+
 class FREQ_TYPE(object):
-    _QUALITATIVE  = 0
+    _QUALITATIVE = 0
     _QUANTITATIVE = 1
+
 
 FREQUENCY_TYPE = (
     (FREQ_TYPE._QUALITATIVE,  'qualitative'),
     (FREQ_TYPE._QUANTITATIVE, 'quantitative')
     )
+
 
 class FREQ_QUAL_TYPE(object):
     _INEX = 0
@@ -37,6 +40,7 @@ class FREQ_QUAL_TYPE(object):
     _MODR = 2
     _FREQ = 3
     _VERY = 4
+
 
 FREQUENCY_QUAL_TYPE = (
     (FREQ_QUAL_TYPE._INEX, 'inex'),
@@ -46,13 +50,15 @@ FREQUENCY_QUAL_TYPE = (
     (FREQ_QUAL_TYPE._VERY, 'very')
     )
 
+
 class OCCUP_TYPE(object):
-    _RESIDENTIAL  =  1
-    _COMMERCIAL   =  2
-    _INDUSTRIAL   =  4
-    _EDUCATIONAL  =  8
-    _HEALTHCARE   = 16
+    _RESIDENTIAL = 1
+    _COMMERCIAL = 2
+    _INDUSTRIAL = 4
+    _EDUCATIONAL = 8
+    _HEALTHCARE = 16
     _GOVERNMENTAL = 32
+
 
 OCCUPACY_TYPE = (
     (OCCUP_TYPE._RESIDENTIAL,  'residential'),
@@ -65,19 +71,27 @@ OCCUPACY_TYPE = (
 
 
 BOOL_CHOICES = ((True, 'Yes'), (False, 'No'))
+
+
 class UserSettings(SingleOwnerMixin, models.Model):
-    name = models.CharField(_('Individual Name'), max_length=255, blank=True, null=True,
-                            help_text=_('name of the responsible person: surname, given name,'
+    name = models.CharField(_('Individual Name'), max_length=255, blank=True,
+                            null=True,
+                            help_text=_('name of the responsible'
+                                        ' person: surname, given name,'
                                         ' title separated by a delimiter'))
     organization = models.CharField(_('Organization Name'), max_length=255,
                                     blank=True, null=True,
-                                    help_text=_('name of the responsible organization'))
-    position = models.CharField(_('Position Name'), max_length=255, blank=True, null=True,
-                                help_text=_('role or position of the responsible person'))
+                                    help_text=_('name of the responsible'
+                                                ' organization'))
+    position = models.CharField(_('Position Name'), max_length=255, blank=True, 
+                                null=True,
+                                help_text=_('role or position of the'
+                                            ' responsible person'))
     publish_info = models.BooleanField(choices=BOOL_CHOICES, help_text=_('''Would you like your contribution to be acknowledged in future documentation (eg. technical reports, scientific papers in peer reviewed journals, ...) ?<br>
 If you answer <b>no</b>, you will not appear in the contributors list and your contribution will remain anonymous.<br>
           If you answer <b>yes</b>, please let us know how you prefer to be mentioned by adding your credentials'''
     ))
+
 
 class UserSettingsForm(ModelForm):
     publish_info = forms.TypedChoiceField(
@@ -91,6 +105,7 @@ class UserSettingsForm(ModelForm):
         fields = ['name', 'organization', 'position', 'publish_info']
         # widgets = { 'publish_info': forms.RadioSelect }
 
+
 class ClassificationHead(SingleOwnerMixin, models.Model):
     country = models.CharField(max_length=3)
     occupancy = models.IntegerField()
@@ -101,6 +116,7 @@ class ClassificationHead(SingleOwnerMixin, models.Model):
 
     def __unicode__(self):
         return self.country
+
 
 class ClassificationRow(SingleOwnerMixin, models.Model):
     head = models.ForeignKey('ClassificationHead', on_delete=models.CASCADE)
