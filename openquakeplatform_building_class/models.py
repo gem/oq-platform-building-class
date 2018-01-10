@@ -80,10 +80,16 @@ If you answer <b>no</b>, you will not appear in the contributors list and your c
     ))
 
 class UserSettingsForm(ModelForm):
+    publish_info = forms.TypedChoiceField(
+                       coerce=lambda x: x == 'True',
+                       choices=((False, 'False'),
+                                (True, 'True')),
+                       widget=forms.RadioSelect)
+
     class Meta:
         model = UserSettings
         fields = ['name', 'organization', 'position', 'publish_info']
-        widgets = { 'publish_info': forms.RadioSelect }
+        # widgets = { 'publish_info': forms.RadioSelect }
 
 class ClassificationHead(SingleOwnerMixin, models.Model):
     country = models.CharField(max_length=3)
