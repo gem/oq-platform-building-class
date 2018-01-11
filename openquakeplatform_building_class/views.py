@@ -21,6 +21,7 @@ from openquakeplatform.vulnerability.models import Country
 from django.utils.cache import add_never_cache_headers
 from django.core.serializers.json import DjangoJSONEncoder
 import json
+import django
 from django.http import HttpResponse, HttpResponseRedirect
 from django.db import transaction
 from geonode.people.models import Profile
@@ -34,6 +35,14 @@ from django.utils import timezone
 dataset_version = "1.1.0"
 
 _occupancies_dict = dict(OCCUPACY_TYPE)
+
+
+def django_version_transaction():
+    if(django.VERSION[:2] > (1, 5)):
+        transaction = 'transaction.atomic()'
+    else:
+        transaction = 'transaction.commit()'
+    return transaction
 
 
 def is_close(a, b, rel_tol=1e-09, abs_tol=0.0):
@@ -212,7 +221,7 @@ def _errlog_longheader(iso3, occup, cls):
         ' | '.join(map(lambda x: str(x).strip(), reversed(cls.split('|')))))
 
 
-@transaction.atomic()
+@django_version_transaction()
 def data(request, **kwargs):
     # request.is_ajax() if not exit
     if not request.user.is_authenticated():
@@ -282,7 +291,7 @@ def data(request, **kwargs):
                         (urban_quan_tot if urban_quan_tot != 1 else
                          rural_quan_tot)))
 
-        transaction.atomic()
+        django_version_transaction()
         resp = {'ret': 0,
                 'ret_s': 'success'}
 
