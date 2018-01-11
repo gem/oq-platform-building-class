@@ -38,11 +38,22 @@ _occupancies_dict = dict(OCCUPACY_TYPE)
 
 
 def django_version_transaction():
+
     if(django.VERSION[:2] > (1, 5)):
         transaction = 'transaction.atomic()'
     else:
         transaction = 'transaction.commit()'
+
     return transaction
+
+def django_version_decorator():
+
+    if(django.VERSION[:2] > (1, 5)):
+        decorator = 'transaction.atomic()'
+    else:
+        decorator = 'transaction.manually()'
+    
+    return decorator
 
 
 def is_close(a, b, rel_tol=1e-09, abs_tol=0.0):
@@ -221,7 +232,7 @@ def _errlog_longheader(iso3, occup, cls):
         ' | '.join(map(lambda x: str(x).strip(), reversed(cls.split('|')))))
 
 
-@django_version_transaction()
+@django_version_decorator()
 def data(request, **kwargs):
     # request.is_ajax() if not exit
     if not request.user.is_authenticated():
