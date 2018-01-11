@@ -46,13 +46,14 @@ def django_version_transaction():
 
     return transaction
 
+
 def django_version_decorator():
 
     if(django.VERSION[:2] > (1, 5)):
         decorator = 'transaction.atomic()'
     else:
-        decorator = 'transaction.manually()'
-    
+        decorator = 'transaction.commit_manually()'
+
     return decorator
 
 
