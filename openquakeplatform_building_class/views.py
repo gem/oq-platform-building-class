@@ -40,9 +40,9 @@ _occupancies_dict = dict(OCCUPACY_TYPE)
 def django_version_transaction():
 
     if(django.VERSION[:2] > (1, 5)):
-        transaction = 'transaction.atomic()'
+        transaction = '%s' % ('transaction.atomic()')
     else:
-        transaction = 'transaction.commit()'
+        transaction = '%s' % ('transaction.commit()')
 
     return transaction
 
@@ -50,9 +50,9 @@ def django_version_transaction():
 def django_version_decorator():
 
     if(django.VERSION[:2] > (1, 5)):
-        decorator = 'transaction.atomic()'
+        decorator = '%s' % ('transaction.atomic()')
     else:
-        decorator = 'transaction.commit_manually()'
+        decorator = '%s' % ('transaction.commit_manually()')
 
     return decorator
 
