@@ -233,7 +233,9 @@ def _errlog_longheader(iso3, occup, cls):
         ' | '.join(map(lambda x: str(x).strip(), reversed(cls.split('|')))))
 
 
-@django_version_decorator()
+django_version_decorator()
+
+
 def data(request, **kwargs):
     # request.is_ajax() if not exit
     if not request.user.is_authenticated():
