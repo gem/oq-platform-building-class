@@ -1,7 +1,9 @@
 import unittest
-from openquakeplatform.test import pla
+from openquake.moon import platform_get
 
 TIMEOUT = 100
+
+pla = platform_get()
 
 
 # Check subthree occupancy
