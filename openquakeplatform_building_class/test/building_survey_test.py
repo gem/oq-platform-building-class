@@ -3,7 +3,6 @@ from openquake.moon import platform_get
 
 TIMEOUT = 100
 
-pla = platform_get()
 
 
 # Check subthree occupancy
@@ -16,8 +15,8 @@ class BuildingSurveyTest(unittest.TestCase):
 
     def tutorial_test(self):
 
-        # user_settings()
-
+        pla = platform_get()
+        
         tutorial_url = '/building-class/tutorial'
 
         # Redirect page of tutorial
@@ -34,6 +33,8 @@ class BuildingSurveyTest(unittest.TestCase):
 
     def new_classification_test(self):
 
+        pla = platform_get()
+        
         survey_url = '/building-class/'
 
         # Redirect homepage of application
