@@ -4,9 +4,11 @@ from openquake.moon import platform_get
 TIMEOUT = 100
 
 
-
 # Check subthree occupancy
 def div_sub():
+
+    pla = platform_get()
+
     pla.xpath_finduniq(
         "//div[@name='sub']", TIMEOUT)
 
@@ -16,7 +18,7 @@ class BuildingSurveyTest(unittest.TestCase):
     def tutorial_test(self):
 
         pla = platform_get()
-        
+
         tutorial_url = '/building-class/tutorial'
 
         # Redirect page of tutorial
@@ -34,7 +36,7 @@ class BuildingSurveyTest(unittest.TestCase):
     def new_classification_test(self):
 
         pla = platform_get()
-        
+
         survey_url = '/building-class/'
 
         # Redirect homepage of application
