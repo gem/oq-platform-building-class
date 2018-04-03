@@ -1,5 +1,7 @@
 import unittest
+import time
 from openquake.moon import platform_get
+from selenium.webdriver.common.keys import Keys
 
 TIMEOUT = 100
 
@@ -24,14 +26,14 @@ class BuildingSurveyTest(unittest.TestCase):
         # Redirect page of tutorial
         pla.get(tutorial_url)
 
-        # Check title
+        # Check title page tutorial
         pla.xpath_finduniq(
             "//h2[normalize-space(text())='Tutorial']")
 
         # Check video tutorial
         pla.xpath_finduniq(
-                "//iframe[@id='gem-video'"
-                " and @src='https://www.youtube.com/embed/bXrvc9Qzie4']")
+               "//iframe[@id='gem-video'"
+               " and @src='https://www.youtube.com/embed/bXrvc9Qzie4']")
 
     def new_classification_test(self):
 
@@ -125,4 +127,7 @@ class BuildingSurveyTest(unittest.TestCase):
         occup_save = pla.xpath_finduniq(
             "//button[@name='save'"
             " and normalize-space(text())='save']", TIMEOUT)
-        occup_save.click()
+        # occup_save.click()
+        occup_save.send_keys(Keys.ENTER)
+
+        time.sleep(5)
