@@ -1,4 +1,5 @@
 import unittest
+import os
 import time
 from openquake.moon import platform_get
 from selenium.webdriver.common.keys import Keys
@@ -37,6 +38,9 @@ class BuildingSurveyTest(unittest.TestCase):
 
     def new_classification_test(self):
 
+        # check ip adress
+        get_ip = os.getenv("LXC_IP")
+
         pla = platform_get()
 
         survey_url = '/building-class/'
@@ -44,7 +48,7 @@ class BuildingSurveyTest(unittest.TestCase):
         # Redirect homepage of application
         pla.get(survey_url)
 
-        user_settings = 'http://localhost:8000/building-class/user-settings'
+        user_settings = 'http://%s/building-class/user-settings' % get_ip
 
         print(user_settings)
         print(pla.url)
