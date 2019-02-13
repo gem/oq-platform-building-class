@@ -38,8 +38,13 @@ class BuildingSurveyTest(unittest.TestCase):
 
     def new_classification_test(self):
 
-        # check ip adress
-        get_ip = os.getenv("LXC_IP")
+        # check ip adress and prod installation
+        prod = os.getenv("PROD_INSTALL")
+
+        if prod == 'y':
+            get_ip = os.getenv("LXC_IP")
+        else:
+            get_ip = "localhost:8000"
 
         pla = platform_get()
 
