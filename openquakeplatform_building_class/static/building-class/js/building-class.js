@@ -212,7 +212,7 @@ function freq_quants_cb(event)
 
     $par.find("input[type='text'][name=" + name + "]").each(function(){sum += parseFloat(this.value)});
 
-    if (sum != 1.0) {
+    if (Math.abs(sum - 1.0) > 1e-6) {
         $par.find("input[type='text'][name=" + name + "]").parent().addClass('warning');
     }
     else {
