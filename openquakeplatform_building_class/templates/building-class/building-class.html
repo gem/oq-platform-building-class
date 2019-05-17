@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 {% load i18n %}
 {% load url from future %}
 
-{% block title %} Building Classification Survey {% endblock title %}
+{% block title %}Building Classification Survey - {{block.super}}{% endblock title %}
 
 {% block extra_head %}
     {{block.super}}
