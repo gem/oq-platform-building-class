@@ -103,7 +103,6 @@ class UserSettingsForm(ModelForm):
     class Meta:
         model = UserSettings
         fields = ['name', 'organization', 'position', 'publish_info']
-        # widgets = { 'publish_info': forms.RadioSelect }
 
 
 class ClassificationHead(SingleOwnerMixin, models.Model):
