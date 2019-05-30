@@ -46,6 +46,7 @@ div.to_be_saved {
 
 div.tree input.checkbox {
     vertical-align: top;
+    float: left;
 }
 
 button.classification_del {
@@ -130,6 +131,7 @@ table.build_classes td select option {
 
 div#forest {
     font-size: 80%;
+    margin-top: 20px;
 }
 
 p.sub-title {
@@ -270,9 +272,20 @@ form.user-settings label {
     color: #1b75a7;
     font-size: 21px;
     margin: 12px 0 8px 0;
+    width: 100%;
 }
 
 button.table_to_clipboard {
     margin-top: 4px;
     float: right;
+}
+ul#id_publish_info {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+}
+input#id_name,
+input#id_organization,
+input#id_position {
+    width: 50%;
 }

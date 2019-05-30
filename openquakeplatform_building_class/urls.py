@@ -24,7 +24,6 @@ from openquakeplatform_building_class import views
 from django.contrib import admin
 admin.autodiscover()
 
-
 urlpatterns = patterns(
     '',
     url(r'^$', views.view, name='home'),

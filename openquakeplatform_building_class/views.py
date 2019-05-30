@@ -21,6 +21,7 @@ from openquakeplatform.vulnerability.models import Country
 from django.utils.cache import add_never_cache_headers
 from django.core.serializers.json import DjangoJSONEncoder
 import json
+import django
 from django.http import HttpResponse, HttpResponseRedirect
 from django.db import transaction
 from geonode.people.models import Profile
@@ -34,6 +35,26 @@ from django.utils import timezone
 dataset_version = "1.1.0"
 
 _occupancies_dict = dict(OCCUPACY_TYPE)
+
+
+def django_version_transaction():
+
+    if(django.VERSION[:2] > (1, 5)):
+        transaction = '%s' % ('transaction.atomic()')
+    else:
+        transaction = '%s' % ('transaction.commit()')
+
+    return transaction
+
+
+def django_version_decorator():
+
+    if(django.VERSION[:2] > (1, 5)):
+        decorator = '%s' % ('transaction.atomic()')
+    else:
+        decorator = '%s' % ('transaction.commit_manually()')
+
+    return decorator
 
 
 def is_close(a, b, rel_tol=1e-06, abs_tol=0.0):
@@ -96,21 +117,33 @@ def tutorial(request, **kwargs):
         context_instance=RequestContext(request))
 
 
+def compose_name(profile):
+    human_name = ""
+    if profile.last_name:
+        if profile.first_name:
+            human_name += "%s%s" % ((" " if human_name else ""),
+                                    profile.first_name)
+        human_name += " %s" % profile.last_name
+    else:
+        human_name = "user with login-name '%s'" % profile.username
+    return human_name
+
+
 def user_settings(request, **kwargs):
     instance = None
     try:
         instance = UserSettings.objects.get(owner_id=request.user.pk)
     except:
         try:
-            profile = Profile.objects.get(user_id=request.user.pk)
+            profile = Profile.objects.get(id=request.user.pk)
             instance = UserSettings()
-            instance.name = profile.name
+            instance.name = compose_name(profile)
             instance.organization = profile.organization
             instance.position = profile.position
             instance.publish_info = False
-        except:
+        except Exception as ex:
+            print(ex)
             instance = None
-
     if request.method == 'POST':
         form = UserSettingsForm(request.POST, instance=instance)
 
@@ -200,7 +233,9 @@ def _errlog_longheader(iso3, occup, cls):
         ' | '.join(map(lambda x: str(x).strip(), reversed(cls.split('|')))))
 
 
-@transaction.commit_manually
+django_version_decorator()
+
+
 def data(request, **kwargs):
     # request.is_ajax() if not exit
     if not request.user.is_authenticated():
@@ -270,7 +305,7 @@ def data(request, **kwargs):
                         (urban_quan_tot if urban_quan_tot != 1 else
                          rural_quan_tot)))
 
-        transaction.commit()
+        django_version_transaction()
         resp = {'ret': 0,
                 'ret_s': 'success'}
 
@@ -281,7 +316,7 @@ def data(request, **kwargs):
 
     response = HttpResponse(
         json.dumps(resp, cls=DjangoJSONEncoder),
-        mimetype='application/javascript'
+        content_type='application/javascript'
     )
     add_never_cache_headers(response)
     return response

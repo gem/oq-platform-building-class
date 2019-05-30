@@ -19,16 +19,15 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 {% load i18n %}
 {% load url from future %}
 
-{% block title %} Building Classification Survey {{ block.super }} {% endblock title %}
+{% block title %}Building Classification Survey - {{block.super}}{% endblock title %}
 
 {% block extra_head %}
     {{block.super}}
-    <link href="{{ STATIC_URL }}css/oqplatform_index.css" rel="stylesheet"/>
-    <link href="{{ STATIC_URL }}css/handsontable.full.min.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}geonode/css/handsontable.full.min.css" rel="stylesheet"/>
     <link href="{{ STATIC_URL }}building-class/css/building-class.css" rel="stylesheet"/>
-    <link href="{{ STATIC_URL }}css/jQuery-UI-Bootstrap-0.2.5.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="{{ STATIC_URL }}css/absolute_center_spinner.css" />
-    <link href="{{ STATIC_URL }}css/sol.css" rel="stylesheet"/>
+    <link href="{{ STATIC_URL }}geonode/css/jQuery-UI-Bootstrap-0.2.5.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ STATIC_URL }}geonode/css/absolute_center_spinner.css" />
+    <link href="{{ STATIC_URL }}geonode/css/sol.css" rel="stylesheet"/>
 {% endblock extra_head %}
 
 
@@ -61,7 +60,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
           <select id="country-id">
             {{ countries_opts|safe }}
           </select>
-          <button id="new-classification">new classification</button><button id="user-settings" style="float: right;">User Settings</button>
+          <button class="btn" id="new-classification">new classification</button><button class="btn" id="user-settings" style="float: right;">User Settings</button>
 
         </div>
         <div id="forest">
@@ -69,7 +68,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
         </div>
         <div name="actions">
           <div name="save_resp" style="margin-bottom: 4px; padding-left: 4px;"><br></div>
-          <button name="save" style="display:none;">save</button>
+          <button class="btn" name="save" style="display:none;">save</button>
         </div>
       </div>
     </div>
@@ -79,7 +78,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/agpl.html>.
 
 {% block extra_script %}
     {{block.super}}
-    {% include 'search_scripts.html' %}
   <script>
     var gem_bcs_tree_descr = {};
     csrf_token = "{% csrf_token %}";
